@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Project Cards</title>
+    <!-- Add Neo Sans font -->
+    <link href="https://fonts.cdnfonts.com/css/neo-sans-std" rel="stylesheet">
+    <!-- Add Andale Mono font -->
+    <link rel="stylesheet" href="Style-css/styles.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="Assets/Logo_inline_payoff.svg" alt="Logo">
+        <a href="https://www.linkedin.com/company/your-company" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="upcoming-events">
+        <h2>Upcoming next:</h2>
+        <ul class="event-list">
+            <!-- Events will be loaded dynamically -->
+        </ul>
+    </div>
+
+    <!-- Event Modal -->
+    <div class="event-modal" id="eventModal">
+        <img id="eventModalImage" src="" alt="Event Image">
+    </div>
+
+    <div class="archive-section">
+        <h2>LAB NOTES:</h2>
+    </div>
+
+    <div class="grid-container">
+        <!-- Lab notes will be loaded dynamically -->
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="cardModal">
+        <button class="close-modal">×</button>
+        <div class="modal-content">
+            <!-- Card content will be cloned here -->
+        </div>
+    </div>
+
+    <script type="module" src="Modal-js/components/modal.js"></script>
+    <script type="module" src="Modal-js/components/events-handler.js"></script>
+    <script type="module" src="Modal-js/loader.js"></script>
+</body>
+</html> 
