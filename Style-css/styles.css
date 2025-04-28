@@ -11,7 +11,8 @@
 
 body {
     font-family: 'Neo Sans Std', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #efefef;
+    background: url('Assets/offwhitebackground.png') repeat;
+    background-attachment: fixed;
     padding: 0;
     padding-top: 70px;
 }
