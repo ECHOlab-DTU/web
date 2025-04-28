@@ -3,11 +3,12 @@ const noteData = {
   title: "Just playing here",
   date: "18.12.1998", // Use this date format
   image: "Assets/Test.png", // Put your image in the Assets folder
-  preview: "welcome to a redundant project card",
+  preview: "welcome to a redundant project card  I am also trying to insert a link here. For the sake of trying let's go with the question of Is it friday today?";
+    <a href ="https://erdetfredag.dk"></a> ,
   researchTopics: [
     "I have nothing to say jere",
     "Just checking for spacing",
-    "Let me write a longer bit of text here to see what it looks like. We need to remember the feature for equal sizing in the notes. I'll check that in the style edit card"
+    "Let me write a longer bit of text here to see what it looks like. We need to remember the feature for equal sizing in the notes.?I'll check that in the style edit card"
   ],
 
   objectives: "What you want to achieve with this project? You tell me...",
