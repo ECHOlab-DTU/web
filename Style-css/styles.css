@@ -1,0 +1,811 @@
+@font-face {
+    font-family: 'Andale Mono';
+    src: local('Andale Mono');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Neo Sans Std', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #efefef;
+    padding: 0;
+    padding-top: 70px;
+}
+
+.logo-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.logo-container img {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.logo-container a {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.8rem;
+    color: #030F4F;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.logo-container a:hover {
+    color: rgba(3, 15, 79, 0.7);
+}
+
+.upcoming-events {
+    max-width: 1600px;
+    margin: 4rem auto 6rem auto;
+    padding: 0 1.5rem;
+}
+
+.upcoming-events h2 {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 0.9rem;
+    color: #030F4F;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.event-list {
+    list-style: none;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.event-date {
+    background: #E83F48;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.9rem;
+    min-width: 60px;
+    text-align: center;
+    line-height: 1.2;
+    border-radius: 2px;
+}
+
+.event-title {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 1.1rem;
+    color: #030F4F;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding-top: 0.1rem;
+}
+
+.event-title:hover {
+    color: rgba(3, 15, 79, 0.7);
+}
+
+.event-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.event-modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-modal img {
+    max-width: 90%;
+    max-height: 90vh;
+    object-fit: contain;
+    pointer-events: auto;
+}
+
+.event-modal .close-modal {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    z-index: 1001;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 4rem;
+    max-width: 1600px;
+    margin: 0 auto 10rem auto;
+    padding: 0 1.5rem;
+    align-items: start;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    position: relative;
+    height: auto;
+}
+
+.research-card {
+    background: white;
+    width: 100%;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0;
+    cursor: pointer;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-links {
+    position: absolute;
+    bottom: -4rem;
+    left: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.card-links a {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.75rem;
+    color: #E83F48;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 0.5rem 1rem;
+    border: 1px solid #E83F48;
+    border-radius: 2px;
+    background: white;
+}
+
+.card-links a:hover {
+    color: white;
+    background: #E83F48;
+}
+
+.card-header {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    padding: 1.5rem;
+    margin-bottom: 0;
+}
+
+.card-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-date {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    background: white;
+    padding: 0.5rem 1rem;
+    font-size: 0.6rem;
+    font-family: 'Andale Mono', monospace;
+    letter-spacing: 0.05em;
+    color: #030F4F;
+    z-index: 1;
+    border: 1px solid rgba(3, 15, 79, 0.2);
+}
+
+.card-content {
+    padding: 0rem 1.5rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex: 1;
+    overflow: hidden;
+}
+
+.card-left {
+    flex: 1.1;
+    overflow: hidden;
+}
+
+.card-right {
+    flex: 1;
+    overflow: hidden;
+    border-left: 1px solid rgba(3, 15, 79, 0.2);
+    padding-left: 1rem;
+}
+
+.project-title {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgba(3, 15, 79, 0.9);
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    transition: font-size 0.3s ease;
+    text-transform: uppercase !important;
+}
+
+.project-title.long-title {
+    font-size: 1.3rem;
+    text-transform: uppercase !important;
+}
+
+.section {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(3, 15, 79, 0.2);
+}
+
+.section:last-child {
+    border-bottom: none;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+}
+
+.topic-title {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #030F4F;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 0.3rem;
+}
+
+.topic-content {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.45rem;
+    line-height: 1.3;
+    color: #030F4F;
+}
+
+.topic-content p {
+    margin-bottom: 0.5rem;
+}
+
+.topic-content p:last-child {
+    margin-bottom: 0;
+}
+
+.topic-content a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-family: 'Andale Mono', monospace;
+}
+
+.topic-content a:hover {
+    color: rgba(3, 15, 79, 0.7);
+}
+
+.card-preview {
+    font-family: 'Neo Sans Std', sans-serif;
+    color: #030F4F;
+    font-size: 0.6rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.card-preview p {
+    margin-bottom: 0.5rem;
+}
+
+.card-preview p:last-child {
+    margin-bottom: 0;
+}
+
+.lessons-list {
+    list-style: none;
+    margin-left: -0.2rem;
+}
+
+.lessons-list li {
+    margin-bottom: 0.3rem;
+    padding-left: 0.8rem;
+    position: relative;
+    text-indent: -0.8rem;
+}
+
+.lessons-list li:before {
+    content: "•";
+    position: relative;
+    margin-right: 0.4rem;
+    color: #030F4F;
+}
+
+.collaborator-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+
+.collaborator-list li:not(:last-child):after {
+    margin-left: 0.2rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.modal-content {
+    background: white;
+    max-width: 900px;
+    margin: 1rem auto;
+    position: relative;
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+}
+
+.modal.active {
+    display: block;
+}
+
+.modal.active .modal-content {
+    transform: scale(1);
+}
+
+.modal .research-card {
+    box-shadow: none;
+    cursor: default;
+}
+
+.modal .research-card:hover {
+    transform: none;
+}
+
+.modal .card-header {
+    height: 500px;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.modal .card-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal .card-date {
+    left: 2rem;
+    top: 2rem;
+}
+
+.modal .project-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: rgba(3, 15, 79, 0.9);
+    text-transform: uppercase !important;
+}
+
+.modal .project-title.long-title {
+    font-size: 1.8rem;
+    text-transform: uppercase !important;
+}
+
+.modal .section-title {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(3, 15, 79, 0.9);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.modal .topic-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.modal .topic-content {
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.modal .topic-content p {
+    margin-bottom: 0.8rem;
+}
+
+.modal .topic-content p:last-child {
+    margin-bottom: 0;
+}
+
+.modal .card-preview {
+    font-size: 1rem !important;
+    line-height: 1.5;
+}
+
+.modal .card-preview p {
+    font-size: 1rem !important;
+    margin-bottom: 0.8rem;
+}
+
+.modal .card-preview p:last-child {
+    margin-bottom: 0;
+}
+
+.modal .card-date {
+    font-size: 0.75rem;
+    padding: 0.6rem 1rem;
+}
+
+.modal .card-links a {
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+}
+
+.modal .section {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.modal .lessons-list {
+    margin-left: -0.2rem;
+}
+
+.modal .lessons-list li {
+    margin-bottom: 0.6rem;
+    text-indent: -0.8rem;
+    padding-left: 0.8rem;
+}
+
+.modal .collaborator-list {
+    gap: 0.4rem;
+}
+
+.modal .collaborator-list li:not(:last-child):after {
+    margin-left: 0.4rem;
+}
+
+.close-modal {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    z-index: 1001;
+}
+
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .research-card {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 1rem;
+    }
+    
+    .card-content {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto !important;
+        overflow: visible !important;
+        padding-bottom: 1rem;
+    }
+    
+    .card-left {
+        width: 100%;
+        order: 1;
+        overflow: visible !important;
+        height: auto !important;
+    }
+    
+    .card-right {
+        display: none;
+    }
+
+    .card-header {
+        height: 250px;
+    }
+    
+    .card-preview {
+        height: auto !important;
+        overflow: visible !important;
+        font-size: 0.7rem !important;
+    }
+    
+    .card-preview p {
+        font-size: 0.7rem !important;
+    }
+    
+    .modal {
+        padding: 1rem;
+    }
+    
+    .modal-content {
+        margin: 1rem auto;
+    }
+    
+    .modal .card-header {
+        height: 300px;
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+    
+    .modal .project-title {
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase !important;
+    }
+    
+    .modal .project-title.long-title {
+        font-size: 1.5rem;
+        text-transform: uppercase !important;
+    }
+    
+    .modal .section-title {
+        font-size: 0.9rem;
+    }
+    
+    .modal .topic-content {
+        font-size: 0.8rem;
+    }
+    
+    .modal .card-preview {
+        font-size: 0.9rem !important;
+    }
+    
+    .modal .card-preview p {
+        font-size: 0.9rem !important;
+    }
+    
+    .modal .card-links {
+        bottom: -3rem;
+    }
+    
+    .modal .card-links a {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.8rem;
+    }
+    
+    .modal .research-card {
+        height: auto;
+    }
+    
+    .modal .card-content {
+        padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+        flex-direction: column !important;
+        gap: 1.5rem !important;
+    }
+    
+    .modal .card-left {
+        width: 100%;
+        order: 1 !important;
+        padding: 0.5rem 0;
+        overflow: visible;
+    }
+    
+    .modal .card-right {
+        display: block !important;
+        width: 100%;
+        order: 2 !important;
+        border-left: none !important;
+        border-top: none;
+        padding: 0.5rem 0;
+        overflow: visible;
+    }
+
+    .wrapper {
+        margin-bottom: 4rem;
+    }
+
+    .logo-container {
+        padding: 0.75rem 1rem;
+    }
+
+    .logo-container img {
+        height: 30px;
+    }
+
+    .logo-container a {
+        font-size: 0.7rem;
+    }
+}
+
+.card-external-link {
+    display: block;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.45rem;
+    color: #030F4F;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    transition: color 0.2s;
+}
+
+.card-external-link:hover {
+    color: rgba(3, 15, 79, 0.7);
+}
+
+.card-bottom-links {
+    background: white;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid rgba(3, 15, 79, 0.1);
+    margin-bottom: 2rem;
+}
+
+.card-bottom-links a {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.5rem;
+    color: #E83F48;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: color 0.2s;
+}
+
+.card-bottom-links a:hover {
+    color: rgba(232, 63, 72, 0.7);
+}
+
+.links-section {
+    max-width: 1600px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.links-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: white;
+    border-top: 1px solid rgba(3, 15, 79, 0.1);
+}
+
+.links-container a {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.5rem;
+    color: #E83F48;
+    text-decoration: none;
+    transition: color 0.2s;
+    padding: 0.5rem 1rem;
+    border: 1px solid #E83F48;
+    border-radius: 2px;
+}
+
+.links-container a:hover {
+    color: white;
+    background: #E83F48;
+}
+
+.section-title {
+    font-size: 0.55rem;
+    color: rgba(3, 15, 79, 0.9);
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.section-title.custom {
+    color: #E83F48;
+}
+
+.section-title.alt {
+    color: #030F4F;
+    font-weight: 600;
+}
+
+.section-title.highlight {
+    color: #030F4F;
+    background-color: rgba(232, 63, 72, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.modal .card-content {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 1.5rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.modal .card-left {
+    padding-right: 1rem;
+}
+
+.modal .card-right {
+    padding-left: 1rem;
+    border-left: 1px solid rgba(3, 15, 79, 0.2);
+}
+
+.archive-section {
+    max-width: 1600px;
+    margin: 0 auto 1.5rem auto;
+    padding: 0 1.5rem;
+}
+
+.archive-section h2 {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 0.9rem;
+    color: #030F4F;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.modal .research-card .card-preview {
+    font-size: 1rem !important;
+    line-height: 1.5;
+}
+
+.modal .research-card .card-preview p {
+    font-size: 1rem !important;
+    margin-bottom: 0.8rem;
+}
+
+.modal .research-card .card-preview p:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 769px) {
+    .modal .card-right {
+        border-left: 1px solid rgba(3, 15, 79, 0.2);
+    }
+} 
