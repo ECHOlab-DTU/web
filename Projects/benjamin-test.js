@@ -2,7 +2,7 @@
 const noteData = {
   title: "Benjamin's project",
   date: "29.04.2025", // Use this date format
-  image: "Assets/Test.png", // Put your image in the Assets folder
+  image: "Assets/Picture-1.png", // Put your image in the Assets folder
   preview: "This is a very interesting project. Ja!",
   researchTopics: [
     "Automation",
