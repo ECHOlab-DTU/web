@@ -2,7 +2,7 @@
 const noteData = {
   title: "SUPER COOL SUNDAY",
   date: "27.04.2025", // Use this date format
-  image: "Assets/Test.png", // Put your image in the Assets folder
+  image: "Assets/april_sunday.png", // Put your image in the Assets folder
   preview: "This was a beautiful Sunday, where we did absolutely nothing of practical value. We just enjoyed life and the sunshine.",
   researchTopics: [
     "Topic 1",
