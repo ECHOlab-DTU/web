@@ -2,7 +2,7 @@
 const noteData = {
   title: "WIP seminar by Emil Nissen",
   date: "30.04.2025", // Use this date format
-  image: "DSCF11406.jpg", // Put your image in the Assets folder
+  image: "Assets\DSCF11406.jpg", // Put your image in the Assets folder
   preview: "A seminar discussing a theoretical merger between STS and human geography",
   researchTopics: [
     "Topic 1",
