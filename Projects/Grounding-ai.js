@@ -30,7 +30,8 @@ const noteData = {
   collaborators: [
     "Matilde Ficozzi and Mathieu Jacomy - AAU, TANTLab",
     "Danish Technical Museum",
-    "Dario Rodigherio - Groningen University"
+    "Dario Rodigherio - Groningen University",
+    "Algorithms, Data and Democracy (ADD)"
   ],
 
 // Add your links
