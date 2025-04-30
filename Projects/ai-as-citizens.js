@@ -11,8 +11,10 @@ const noteData = {
     "Synthetic Data"
 
   ],
-  objectives: "What you want to achieve with this project",
-  methodology: "How you plan to do it or how you did it",
+  objectives: [
+    "public dialogue, discussion and debate"
+  ],
+  methodology: "slanted chatbots arranged opposite each other. Their answers are read alound by an actress",
   lessons: [
     "Humans excel in live debate due to emoptional resonance and situational awareness - AI lacks both",
     "language models are seen as knowledge tools, offering information that is hard to question in the moment",
