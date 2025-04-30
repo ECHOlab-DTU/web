@@ -37,7 +37,7 @@ publicationLinkText: "Event Post", // Button text 2
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
    topics: "Research Areas",
-    lessons: "Key Learnings",
-    collaborators: "Team Members"
+    lessons: "Scope and future exhibitions",
+    collaborators: "collaborators"
   }
 };
