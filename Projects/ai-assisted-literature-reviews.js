@@ -21,7 +21,7 @@ const noteData = {
     "presentation of data visualization methds",
     "collective creation of data visualizations"
   ],
-  materials: [
+  lessons: [
     "research topic or textual data that is supposed to be visualized",
     "access to existing tools (e.g. Scite.ai) provided through DTU"
   ],
@@ -37,11 +37,9 @@ publicationLink: "", // Source link 2
 publicationLinkText: "Download Guidelines", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
-  sectionTitles: {
-    researchTopics: "Research Topics",
-    objectives: "Objectives",
-    methodology: "Methodology",
-    materials: "Materials needed & produced",
+  sectionTitles: { 
+    topics: "Research topics",
+    lessons: "Materials needed & produced",
     collaborators: "Facilitators"
   }
 };
