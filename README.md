@@ -17,7 +17,7 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
    const noteData = {
      title: "YOUR PROJECT TITLE",
      date: "DD.MM.YYYY", // Use this date format
-     image: "Assets/Test.png", // Put your image in the Assets folder
+     image: "Assets/Placeholder.png", // Put your image in the Assets folder
      preview: "A brief description of your project...",
 
    //Sections -> Right column 
