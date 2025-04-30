@@ -27,10 +27,10 @@ const noteData = {
   ],
 
 // Add your links
-projectLink: "https://www.linkedin.com/feed/", // Source link 1
-projectLinkText: "Framework Documentation", // Button text 1
-publicationLink: "https://www.linkedin.com/feed/", // Source link 2
-publicationLinkText: "Download Guidelines", // Button text 2
+projectLink: "https://www.linkedin.com/posts/johanirving_forskningsscenen-activity-7207698405567918080-JfbP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACh9cXYB1mRE4dhocFcMdgbODzZH2vpxcxY", // Source link 1
+projectLinkText: "Folkemødet", // Button text 1
+publicationLink: "", // Source link 2
+publicationLinkText: "", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
