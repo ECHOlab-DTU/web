@@ -2,14 +2,8 @@
   "events": [
     {
       "id": 1,
-      "date": "25.04.2025",
-      "title": "Forskningsdøgn event at Danish Technical Museum",
-      "image": "Assets/forskningsdognevent.jpg"
-    },
-    {
-      "id": 2,
       "date": "02.06.2025",
-      "title": "UPCOMING: Data destruction Workshop at ECHOlab",
+      "title": "Data destruction Workshop at ECHOlab",
       "image": "Assets/"
     }
   ]
