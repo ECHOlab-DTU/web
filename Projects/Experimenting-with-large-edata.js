@@ -3,33 +3,37 @@ const noteData = {
   title: "Experimenting with large ethnographic data",
   date: "02.10.2024", // Use this date format
   image: "Assets/Nolabels.png", // Put your image in the Assets folder
-  preview:
-  "<p>Computational methods have opened up new possibilities for collecting and analyzing large quantities of ethnographic data, including interviews, comments, articles, and abstracts.</p>"
-  "<p>Applying tools like sentence transformers and embeddings, we can cluster and group texts with similar meanings and visualize them, revealing emerging patterns in the data. With these methods, we use a cross-disciplinary approach between computational and social sciences, making it possible to use existing qualitative text data in new ways.</p>"
-  "<p>This workshop focused on the practical application of computational tools to ethnographic data. In this experiment, participants engaged in a guided exercise using interviews from their individual research projects. The session concluded with discussions and reflections on how to integrate these methodologies into ethnographic research moving forward.</p>"
-,
+  preview: `
+  <p>Computational methods have opened up new possibilities for collecting and analyzing large quantities of ethnographic data, including interviews, comments, articles, and abstracts.</p>
+  <p>Applying tools like sentence transformers and embeddings, we can cluster and group texts with similar meanings and visualize them, revealing emerging patterns in the data. With these methods, we use a cross-disciplinary approach between computational and social sciences, making it possible to use existing qualitative text data in new ways.</p>
+  <p>This workshop focused on the practical application of computational tools to ethnographic data. In this experiment, participants engaged in a guided exercise using interviews from their individual research projects. The session concluded with discussions and reflections on how to integrate these methodologies into ethnographic research moving forward.</p>
+`,
   researchTopics: [
     "Computational Anthropology",
     "Qualitative Data Analysis",
     "Experimental Ethnography",
     "Data Visualization",
   ],
+  
   objectives: [
     "Gain familiarity with computational methods through experimenting with ethnographic data",
     "Learn about new tools & methodologies to analyze large volumes of text for research purposes",
     "Analyze and use qualitative data for STS reserarch in new ways",
   ],
+  
   methodology: [
     "Prepare data files by creating a spreadsheet with text data from interviews",
     "Downloading and setting up relevant software and tools",
     "Sentence Embeddings with Sentence Transformers",
     "Visualizing Sentence Embeddings with DataMapPlot and / or CorText",
   ],
+  
   lessons: [
     "Introduction to computational methods and tools for working with large bodies of textual data",
     "Hands-on experience and experimenting with tools for clustering, analyzing, and visualizing textual data",
     "Discussions & reflections on  how digital methods can be implemented in future research projects"
   ],
+  
   collaborators: [
     "Johan Irving Søltoft (DTU)",
     "Anders Kristian Munk (DTU)",
