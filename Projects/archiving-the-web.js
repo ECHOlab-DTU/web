@@ -23,7 +23,7 @@ const noteData = {
   lessons: [
     "presentations of ongoing research projects",
     "group discussions & reflections",
-    "web history archive <a>[link](http://webhistorie.dk)</a> (Niels Bruegger)"
+    "web history archive (Niels Bruegger)"
   ],
   collaborators: [
     "Alexei Tsinovoi - Digi Front (Aarhus University)",
@@ -33,7 +33,7 @@ const noteData = {
   ],
 
 // Add your links
-projectLink: "", // Source link 1
+projectLink: "http://webhistorie.dk", // Source link 1
 projectLinkText: "web archive", // Button text 1
 publicationLink: "", // Source link 2
 publicationLinkText: "Download Guidelines", // Button text 2
