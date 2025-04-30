@@ -2,7 +2,7 @@
 const noteData = {
   title: "Exhbiting a large-scale data visualization - A public engagement exercise",
   date: "25.01.2025", // Use this date format
-  image: "Assets/ballerup.png", // Put your image in the Assets folder
+  image: "Assets/ballerup.jpg", // Put your image in the Assets folder
   preview: "<p> The event at Ballerup Library was part of the “Grounding AI” project, a research collaboration between several universities which materializes in a 100-squaremeter data physicalization, visualizing scientific research featuring algorithms and thereby their diverse roles in science. As an exhibition piece, the large-sale data visualization explores the intersection of aesthetics, science, and AI-generated visualizations.Stylized as a “map”, the piece shows 2,015,03 scientific articles on algorithms that visitors can walk on and explore the space of algorithms in scientific literature. The aim with exhibiting the map is to engage publics in dialogue about the role algorithms play in all areas of life, their omnipresence and mundaneness, that is seldom featured in public debate about AI. Presenting the map at Ballerup Library was the first test of offering a space presentation, discussion, and questions about the piece and the research behind it.</p>",
   researchTopics: [
     "Data Physicalization for public engagement",
