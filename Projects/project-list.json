@@ -1,12 +1,12 @@
 {
   "projects": [
-    "ballerup-public-engagement",
     "ai-assisted-literature-reviews",
     "Grounding-ai",
+    "ballerup-public-engagement",
     "archiving-the-web",
-    "ai-as-citizens",
+    "UB-accessibility-assessment",
     "Experimenting-with-large-edata",
     "tut",
-    "UB-accessibility-assessment"
+    "ai-as-citizens"
   ]
 } 
