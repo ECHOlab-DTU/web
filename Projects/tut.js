@@ -18,10 +18,10 @@ const noteData = {
     "Archiving",
     "Digital Methods",
   ],
-  objectives: "We aim to develop a tool that can be used across industry and academia to help navigate and analyze large qualitative corpora.
-",
-  methodology: "We used Large language models to calculate semantic similarity between text units, and we have developed a navigation system that we call “Navigation for Serendipity.”
-",
+  objectives: "We aim to develop a tool that can be used across industry and academia to help navigate and analyze large qualitative corpora."
+  ,
+  methodology: "We used Large language models to calculate semantic similarity between text units, and we have developed a navigation system that we call “Navigation for Serendipity."
+  ,
   lessons: [
     "Conducting workshops with different research groups on how this tool could be used in their research",
     "Presenting the tool at ICWSM"
