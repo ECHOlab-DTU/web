@@ -33,9 +33,9 @@ const noteData = {
   ],
 
 // Add your links
-projectLink: "https://www.linkedin.com/feed/", // Source link 1
-projectLinkText: "Framework Documentation", // Button text 1
-publicationLink: "https://www.linkedin.com/feed/", // Source link 2
+projectLink: "", // Source link 1
+projectLinkText: "web archive", // Button text 1
+publicationLink: "", // Source link 2
 publicationLinkText: "Download Guidelines", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
