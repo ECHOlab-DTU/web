@@ -2,7 +2,7 @@
 const noteData = {
   title: "Web Accessibility Assessment oF The Urban Belonging App",
   date: "01.11.2024", // Use this date format
-  image: "Assets/Test.png", // Put your image in the Assets folder
+  image: "Assets/UBworkshop.png", // Put your image in the Assets folder
   preview: `
     <p>The workshop was part of a project focused on the <strong>Accessibility Assessment and further development</strong> of the <strong>Urban Belonging Photo App</strong>.</p>
     <p>The <strong>open-source toolkit</strong> was developed by a group of researchers and architects as part of the Urban Belonging project. It was initially used in research conducted between 2020 and 2023. Upon successful completion of that phase, it was decided to continue developing the app further.</p>
@@ -19,11 +19,12 @@ const noteData = {
   ],
 
   objectives: [
-    "Raise awareness about the importance of accessible digital tools in participatory research",
-    "Demonstrate practical tools and methods for conducting web accessibility assessments",
-    "Critically evaluate participants’ own research tools and projects through an accessibility lens",
-    "Co-create a prioritized list of accessibility improvement requirements for the Urban Belonging Photo App"
-  ],
+  "Raise awareness about the importance of accessible digital tools in participatory research",
+  "Demonstrate practical tools and methods for conducting web accessibility assessments",
+  "Critically evaluate participants’ own research tools and projects through an accessibility lens",
+  "Co-create a prioritized list of accessibility improvement requirements for the Urban Belonging Photo App"
+],
+  
   methodology: [
     "Introduction to Web Accessibility guidelines and tools by Anne Thyme",
     "Accessibility Assessment of the Urban Belonging Photo App by Stein Erik with assistive tech",
@@ -48,6 +49,7 @@ publicationLinkText: "Urban Belonging Project", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
+    topics: "Research topics", 
     lessons: "Scope and deliverables",
     collaborators: "Collaborators"
   }
