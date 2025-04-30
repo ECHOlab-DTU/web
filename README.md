@@ -19,6 +19,8 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
      date: "DD.MM.YYYY", // Use this date format
      image: "Assets/Test.png", // Put your image in the Assets folder
      preview: "A brief description of your project...",
+
+   //Sections -> Right column 
      researchTopics: [
        "Topic 1",
        "Topic 2",
