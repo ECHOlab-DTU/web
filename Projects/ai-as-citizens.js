@@ -14,7 +14,7 @@ const noteData = {
   objectives: [
     "public dialogue, discussion and debate"
   ],
-  methodology: "slanted chatbots arranged opposite each other. Their answers are read alound by an actress",
+  methodology: " <p>fine-tuning of slanted chatbots. On stage at folkemødet, they were arranged opposite each other and their answers are read alound by an actress </p>",
   lessons: [
     "Humans excel in live debate due to emoptional resonance and situational awareness - AI lacks both",
     "language models are seen as knowledge tools, offering information that is hard to question in the moment",
