@@ -46,6 +46,6 @@ publicationLinkText: "Event post", // Button text 2
   sectionTitles: {
     lessons: "Scope",
     methodology: "how to do it",
-    collaborators: "Team Members"
+    collaborators: "Facilitators"
   }
 };
