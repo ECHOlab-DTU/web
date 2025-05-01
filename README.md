@@ -80,12 +80,12 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
    - Add your project name (without the .js) to the list
    - Example: `"projects": ["existing-project-1", "existing-project-2", "my-new-project"]`
    - The order of the list will determine how the lab notes apear in the main website.
-     
+
+---
+
 ### **Optional: Editing Style the Text of the Section Headings**
 
-This is not essential for your project to appear, but you might want different section headings (e.g. methodology, collaborators, etc.)
-
-You can control how the text appears in each section:
+This is not essential for your project to appear, but you might want to edit how the text appears:
 
 *For Bullet points: Use an array*
 
@@ -111,23 +111,26 @@ You can control how the text appears in each section:
 title: "My Project Title"
  ```
 
+
 *Optional: Change Section Titles*: If you'd like to customize the section headings the right column, you can edit this part of the code:
 
    ```javascript
   sectionTitles: {
-    topics: "Research Areas",
+    topics: "Research Areas", 
     lessons: "Key Learnings",
     collaborators: "Team Members"
   }
 } 
  ```
 
+REMEMBER that incorrect JS syntax inside your project file will not display your LAB note.
 
 ## ✅ Final Checklist for uploading projects:
 
  - Create a new project file in the Projects/ folder?
  - Use a clear and simple filename (like my-new-project.js)?
  - Fill in all the fields in the noteData object (title, date, image, etc.)?
+ - Do you have the correct syntax? Missing comas, etc? 
  - Upload your image to the Assets/ folder?
  - Use the correct path to the image in your project file (Assets/your-image.png)?
  - Add your project name (without .js) to the project-list.json file?
@@ -147,7 +150,8 @@ To add a new event to the website:
 
 1. Open `Events/events.json`
 2. Add your event information following this simple format and upload a picture in the image folder and paste the name where it says "image":
-   ```json
+ 
+   ```javascript
    {
      "id": 3,
      "date": "DD.MM",
