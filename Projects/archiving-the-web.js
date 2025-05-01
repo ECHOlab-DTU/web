@@ -53,7 +53,7 @@ publicationLinkText: "Download Guidelines", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
-    topics: "Research Topics",
+    researchTopics: "Research Topics",
     lessons: "Scope & Resources",
     collaborators: "collaborators"
   }
