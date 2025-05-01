@@ -119,15 +119,17 @@ with a line break.`,
  ```
 
 
-*Optional: Change Section Titles*: If you'd like to customize the section headings the right column, you can edit this part of the code:
+*Optional: Change Section Titles*: To customize the section titles in the right column, you need to adjust the default titles provided in the sectionTitles object. 
+However, you can’t remove these sections entirely, you can only change their titles.
+
+For example, if you want to rename a section like "Topics" to something else like "Research Areas," you would change the code like this:
 
    ```javascript
-  sectionTitles: {
-    topics: "Research Areas", 
-    lessons: "Key Learnings",
-    collaborators: "Team Members"
-  }
-} 
+sectionTitles: {
+  lessons: "Key Learnings",   // Custom title for the "lessons" section
+  collaborators: "Team Members",   // Custom title for the "collaborators" section
+  objectives: "Project Goals"  // Adding a new custom title for the "objectives" section
+}
  ```
 
 REMEMBER that incorrect JS syntax inside your project file will not display your LAB note.
