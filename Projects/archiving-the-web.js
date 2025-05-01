@@ -41,7 +41,7 @@ const noteData = {
   collaborators: [
     "Alexei Tsinovoi - Digi Front (Aarhus University)",
     "Niels Bruegger - Aarhus University",
-    "Katie McKinni - University of Copenhagen",
+    "Katie McKinnon - University of Copenhagen",
     "Mathieu Jacomy - Aalborg University"
   ],
 
