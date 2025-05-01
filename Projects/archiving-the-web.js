@@ -2,8 +2,21 @@
 const noteData = {
   title: "Archiving the web: Methods and Applications",
   date: "28.01.2025", // Use this date format
-  image: "Assets/web-archives.jpg", // Put your image in the Assets folder
-  preview: "<p> The internet has become a key research focus and a valuable tool for studying social phenomena across disciplines. In collaboration with the DigiFront initiative, ECHO Lab organized a session where researchers presented their projects, showcasing how they utilize the web and web archives as methods in their research. Katie McKinnon (KU) introduced the concept of the marginal web and her research on digital traces of young people's online engagement in Canada during the 1990s and 2000s, emphasizing ethical and careful approaches to studying these histories. Niels Bruegger (AU) presented his examination of the differences between analogue and web archives and how these distinctions change archival methodologies. He also shared a resource on web history and archiving which he has been developing over the years. Oscar Corominas (UAB) demonstrated how private-sector marketing tools, such as Ahrefs, can be repurposed for digital methods.  Mathieu Jacomy (AAU) shared methods for scraping the web with LLMs, enabling a more granular approach to traditional web scraping by extracting specific elements of the page.</p>",
+  image: "Assets/web-archives.jpg", 
+  preview:`
+  <p>The internet has become a key research focus and a valuable tool for studying social phenomena across disciplines. 
+  In collaboration with the DigiFront initiative, ECHO Lab organized a session where researchers presented their projects, 
+  showcasing how they utilize the web and web archives as methods in their research. 
+  
+  <p>Katie McKinnon (KU)  introduced the concept of the marginal web through her research on digital traces 
+  of Canadian youth in the 1990s–2000s, highlighting ethical approaches. Niels Bruegger (AU) discussed
+  the differences between analogue and web archives and how these distinctions change archival 
+  methodologies. He also shared a resource on web history and archiving which he has been developing over the years. 
+  Oscar Corominas (UAB) demonstrated how private-sector marketing tools, such as Ahrefs, can be repurposed for digital 
+  methods. Mathieu Jacomy (AAU) shared methods for scraping the web with LLMs, enabling a more granular approach to 
+  web scraping by extracting specific elements of the page.</p>
+`,
+  
   researchTopics: [
     "Digital Archives",
     "Archiving as a method",
