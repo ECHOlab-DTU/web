@@ -48,8 +48,8 @@ publicationLinkText: "Event post", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
+    researchTopics: "Research Topics",
     lessons: "Scope",
-    methodology: "how to do it",
     collaborators: "Facilitators"
   }
 };
