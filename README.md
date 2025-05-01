@@ -120,16 +120,15 @@ with a line break.`,
  ```
 
 
-*Optional: Change Section Titles*: To customize the section titles in the right column, you need to adjust the default titles provided in the sectionTitles object. 
-However, you can’t remove these sections entirely, you can only change their titles.
+*Optional: Change Section Titles*: To customize the section titles in the right column, you need to adjust the default titles provided in the sectionTitles object. However, you can’t remove these sections entirely, you can only change their titles.
 
-For example, if you want to rename a section like "Topics" to something else like "Research Areas," you would change the code like this:
+For example, if you want to rename a section like "Research Topics" to something else like "Research Areas," you would change the code like this:
 
    ```javascript
 sectionTitles: {
-   topics: "Research Topics",// Custom title for the "topics" section
-    lessons:  "Key Learnings" // Custom title for the "lessons" section
-    collaborators: "Team Members",   // Custom title for the "collaborators" section
+   researchTopics: "Research Areas",// Custom title for the "topics" section
+   lessons:  "Key Learnings" // Custom title for the "lessons" section
+   collaborators: "Team Members",   // Custom title for the "collaborators" section
 }
  ```
 
