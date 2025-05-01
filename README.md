@@ -99,7 +99,10 @@ You can control how the text appears in each section:
 *For Paragraphs: Use a string with p tags*
 
    ```javascript
-objectives: "<p>This is a paragraph of text.</p>" "<p>This is another piece of text.</p>" 
+  objectives: `
+  <p>This is parragraph 1.</p>
+  <p>This is parragraph 2.</p>
+`,
   ```
 
 *For Single-line text: Use a plain string*
