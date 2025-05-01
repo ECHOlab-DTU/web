@@ -42,7 +42,7 @@ publicationLinkText: "LinkedIn", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
-    topics: "Research Areas",
+    researchTopics: "Research Areas",
     lessons: "Scope and Deliverables",
     collaborators: "Team Members"
   }
