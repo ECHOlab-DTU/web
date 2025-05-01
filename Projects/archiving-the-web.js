@@ -6,7 +6,7 @@ const noteData = {
   preview:`
   <p>The internet has become a key research focus and a valuable tool for studying social phenomena across disciplines. 
   In collaboration with the DigiFront initiative, ECHO Lab organized a session where researchers presented their projects, 
-  showcasing how they utilize the web and web archives as methods in their research. 
+  showcasing how they utilize the web and web archives as methods in their research.</p> 
   
   <p>Katie McKinnon (KU)  introduced the concept of the marginal web through her research on digital traces 
   of Canadian youth in the 1990s–2000s, highlighting ethical approaches. Niels Bruegger (AU) discussed
