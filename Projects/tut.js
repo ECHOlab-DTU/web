@@ -41,9 +41,9 @@ publicationLink: "https://www.linkedin.com/feed/", // Source link 2
 publicationLinkText: "Download Guidelines", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
-  sectionTitles: {
-    researchTopics: "Research topics",
-    lessons: "Scope",
-    collaborators: "Facilitators"
+ sectionTitles: {
+researchTopics: "Research Areas",
+lessons: "Scope",
+collaborators: "Facilitators"
   }
 };
