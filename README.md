@@ -46,9 +46,10 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
    publicationLinkText: "Download Guidelines", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
-     sectionTitles: {
-       lessons: "Key Learnings",
-       collaborators: "Team Members"
+  sectionTitles: {
+   topics: "Research Topics",
+    lessons: "Three lessons learned",
+    collaborators: "Collaborators"
      }
    };
    ```
@@ -126,9 +127,9 @@ For example, if you want to rename a section like "Topics" to something else lik
 
    ```javascript
 sectionTitles: {
-  lessons: "Key Learnings",   // Custom title for the "lessons" section
-  collaborators: "Team Members",   // Custom title for the "collaborators" section
-  objectives: "Project Goals"  // Adding a new custom title for the "objectives" section
+   topics: "Research Topics",// Custom title for the "topics" section
+    lessons:  "Key Learnings" // Custom title for the "lessons" section
+    collaborators: "Team Members",   // Custom title for the "collaborators" section
 }
  ```
 
