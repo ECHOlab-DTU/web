@@ -47,9 +47,9 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
-   researchTopics: "Research Areas",
-   lessons: "Three lessons learned",
-   collaborators: "Collaborators"
+   researchTopics: "Custom title here",
+   lessons: "Custom title here",
+   collaborators: "Custom title here"
      }
    };
    ```
