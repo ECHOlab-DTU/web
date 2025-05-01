@@ -78,7 +78,7 @@ export function createLabNoteCard(noteData) {
     }
     
     // Add sections to right column
-    const topicsSection = createSection(noteData.sectionTitles.topics, noteData.researchTopics, 'text', false);
+    const topicsSection = createSection(noteData.sectionTitles.researchTopics, noteData.researchTopics, 'text', false);
     rightColumn.appendChild(topicsSection);
     
     const objectivesSection = createSection('Objectives', [noteData.objectives], 'text', false);
