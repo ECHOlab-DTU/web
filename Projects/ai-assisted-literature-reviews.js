@@ -33,8 +33,8 @@ const noteData = {
 // Add your links
 projectLink: "", // Source link 1
 projectLinkText: "DTU Library", // Button text 1
-publicationLink: "", // Source link 2
-publicationLinkText: "Download Guidelines", // Button text 2
+publicationLink: "https://github.com/ECHOlab-DTU/AI-assisted-literature-review/blob/main/StepbyStepguide.pdf", // Source link 2
+publicationLinkText: "Download PDF Guidelines", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: { 
