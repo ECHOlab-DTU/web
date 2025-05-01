@@ -50,7 +50,7 @@ publicationLinkText: "Urban Belonging Project", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
-    topics: "Research topics", 
+    researchTopics: "Research topics", 
     lessons: "Scope and deliverables",
     collaborators: "Collaborators"
   }
