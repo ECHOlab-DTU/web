@@ -111,6 +111,13 @@ This is not essential for your project to appear, but you might want to edit how
 title: "My Project Title"
  ```
 
+*For long texts with line breaks use back ticks*
+
+   ```javascript   
+objectives: `This is a long piece of text
+with a line break.`,
+ ```
+
 
 *Optional: Change Section Titles*: If you'd like to customize the section headings the right column, you can edit this part of the code:
 
