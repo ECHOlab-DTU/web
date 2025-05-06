@@ -56,6 +56,7 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
 
 ## **2. Add Your Project Image**
    - Put your project image in the `Assets` folder. You can go to the folder assets and click upload new.
+   - Remember that the file name Assetts/ must remain, so GitHub knows where to find the picture
    - Make sure to use the correct image path in your project file:
      
 ```javascript
