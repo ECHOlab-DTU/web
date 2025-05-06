@@ -148,6 +148,8 @@ export function createLabNoteCard(noteData) {
     oImage.style.width = '1.5rem';
     oImage.style.height = '1.5rem';
     oImage.style.zIndex = '1';
+     oImage.style.opacity = '0.6'
+    oImage.style.transition = 'opacity 0.3s ease'; // Add smooth transition
     card.appendChild(oImage);
     
     // Add resize listener to handle responsive layout
