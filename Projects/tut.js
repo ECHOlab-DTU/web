@@ -34,8 +34,8 @@ const noteData = {
   ],
 
 // LINKS
-projectLink: "Website", // Source link 1
-projectLinkText: "https://tut.man.dtu.dk/", // Button text 1
+projectLink: "https://tut.man.dtu.dk/", // Source link 1
+projectLinkText: "Website", // Button text 1
 publicationLink: "", // Source link 2
 publicationLinkText: "", // Button text 2
 
