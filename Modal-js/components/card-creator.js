@@ -144,9 +144,9 @@ export function createLabNoteCard(noteData) {
     oImage.src = 'Assets/o.svg';
     oImage.style.position = 'absolute';
     oImage.style.bottom = '1rem';
-    oImage.style.right = '1rem';
-    oImage.style.width = '2rem';
-    oImage.style.height = '2rem';
+    oImage.style.right = '0.5rem';
+    oImage.style.width = '1.5rem';
+    oImage.style.height = '1.5rem';
     oImage.style.zIndex = '1';
     card.appendChild(oImage);
     
