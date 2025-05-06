@@ -154,9 +154,12 @@ Do not be confused if it takes a bit of time until your lab note appears on the 
 
 ---
 
-# Adding a New Event (Admin Only)
+# Adding a New Event
 
-To add a new event to the website:
+You can see the list of upcoming events in the header of the website. They are displayed as date & title and you can add a picture that will pop up upon clicking on the
+date, if you wish to add an invitation or description file.
+
+To add an upcoming event to the website:
 
 1. Open `Events/events.json`
 2. Add your event information following this simple format and upload a picture in the image folder and paste the name where it says "image":
