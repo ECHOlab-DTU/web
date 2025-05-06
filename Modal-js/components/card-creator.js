@@ -138,6 +138,17 @@ export function createLabNoteCard(noteData) {
 
     wrapper.appendChild(card);
     wrapper.appendChild(links);
+
+     // Add o.svg to bottom right corner
+    const oImage = document.createElement('img');
+    oImage.src = 'Assets/o.svg';
+    oImage.style.position = 'absolute';
+    oImage.style.bottom = '1rem';
+    oImage.style.right = '1rem';
+    oImage.style.width = '2rem';
+    oImage.style.height = '2rem';
+    oImage.style.zIndex = '1';
+    card.appendChild(oImage);
     
     // Add resize listener to handle responsive layout
     window.addEventListener('resize', () => {
