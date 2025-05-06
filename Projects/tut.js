@@ -35,10 +35,10 @@ const noteData = {
   ],
 
 // LINKS
-projectLink: "https://www.linkedin.com/feed/", // Source link 1
-projectLinkText: "Framework Documentation", // Button text 1
-publicationLink: "https://www.linkedin.com/feed/", // Source link 2
-publicationLinkText: "Download Guidelines", // Button text 2
+projectLink: "Website", // Source link 1
+projectLinkText: "https://tut.man.dtu.dk/", // Button text 1
+publicationLink: "", // Source link 2
+publicationLinkText: "", // Button text 2
 
 // OPTIONAL: Change section titles (right column)
  sectionTitles: {
