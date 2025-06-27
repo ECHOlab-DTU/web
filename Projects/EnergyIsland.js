@@ -12,7 +12,7 @@ const noteData = {
     "Energy Islands",
     "Science, Technology and Society"
   ],
-  objectives: "The Issue Atlas helps students learn to map and analyze technological debates in society, identify key stakeholders, and understand how their concerns evolve over time. They later can apply these skills to a real-world case by writing a policy brief that proposes strategies for fostering responsible engineering.",
+  objectives: "The Issue Atlas helps students learn to map and analyze technological debates in society, identify key stakeholders, and understand how their concerns evolve over time.",
   methodology: "The atlas is developed through a combination of digital methods (read more about the methodology section in the report), alongside expert insights into the Energy Islands case.",
   lessons: [
     "PDF Report",
