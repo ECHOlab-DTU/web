@@ -1,4 +1,4 @@
-//Project tile
+//data-destruction
 const noteData = {
   title: "Data Destruction Workshop",
   date: "02.06.2025", // Use this date format
