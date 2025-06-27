@@ -1,5 +1,7 @@
 {
   "projects": [
+    "EnergyIsland",
+    "data-destruction",
     "Grounding-ai",
     "ai-assisted-literature-reviews",
     "archiving-the-web",
@@ -7,8 +9,6 @@
     "UB-accessibility-assessment",
     "Experimenting-with-large-edata",
     "tut",
-    "ai-as-citizens",
-    "data-destruction",
-    "EnergyIsland"
+    "ai-as-citizens"
   ]
 } 
