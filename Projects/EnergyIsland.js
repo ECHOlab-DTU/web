@@ -2,7 +2,7 @@
 const noteData = {
   title: "The Energy Islands. Issue Atlas",
   date: "26.06.2006", // Use this date format
-  image: "IssueAtlas.png", // Put your image in the Assets folder
+  image: "Assets/IssueAtlas.png", // Put your image in the Assets folder
   preview: "The Issue Atlas is a PDF report that outlines the political, social, and technological context of the Energy Islands case. It serves as a teaching resource on socio-technical controversies. The atlas contains descriptions of key actors and their roles, as well as an overview of the methods used to generate the dataset and baseline visualisations to support further analysis and discussion. The report is meant to be used together with additional material to support students in mapping out and exploring the controversy.",
 
 //Sections -> Right column 
@@ -12,8 +12,8 @@ const noteData = {
     "Energy Islands",
     "Science, Technology and Society"
   ],
-  objectives: "The goal of the Issue Atlas is to provide students with a learning resource for mapping and analyzing technological debates in society. Through engagement with the atlas, students learn to identify key stakeholders and understand how their concerns evolve over time. These insights and methods can later be applied to a real-world case, culminating in the development of a policy brief that proposes strategies for fostering responsible engineering for sustainability.",
-  methodology: "The Atlas is developed through a combination of digital methods (read more about the methodology section in the report), alongside expert insights into the Energy Islands case.",
+  objectives: "The Issue Atlas helps students learn to map and analyze technological debates in society, identify key stakeholders, and understand how their concerns evolve over time. They later can apply these skills to a real-world case by writing a policy brief that proposes strategies for fostering responsible engineering.",
+  methodology: "The atlas is developed through a combination of digital methods (read more about the methodology section in the report), alongside expert insights into the Energy Islands case.",
   lessons: [
     "PDF Report",
     "Key documents for the case",
@@ -22,7 +22,7 @@ const noteData = {
   ],
   collaborators: [
     "ECHOLab: Anders Munk, Mathieu Jacomy, Sarah Feldes and Ainoa Pubill",
-    "GoodbyDevicing: Julia Kirch, Tom Cronin, Daniel Nordstrand , Emil Nissen, Sebastian Husted"
+    "GoodbyDevicing: Julia Kirch, Tom Cronin, Daniel Nordstrand, Emil Nissen, Sebastian Husted"
   ],
 
 // Add your links
