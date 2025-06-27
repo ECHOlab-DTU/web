@@ -1,9 +1,9 @@
 //Project tile
 const noteData = {
-  title: "Energy Islands. Issue",
+  title: "The Energy Islands. Issue Atlas",
   date: "26.06.2006", // Use this date format
-  image: "Issue Atlas.png", // Put your image in the Assets folder
-  preview: "The Issue Atlas is a PDF report that outlines the political, social, and technological context of the Energy Islands case. It serves as a teaching resource on socio-technical controversies, providing descriptions of key actors and their roles, as well as an overview of the methods used to generate the dataset.\n\nThe report is accompanied by a dataset of public statements from various actors involved in the controversy, along with a set of Python scripts for exploring the data and generating visualizations. It also includes baseline visualizations to support further analysis and discussion.",
+  image: "IssueAtlas.png", // Put your image in the Assets folder
+  preview: "The Issue Atlas is a PDF report that outlines the political, social, and technological context of the Energy Islands case. It serves as a teaching resource on socio-technical controversies. The atlas contains descriptions of key actors and their roles, as well as an overview of the methods used to generate the dataset and baseline visualisations to support further analysis and discussion. The report is meant to be used together with additional material to support students in mapping out and exploring the controversy.",
 
 //Sections -> Right column 
   researchTopics: [
@@ -12,12 +12,13 @@ const noteData = {
     "Energy Islands",
     "Science, Technology and Society"
   ],
-  objectives: "What you want to achieve with this project",
-  methodology: "How you plan to do it or how you did it",
+  objectives: "The goal of the Issue Atlas is to provide students with a learning resource for mapping and analyzing technological debates in society. Through engagement with the atlas, students learn to identify key stakeholders and understand how their concerns evolve over time. These insights and methods can later be applied to a real-world case, culminating in the development of a policy brief that proposes strategies for fostering responsible engineering for sustainability.",
+  methodology: "The Atlas is developed through a combination of digital methods (read more about the methodology section in the report), alongside expert insights into the Energy Islands case.",
   lessons: [
-    "What you learned 1",
-    "What you learned 2",
-    "What you learned 3"
+    "PDF Report",
+    "Key documents for the case",
+    "A dataset of public statements from various actors involved in the controversy",
+    "A set of python scripts for exploring the dataset and generate visualizations "
   ],
   collaborators: [
     "ECHOLab: Anders Munk, Mathieu Jacomy, Sarah Feldes and Ainoa Pubill",
