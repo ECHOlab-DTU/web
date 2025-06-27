@@ -1,7 +1,7 @@
 //Project tile
 const noteData = {
   title: "Energy Islands. Issue",
-  date: "DD.MM.YYYY", // Use this date format
+  date: "26.06.2006", // Use this date format
   image: "Assets/Placeholder.png", // Put your image in the Assets folder
   preview: "A brief description of your project...",
 
