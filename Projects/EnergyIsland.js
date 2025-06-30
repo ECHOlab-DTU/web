@@ -33,7 +33,7 @@ projectLinkText: "Github Repository", // Button text 1
 
 // OPTIONAL: Change section titles (right column)
 sectionTitles: {
-researchTopics: "Custom title here",
+researchTopics: "Research areas",
 lessons: "Deliverables",
 collaborators: "Project team"
   }
