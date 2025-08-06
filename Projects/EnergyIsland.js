@@ -1,7 +1,7 @@
 //Project tile
 const noteData = {
   title: "The Energy Islands. Issue Atlas",
-  date: "26.06.2006", // Use this date format
+  date: "26.06.2025", // Use this date format
   image: "Assets/IssueAtlas.png", // Put your image in the Assets folder
   preview: "The Issue Atlas is a PDF report that outlines the political, social, and technological context of the Energy Islands case. It serves as a teaching resource on socio-technical controversies. The atlas contains descriptions of key actors and their roles, as well as an overview of the methods used to generate the dataset and baseline visualisations to support further analysis and discussion. The report is meant to be used together with additional material to support students in mapping out and exploring the controversy.",
 
