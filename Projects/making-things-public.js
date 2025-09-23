@@ -24,7 +24,7 @@ const noteData = {
   methodology: [
     "Presentation of research projects involving controversy mapping and analysis of their results", 
     "Theoretical and practical reflections on controversy mapping", 
-    "Outline of a collective contribution on the relevance of controversy mapping as a democratic equipment  How you plan to do it or how you did it"
+    "Outline of a collective contribution on the relevance of controversy mapping as a democratic equipment"
   ],
   lessons: [
     "Production of a joint discussion piece for a leading digital STS journal"
