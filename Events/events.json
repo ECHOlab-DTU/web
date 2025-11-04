@@ -4,13 +4,13 @@
       "id": 1,
       "date": "05.11",
       "title": "Show & Tool: Interviewing with AI",
-      "image": "Assets/ShowandToolAIInterview.png"
+      "image": "Assets/ShowAndToolAIInterview.png"
     },
     {
       "id": 2,
       "date": "04.12",
       "title": "Show & Tool: Into the media archives",
-      "image": "Assets/ShowandToolRetriever.png"
+      "image": "Assets/ShowAndToolRetriever.png"
     }
   ]
 }
