@@ -2,9 +2,13 @@
   "events": [
     {
       "id": 1,
+      "date": "05.11",
+      "title": "Show & Tool: Interviewing with AI"
+      "image": "SHOW AND TOOL, AI-INTERVIEW.png"
+      "id": 2,
       "date": "04.12",
       "title": "Show & Tool: Into the media archives",
-      "image": ""
+      "image": "SHOW AND TOOL, RETRIEVER.png"
     }
   ]
 } 
