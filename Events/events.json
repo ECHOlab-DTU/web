@@ -1,7 +1,8 @@
 {
   "events": [
     {
-      "id": "No upcoming events"
+      "id": 1,
+      "title": "No upcoming events",
     }
   ]
 }
