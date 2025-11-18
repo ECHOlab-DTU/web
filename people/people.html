@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People - ECHO LAB</title>
+    <link rel="stylesheet" href="../Style-css/styles.css">
+    <style>
+        /* Additional styles for people page */
+        .people-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .people-section {
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-family: 'Courier New', monospace;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            color: #1a1a1a;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+        }
+
+        .people-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .person-card {
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .person-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .person-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            display: block;
+            border: 3px solid #f0f0f0;
+        }
+
+        .person-name {
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin: 0;
+        }
+
+        .person-title {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0 0 0;
+        }
+
+        /* Header styling to match main site */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #f5f5f5;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            font-family: 'Courier New', monospace;
+            font-size: 32px;
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        .tagline {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            color: #1a1a1a;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-section">
+            <div class="logo">ECHOLAB</div>
+            <div class="tagline">The Observatory for Human<br>Centered Engineering</div>
+        </div>
+        <nav class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="people.html">People</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://bsky.app" target="_blank">Bluesky</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="people-container">
+        
+        <!-- Committee Section -->
+        <section class="people-section">
+            <h2 class="section-title">Committee</h2>
+            <div class="people-grid">
+                
+                <!-- Person 1 - Example -->
+                <div class="person-card">
+                    <img src="../Assets/person1.jpg" alt="Name 1" class="person-image">
+                    <h3 class="person-name">Name 1</h3>
+                    <p class="person-title">Position/Role</p>
+                </div>
+
+                <!-- Person 2 - Example -->
+                <div class="person-card">
+                    <img src="../Assets/person2.jpg" alt="Name 2" class="person-image">
+                    <h3 class="person-name">Name 2</h3>
+                    <p class="person-title">Position/Role</p>
+                </div>
+
+                <!-- Person 3 - Example -->
+                <div class="person-card">
+                    <img src="../Assets/person3.jpg" alt="Name 3" class="person-image">
+                    <h3 class="person-name">Name 3</h3>
+                    <p class="person-title">Position/Role</p>
+                </div>
+
+                <!-- Add more committee members here -->
+                
+            </div>
+        </section>
+
+        <!-- Affiliates Section -->
+        <section class="people-section">
+            <h2 class="section-title">Affiliates</h2>
+            <div class="people-grid">
+                
+                <!-- Affiliate 1 - Example -->
+                <div class="person-card">
+                    <img src="../Assets/affiliate1.jpg" alt="Name 4" class="person-image">
+                    <h3 class="person-name">Name 4</h3>
+                    <p class="person-title">Affiliation</p>
+                </div>
+
+                <!-- Affiliate 2 - Example -->
+                <div class="person-card">
+                    <img src="../Assets/affiliate2.jpg" alt="Name 5" class="person-image">
+                    <h3 class="person-name">Name 5</h3>
+                    <p class="person-title">Affiliation</p>
+                </div>
+
+                <!-- Affiliate 3 - Example -->
+                <div class="person-card">
+                    <img src="../Assets/affiliate3.jpg" alt="Name 6" class="person-image">
+                    <h3 class="person-name">Name 6</h3>
+                    <p class="person-title">Affiliation</p>
+                </div>
+
+                <!-- Add more affiliates here -->
+                
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
