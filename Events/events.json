@@ -1,5 +1,6 @@
 {
   "id": 1,
   "date": "04.12",
-  "title": "Text extraction with LLMS: Show & Tool"
+  "title": "Text extraction with LLMS: Show & Tool",
+  "image": "Assets/your-event-image.png"
 }
