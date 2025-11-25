@@ -1,8 +1,5 @@
 {
-  "events": [
-    {
-      "id": 1,
-      "title": "No upcoming events"
-    }
-  ]
+  "id": 1,
+  "date": "04.12",
+  "title": "TEXT EXTRACTION WITH LLMS SHOW & TOOL"
 }
