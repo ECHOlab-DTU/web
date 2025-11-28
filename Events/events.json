@@ -1,10 +1,6 @@
 {
-  "events": [
-    {
-      "id": 1,
-      "date": "DD.MM",
-      "title": "Your Event Title",
-      "image": "Assets/your-event-image.png"
-    }
-  ]
+  "id": 3,
+  "date": "DD.MM",
+  "title": "Your Event Title",
+  "image": "Assets/your-event-image.png"
 }
