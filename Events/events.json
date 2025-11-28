@@ -1,6 +1,9 @@
 {
-  "id": 3,
-  "date": "DD.MM",
-  "title": "Your Event Title",
-  "image": "Assets/your-event-image.png"
+  "events": [
+    {
+      "date": "2024-01-15",
+      "title": "Event Title",
+      "image": "path/to/image.jpg"
+    }
+  ]
 }
