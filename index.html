@@ -8,21 +8,6 @@
     <link href="https://fonts.cdnfonts.com/css/neo-sans-std" rel="stylesheet">
     <!-- Add Andale Mono font -->
     <link rel="stylesheet" href="Style-css/styles.css">
-    <style>
-        /* johan: quick fix.*/
-        .logo-container {
-            display: flex;
-            align-items: center;
-        }
-        
-        .logo-container img {
-            margin-right: auto;
-        }
-        
-        .logo-container a {
-            margin-left: 2.5rem;
-        }
-    </style>
 </head>
 <body>
     <div class="logo-container">
@@ -30,12 +15,14 @@
         <a href="https://www.linkedin.com/company/105685967/feed/following/" target="_blank">LinkedIn</a>
         <a href="https://bsky.app/profile/echodtu.bsky.social" target="_blank">Bluesky</a>
     </div>
+
     <div class="upcoming-events">
         <h2>Upcoming Events:</h2>
         <ul class="event-list">
             <!-- Events will be loaded dynamically -->
         </ul>
     </div>
+
     <!-- Event Modal -->
     <div class="event-modal" id="eventModal">
         <img id="eventModalImage" src="" alt="Event Image">
@@ -62,4 +49,3 @@
     <script type="module" src="Modal-js/loader.js"></script>
 </body>
 </html> 
-
