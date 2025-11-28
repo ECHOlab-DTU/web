@@ -3,3 +3,10 @@
   "date": "04.12",
   "title": "Text extraction with LLMS: Show & Tool"
 }
+
+{
+  "id": 3,
+  "date": "01.12",
+  "title": "Your Event Title",
+  "image": "Assets/your-event-image.png"
+}
