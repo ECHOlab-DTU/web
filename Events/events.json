@@ -1,8 +1,8 @@
 {
   "events": [
     {
-      "date": "2024-01-15",
-      "title": "Event Title",
+      "date": "04.12",
+      "title": "Text Extraction with LLMs: Show & Tool,
       "image": "path/to/image.jpg"
     }
   ]
