@@ -7,17 +7,17 @@ const peopleData = {
         name: 'Anders Kristian Munk',
         title: 'Director',
         image: '../Assets/andersmunk.jpg',
-        bio: 'Anders Kristian Munk is the director of ECHO LAB, specializing in computational social science and digital methods. His research focuses on controversy mapping and online communities.',
+        bio: """Anders Kristian Munk is Professor of Computational Anthropology in the Section for Human-Centered Innovation at DTU Management. His research focuses on controversies about emerging technologies, particularly about artificial intelligence and the green transition. Over the past decade, he has worked to integrate computational methods into more qualitative traditions. In that capacity, he has co-founded the Public Data Lab, The Techno-Anthropology Lab, and MASSHINE (Aalborg University's hub for computational social science and humanities), the latter two of which he has also directed. He holds a D.Phil. in Geography from the University of Oxford and has been a senior visiting researcher at the SciencesPo médialab in Paris.""",
         projects: [
-            { name: 'Project Alpha', url: '#' },
-            { name: 'Digital Methods Initiative', url: '#' },
-            { name: 'Controversy Mapping', url: '#' }
+            { name: 'The Energy Island, Issue Atlas', url: '#' },
+            { name: 'Grounding AI', url: '#' },
+            { name: 'Experimenting with large ethnographic data', url: '#' }
         ],
         socials: {
             email: 'akmu@dtu.dk',
-            linkedin: 'https://www.linkedin.com/in/example',
-            twitter: 'https://twitter.com/example',
-            website: 'https://example.com'
+            linkedin: 'https://www.linkedin.com/in/akmunk/',
+            Bluesky: 'https://bsky.app/profile/akmunk.bsky.social',
+            website: 'https://orbit.dtu.dk/en/persons/anders-kristian-munk/'
         }
     },
     'anders-koed-madsen': {
