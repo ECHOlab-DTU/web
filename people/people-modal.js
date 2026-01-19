@@ -26,8 +26,8 @@ const peopleData = {
         image: '../Assets/anderskoed.jpg',
         bio: 'Anders Koed Madsen focuses on data, democracy, and digital urbanism, exploring the intersection of technology and social systems.',
         projects: [
-            { name: 'Digital Democracy Study', url: '#' },
-            { name: 'Urban Data Analysis', url: '#' }
+            { name: 'Urban Belonging', url: 'https://urbanbelonging.com/en' },
+            { name: '', url: '#' }
         ],
         socials: {
             email: '',
@@ -38,9 +38,9 @@ const peopleData = {
         name: 'Tanja Schneider',
         title: 'Committee',
         image: '../Assets/tanja.jpg',
-        bio: 'Tanja Schneider is a committee member at ECHO LAB, contributing to strategic decisions and research initiatives.',
+        bio: 'Tanja Schneider is a committee member at ECHO LAB',
         projects: [
-            { name: 'Research Initiative Beta', url: '#' }
+            { name: 'TEST: Research Initiative ', url: '#' }
         ],
         socials: {
             email: ''
