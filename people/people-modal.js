@@ -7,7 +7,7 @@ const peopleData = {
         name: 'Anders Kristian Munk',
         title: 'Director',
         image: '../Assets/andersmunk.jpg',
-        bio: """Anders Kristian Munk is Professor of Computational Anthropology in the Section Science and Technology Studies at DTU Management. His research focuses on controversies about emerging technologies, particularly about artificial intelligence and the green transition. Over the past decade, he has worked to integrate computational methods into more qualitative traditions. In that capacity, he has co-founded the Public Data Lab, The Techno-Anthropology Lab, and MASSHINE (Aalborg University's hub for computational social science and humanities), the latter two of which he has also directed. He holds a D.Phil. in Geography from the University of Oxford and has been a senior visiting researcher at the SciencesPo médialab in Paris.""",
+        bio: 'Anders Kristian Munk is Professor of Computational Anthropology in the Section Science and Technology Studies at DTU Management. His research focuses on controversies about emerging technologies, particularly about artificial intelligence and the green transition. Over the past decade, he has worked to integrate computational methods into more qualitative traditions. In that capacity, he has co-founded the Public Data Lab, The Techno-Anthropology Lab, and MASSHINE (Aalborg University\'s hub for computational social science and humanities), the latter two of which he has also directed. He holds a D.Phil. in Geography from the University of Oxford and has been a senior visiting researcher at the SciencesPo médialab in Paris.',
         projects: [
             { name: 'The Energy Island, Issue Atlas', url: '#' },
             { name: 'Grounding AI', url: '#' },
@@ -16,7 +16,7 @@ const peopleData = {
         socials: {
             email: 'akmu@dtu.dk',
             linkedin: 'https://www.linkedin.com/in/akmunk/',
-            Bluesky: 'https://bsky.app/profile/akmunk.bsky.social',
+            bluesky: 'https://bsky.app/profile/akmunk.bsky.social',
             website: 'https://orbit.dtu.dk/en/persons/anders-kristian-munk/'
         }
     },
@@ -239,6 +239,16 @@ function populateModal(personId) {
                         <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
                     </svg>
                     Twitter
+                </a>
+            `;
+        }
+        if (person.socials.bluesky) {
+            socialsContainer.innerHTML += `
+                <a href="${person.socials.bluesky}" target="_blank" class="social-link" title="Bluesky">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/>
+                    </svg>
+                    Bluesky
                 </a>
             `;
         }
