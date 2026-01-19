@@ -95,56 +95,6 @@ const peopleData = {
         socials: {
             email: ''
         }
-    },
-    'julia-kirch-kirkegaard': {
-        name: 'Julia Kirch Kirkegaard',
-        title: 'Affiliation',
-        image: '../Assets/julia.jpg',
-        bio: 'Julia Kirch Kirkegaard is affiliated with ECHO LAB.',
-        projects: [],
-        socials: {
-            email: ''
-        }
-    },
-    'daniel-nordstrand-frantzen': {
-        name: 'Daniel Nordstrand Frantzen',
-        title: 'Affiliation',
-        image: '../Assets/daniel.jpg',
-        bio: 'Daniel Nordstrand Frantzen is affiliated with ECHO LAB.',
-        projects: [],
-        socials: {
-            email: ''
-        }
-    },
-    'emil-nissen': {
-        name: 'Emil Nissen',
-        title: 'Affiliation',
-        image: '../Assets/emil.jpg',
-        bio: 'Emil Nissen is affiliated with ECHO LAB.',
-        projects: [],
-        socials: {
-            email: ''
-        }
-    },
-    'brit-ross-winthereik': {
-        name: 'Brit Ross Winthereik',
-        title: 'Affiliation',
-        image: '../Assets/brit.jpg',
-        bio: 'Brit Ross Winthereik is affiliated with ECHO LAB.',
-        projects: [],
-        socials: {
-            email: ''
-        }
-    },
-    'benjamin-lipp': {
-        name: 'Benjamin Lipp',
-        title: 'Affiliation',
-        image: '../Assets/benjamin.jpg',
-        bio: 'Benjamin Lipp is affiliated with ECHO LAB.',
-        projects: [],
-        socials: {
-            email: ''
-        }
     }
 };
 
