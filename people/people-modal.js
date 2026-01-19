@@ -318,9 +318,40 @@ function initPeopleModal() {
     });
 }
 
+// Sort collaborators alphabetically by last name
+function sortCollaborators() {
+    const collaboratorsList = document.querySelector('.collaborators-list');
+    if (!collaboratorsList) return;
+    
+    // Get all collaborator items
+    const collaborators = Array.from(collaboratorsList.querySelectorAll('.collaborator-item'));
+    
+    // Sort by last name
+    collaborators.sort((a, b) => {
+        const nameA = a.querySelector('.collaborator-name').textContent.trim();
+        const nameB = b.querySelector('.collaborator-name').textContent.trim();
+        
+        // Extract last name (last word in the name)
+        const lastNameA = nameA.split(' ').pop().toLowerCase();
+        const lastNameB = nameB.split(' ').pop().toLowerCase();
+        
+        return lastNameA.localeCompare(lastNameB);
+    });
+    
+    // Clear and re-append in sorted order
+    collaboratorsList.innerHTML = '';
+    collaborators.forEach(collaborator => {
+        collaboratorsList.appendChild(collaborator);
+    });
+}
+
 // Run when DOM is ready
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initPeopleModal);
+    document.addEventListener('DOMContentLoaded', () => {
+        initPeopleModal();
+        sortCollaborators();
+    });
 } else {
     initPeopleModal();
+    sortCollaborators();
 }
