@@ -1,0 +1,288 @@
+/* Modal Styles for ECHO LAB People Page */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 15, 79, 0.85);
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+}
+
+.modal-content {
+    position: relative;
+    background: white;
+    border-radius: 2px;
+    max-width: 900px;
+    width: 90%;
+    max-height: 85vh;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.modal.active .modal-content {
+    transform: translateY(0);
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: rgba(231, 76, 60, 0.1);
+    color: #e74c3c;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.modal-close:hover {
+    background: #e74c3c;
+    color: white;
+    transform: rotate(90deg);
+}
+
+.modal-body {
+    display: flex;
+    height: 100%;
+    max-height: 85vh;
+}
+
+.modal-left {
+    flex: 0 0 300px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-right: 3px solid #e74c3c;
+}
+
+.modal-person-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.modal-right {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.modal-person-name {
+    font-family: 'Neo Sans Std', 'Andale Mono', monospace;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #030F4F;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+}
+
+.modal-person-title {
+    font-family: 'Andale Mono', monospace;
+    font-size: 1rem;
+    color: #e74c3c;
+    margin: 0 0 30px 0;
+    font-weight: 600;
+}
+
+.modal-section {
+    margin-bottom: 30px;
+}
+
+.modal-section-title {
+    font-family: 'Neo Sans Std', 'Andale Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #030F4F;
+    margin: 0 0 15px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e74c3c;
+}
+
+.modal-bio {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #333;
+    margin: 0;
+}
+
+.modal-projects-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-projects-list li {
+    margin-bottom: 10px;
+}
+
+.modal-projects-list a {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.9rem;
+    color: #030F4F;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    padding: 8px 12px;
+    border-left: 3px solid #e74c3c;
+    background: #f8f9fa;
+}
+
+.modal-projects-list a:hover {
+    background: #e74c3c;
+    color: white;
+    padding-left: 20px;
+}
+
+.modal-socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: #f8f9fa;
+    color: #030F4F;
+    text-decoration: none;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 2px solid #e9ecef;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+}
+
+.social-link:hover {
+    background: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
+}
+
+.social-link svg {
+    flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        max-height: 90vh;
+    }
+    
+    .modal-body {
+        flex-direction: column;
+    }
+    
+    .modal-left {
+        flex: 0 0 auto;
+        padding: 30px 20px;
+        border-right: none;
+        border-bottom: 3px solid #e74c3c;
+    }
+    
+    .modal-person-image {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .modal-right {
+        padding: 30px 20px;
+    }
+    
+    .modal-person-name {
+        font-size: 1.4rem;
+    }
+    
+    .modal-person-title {
+        font-size: 0.9rem;
+    }
+    
+    .modal-close {
+        top: 15px;
+        right: 15px;
+        width: 32px;
+        height: 32px;
+        font-size: 24px;
+    }
+}
+
+/* Scrollbar styling for modal */
+.modal-right::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-right::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.modal-right::-webkit-scrollbar-thumb {
+    background: #e74c3c;
+    border-radius: 4px;
+}
+
+.modal-right::-webkit-scrollbar-thumb:hover {
+    background: #c0392b;
+}
+
+/* Animation for person cards */
+.person-card {
+    transition: all 0.3s ease;
+}
+
+.person-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    cursor: pointer;
+}
+
+.person-card:active {
+    transform: translateY(-3px) scale(1.01);
+}
