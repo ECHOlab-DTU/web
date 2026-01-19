@@ -14,7 +14,7 @@ const peopleData = {
             { name: 'Experimenting with large ethnographic data', url: '#' }
         ],
         socials: {
-            email: 'akmu@dtu.dk',
+            email: 'ankm@dtu.dk',
             linkedin: 'https://www.linkedin.com/in/akmunk/',
             bluesky: 'https://bsky.app/profile/akmunk.bsky.social',
             website: 'https://orbit.dtu.dk/en/persons/anders-kristian-munk/'
@@ -30,7 +30,7 @@ const peopleData = {
             { name: 'Urban Data Analysis', url: '#' }
         ],
         socials: {
-            email: 'akma@dtu.dk',
+            email: '',
             linkedin: 'https://www.linkedin.com/in/example'
         }
     },
@@ -43,7 +43,7 @@ const peopleData = {
             { name: 'Research Initiative Beta', url: '#' }
         ],
         socials: {
-            email: 'tsch@dtu.dk'
+            email: ''
         }
     },
     'johan-irving-soltoft': {
@@ -53,7 +53,7 @@ const peopleData = {
         bio: 'Johan Irving Søltoft is a committee member at ECHO LAB.',
         projects: [],
         socials: {
-            email: 'jiso@dtu.dk'
+            email: ''
         }
     },
     'lasse-uhrskov-kristensen': {
@@ -63,7 +63,7 @@ const peopleData = {
         bio: 'Lasse Uhrskov Kristensen serves on the ECHO LAB committee.',
         projects: [],
         socials: {
-            email: 'lauk@dtu.dk'
+            email: ''
         }
     },
     'csilla-duray': {
@@ -73,7 +73,7 @@ const peopleData = {
         bio: 'Csilla Duray is a committee member at ECHO LAB.',
         projects: [],
         socials: {
-            email: 'csdu@dtu.dk'
+            email: ''
         }
     },
     'frederik-bay-jorgensen': {
@@ -83,7 +83,7 @@ const peopleData = {
         bio: 'Frederik Bay-Jørgensen serves on the ECHO LAB committee.',
         projects: [],
         socials: {
-            email: 'frjo@dtu.dk'
+            email: ''
         }
     },
     'emma-veland': {
@@ -93,7 +93,7 @@ const peopleData = {
         bio: 'Emma Veland is a committee member at ECHO LAB.',
         projects: [],
         socials: {
-            email: 'emve@dtu.dk'
+            email: ''
         }
     },
     'julia-kirch-kirkegaard': {
@@ -103,7 +103,7 @@ const peopleData = {
         bio: 'Julia Kirch Kirkegaard is affiliated with ECHO LAB.',
         projects: [],
         socials: {
-            email: 'juki@dtu.dk'
+            email: ''
         }
     },
     'daniel-nordstrand-frantzen': {
@@ -113,7 +113,7 @@ const peopleData = {
         bio: 'Daniel Nordstrand Frantzen is affiliated with ECHO LAB.',
         projects: [],
         socials: {
-            email: 'danf@dtu.dk'
+            email: ''
         }
     },
     'emil-nissen': {
@@ -123,7 +123,7 @@ const peopleData = {
         bio: 'Emil Nissen is affiliated with ECHO LAB.',
         projects: [],
         socials: {
-            email: 'emni@dtu.dk'
+            email: ''
         }
     },
     'brit-ross-winthereik': {
@@ -133,7 +133,7 @@ const peopleData = {
         bio: 'Brit Ross Winthereik is affiliated with ECHO LAB.',
         projects: [],
         socials: {
-            email: 'brwi@dtu.dk'
+            email: ''
         }
     },
     'benjamin-lipp': {
@@ -143,7 +143,7 @@ const peopleData = {
         bio: 'Benjamin Lipp is affiliated with ECHO LAB.',
         projects: [],
         socials: {
-            email: 'benl@dtu.dk'
+            email: ''
         }
     }
 };
