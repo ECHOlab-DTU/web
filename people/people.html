@@ -56,8 +56,17 @@
             transition: transform 0.2s ease;
         }
 
-        .person-card:hover {
+        /* Only Committee members are clickable */
+        #committee-section .person-card {
+            cursor: pointer;
+        }
+
+        #committee-section .person-card:hover {
             transform: translateY(-5px);
+        }
+
+        #committee-section .person-card:active {
+            transform: translateY(-3px) scale(1.01);
         }
 
         .person-image {
@@ -139,7 +148,7 @@
     <div class="people-container">
         
         <!-- Committee Section -->
-        <section class="people-section">
+        <section class="people-section" id="committee-section">
             <h2 class="section-title">Committee</h2>
             <div class="people-grid">
                 
