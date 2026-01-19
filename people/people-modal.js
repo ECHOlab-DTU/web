@@ -7,7 +7,7 @@ const peopleData = {
         name: 'Anders Kristian Munk',
         title: 'Director',
         image: '../Assets/andersmunk.jpg',
-        bio: """Anders Kristian Munk is Professor of Computational Anthropology in the Section for Human-Centered Innovation at DTU Management. His research focuses on controversies about emerging technologies, particularly about artificial intelligence and the green transition. Over the past decade, he has worked to integrate computational methods into more qualitative traditions. In that capacity, he has co-founded the Public Data Lab, The Techno-Anthropology Lab, and MASSHINE (Aalborg University's hub for computational social science and humanities), the latter two of which he has also directed. He holds a D.Phil. in Geography from the University of Oxford and has been a senior visiting researcher at the SciencesPo médialab in Paris.""",
+        bio: """Anders Kristian Munk is Professor of Computational Anthropology in the Section Science and Technology Studies at DTU Management. His research focuses on controversies about emerging technologies, particularly about artificial intelligence and the green transition. Over the past decade, he has worked to integrate computational methods into more qualitative traditions. In that capacity, he has co-founded the Public Data Lab, The Techno-Anthropology Lab, and MASSHINE (Aalborg University's hub for computational social science and humanities), the latter two of which he has also directed. He holds a D.Phil. in Geography from the University of Oxford and has been a senior visiting researcher at the SciencesPo médialab in Paris.""",
         projects: [
             { name: 'The Energy Island, Issue Atlas', url: '#' },
             { name: 'Grounding AI', url: '#' },
