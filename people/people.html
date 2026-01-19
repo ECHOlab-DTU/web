@@ -84,6 +84,45 @@
             color: #666;
             margin: 5px 0 0 0;
         }
+
+        /* Collaborators Section Styles */
+        .collaborators-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .collaborator-item {
+            padding: 20px 24px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-left: 4px solid #e74c3c;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .collaborator-item:hover {
+            transform: translateX(8px);
+            box-shadow: 0 4px 12px rgba(231, 76, 60, 0.15);
+            border-left-width: 6px;
+        }
+
+        .collaborator-name {
+            font-family: 'Andale Mono', monospace;
+            font-size: 0.95rem;
+            font-weight: bold;
+            color: #030F4F;
+            margin: 0 0 6px 0;
+            line-height: 1.3;
+        }
+
+        .collaborator-affiliation {
+            font-family: 'Andale Mono', monospace;
+            font-size: 0.8rem;
+            color: #666;
+            margin: 0;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -202,6 +241,22 @@
                     <h3 class="person-name">Benjamin Lipp</h3>
                     <p class="person-title">Affiliation</p>
                 </div>
+                
+            </div>
+        </section>
+
+        <!-- Collaborators Section -->
+        <section class="people-section">
+            <h2 class="section-title">Collaborators</h2>
+            <div class="collaborators-list">
+                
+                <!-- Collaborator 1 -->
+                <div class="collaborator-item">
+                    <h3 class="collaborator-name">Mathieu Jacomy</h3>
+                    <p class="collaborator-affiliation">TANTlab, AAU</p>
+                </div>
+
+                <!-- Add more collaborators here - they will automatically sort by last name -->
                 
             </div>
         </section>
