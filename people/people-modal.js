@@ -14,7 +14,7 @@ const peopleData = {
             { name: 'Experimenting with large ethnographic data', url: '#' }
         ],
         socials: {
-            email: 'ankm@dtu.dk',
+            email: 'akmu@dtu.dk',
             linkedin: 'https://www.linkedin.com/in/akmunk/',
             bluesky: 'https://bsky.app/profile/akmunk.bsky.social',
             website: 'https://orbit.dtu.dk/en/persons/anders-kristian-munk/'
@@ -26,12 +26,12 @@ const peopleData = {
         image: '../Assets/anderskoed.jpg',
         bio: 'Anders Koed Madsen focuses on data, democracy, and digital urbanism, exploring the intersection of technology and social systems.',
         projects: [
-            { name: 'Urban Belonging', url: 'https://urbanbelonging.com/en' },
-            { name: '', url: '#' }
+            { name: 'Digital Democracy Study', url: '#' },
+            { name: 'Urban Data Analysis', url: '#' }
         ],
         socials: {
-            email: '',
-            linkedin: ''
+            email: 'akma@dtu.dk',
+            linkedin: 'https://www.linkedin.com/in/example'
         }
     },
     'tanja-schneider': {
@@ -40,10 +40,10 @@ const peopleData = {
         image: '../Assets/tanja.jpg',
         bio: 'Tanja Schneider is a committee member at ECHO LAB, contributing to strategic decisions and research initiatives.',
         projects: [
-            { name: '', url: '#' }
+            { name: 'Research Initiative Beta', url: '#' }
         ],
         socials: {
-            email: ''
+            email: 'tsch@dtu.dk'
         }
     },
     'johan-irving-soltoft': {
@@ -53,8 +53,7 @@ const peopleData = {
         bio: 'Johan Irving Søltoft is a committee member at ECHO LAB.',
         projects: [],
         socials: {
-            email: '',
-            website: 'https://johansoltoft.github.io/'
+            email: 'jiso@dtu.dk'
         }
     },
     'lasse-uhrskov-kristensen': {
@@ -64,7 +63,7 @@ const peopleData = {
         bio: 'Lasse Uhrskov Kristensen serves on the ECHO LAB committee.',
         projects: [],
         socials: {
-            email: ''
+            email: 'lauk@dtu.dk'
         }
     },
     'csilla-duray': {
@@ -74,7 +73,7 @@ const peopleData = {
         bio: 'Csilla Duray is a committee member at ECHO LAB.',
         projects: [],
         socials: {
-            email: ''
+            email: 'csdu@dtu.dk'
         }
     },
     'frederik-bay-jorgensen': {
@@ -84,7 +83,7 @@ const peopleData = {
         bio: 'Frederik Bay-Jørgensen serves on the ECHO LAB committee.',
         projects: [],
         socials: {
-            email: ''
+            email: 'frjo@dtu.dk'
         }
     },
     'emma-veland': {
@@ -94,7 +93,81 @@ const peopleData = {
         bio: 'Emma Veland is a committee member at ECHO LAB.',
         projects: [],
         socials: {
-            email: ''
+            email: 'emve@dtu.dk'
+        }
+    },
+    'julia-kirch-kirkegaard': {
+        name: 'Julia Kirch Kirkegaard',
+        title: 'Affiliation',
+        image: '../Assets/julia.jpg',
+        bio: 'Julia Kirch Kirkegaard is affiliated with ECHO LAB.',
+        projects: [],
+        socials: {
+            email: 'juki@dtu.dk'
+        }
+    },
+    'daniel-nordstrand-frantzen': {
+        name: 'Daniel Nordstrand Frantzen',
+        title: 'Committee',
+        image: '../Assets/daniel.jpg',
+        bio: 'Daniel Nordstrand Frantzen is a committee member at ECHO LAB.',
+        projects: [],
+        socials: {
+            email: '',
+            website: 'https://orbit.dtu.dk/en/persons/daniel-nordstrand-frantzen'
+        }
+    },
+    'emil-nissen': {
+        name: 'Emil Nissen',
+        title: 'Affiliation',
+        image: '../Assets/emil.jpg',
+        bio: 'Emil Nissen is affiliated with ECHO LAB.',
+        projects: [],
+        socials: {
+            email: 'emni@dtu.dk'
+        }
+    },
+    'brit-ross-winthereik': {
+        name: 'Brit Ross Winthereik',
+        title: 'Affiliation',
+        image: '../Assets/brit.jpg',
+        bio: 'Brit Ross Winthereik is affiliated with ECHO LAB.',
+        projects: [],
+        socials: {
+            email: 'brwi@dtu.dk'
+        }
+    },
+    'benjamin-lipp': {
+        name: 'Benjamin Lipp',
+        title: 'Committee',
+        image: '../Assets/benjamin.jpg',
+        bio: 'Benjamin Lipp is a committee member at ECHO LAB.',
+        projects: [],
+        socials: {
+            email: '',
+            website: 'https://orbit.dtu.dk/en/persons/benjamin-lipp'
+        }
+    },
+    'amanda-obitz-mogensen': {
+        name: 'Amanda Obitz Mogensen',
+        title: 'Committee',
+        image: '../Assets/amanda-sort.png',
+        bio: 'Amanda Obitz Mogensen is a committee member at ECHO LAB.',
+        projects: [],
+        socials: {
+            email: '',
+            website: 'https://orbit.dtu.dk/en/persons/amanda-obitz-mogensen'
+        }
+    },
+    'william-vergo': {
+        name: 'William Vergo',
+        title: 'Committee',
+        image: '../Assets/william-sort.png',
+        bio: 'William Vergo is a committee member at ECHO LAB.',
+        projects: [],
+        socials: {
+            email: '',
+            website: 'https://orbit.dtu.dk/en/persons/william-vergo'
         }
     }
 };
