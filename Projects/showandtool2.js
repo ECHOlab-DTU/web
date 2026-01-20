@@ -12,13 +12,13 @@ const noteData = {
   researchTopics: [
     "Large language models",
     "Interview data",
-    "qualitative data",
+    "Qualitative data", // Changed lowercase 'q' to uppercase 'Q' for consistency
   ],
-  objectives: "We aim to develop a tool that can be used across industry and academia to help navigate and analyze large qualitative corpora.",
-//  methodology: "",
-//  lessons: [
-//    ""
-//  ],
+  objectives: "To develop and validate a best-practice approach for extracting statements made by and about specific actors from unstructured textual data using large language models.",
+  methodology: "We employ a modular, open-source pipeline combining sentence-based chunking, semantic embedding for statement pairing, and LLM-based summarization. The approach prioritizes transparency and traceability through locally reproducible lightweight models, allowing systematic comparison of extraction techniques against accuracy and reliability metrics.",
+  lessons: [
+    "We aim to develop a tool that can be used across industry and academia to help navigate and analyze large qualitative corpora."
+  ],
   collaborators: [
     "Guest: Andreas Rattenborg Holm-Hansen, Associate analyst at INVI & BSc in Design & Innovation from DTU.",
     "Guest: Sofie Burgos-Thorsen, R&D director at INVI."
@@ -29,11 +29,10 @@ const noteData = {
 //projectLinkText: "Website", // Button text 1
 //publicationLink: "", // Source link 2
 //publicationLinkText: "", // Button text 2
-
 // OPTIONAL: Change section titles (right column)
   sectionTitles: {
     researchTopics: "Research Areas",
     lessons: "Scope",
-    collaborators: "collaborators"
+    collaborators: "Collaborators" // Capitalized for consistency
   }
 };
