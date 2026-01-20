@@ -20,7 +20,7 @@ title: "Text Extraction With LLMs. Show&Tool #2",
 //  ,
  // lessons: [
  //   "Conducting workshops with different research groups on how this tool could be used in their research"
- // ],
+  ],
   ],
   collaborators: [
     "Guest: Andreas Rattenborg Holm-Hansen, Associate analyst at INVI & BSc in Design & Innovation from DTU.",
