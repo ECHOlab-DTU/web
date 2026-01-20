@@ -15,9 +15,9 @@ const noteData = {
     "Qualitative data", // Changed lowercase 'q' to uppercase 'Q' for consistency
   ],
   objectives: "To develop and validate a best-practice approach for extracting statements made by and about specific actors from unstructured textual data using large language models.",
-  methodology: "We employ a modular, open-source pipeline combining sentence-based chunking, semantic embedding for statement pairing, and LLM-based summarization. The approach prioritizes transparency and traceability through locally reproducible lightweight models, allowing systematic comparison of extraction techniques against accuracy and reliability metrics.",
+  methodology: "Open-source pipeline combining sentence-based chunking, semantic embedding for statement pairing, and LLM-based summarization.",
   lessons: [
-    "We aim to develop a tool that can be used across industry and academia to help navigate and analyze large qualitative corpora."
+    "The aim is to develop a tool that can be used across industry and academia to help navigate and analyze large qualitative corpora."
   ],
   collaborators: [
     "Guest: Andreas Rattenborg Holm-Hansen, Associate analyst at INVI & BSc in Design & Innovation from DTU.",
@@ -33,6 +33,6 @@ const noteData = {
   sectionTitles: {
     researchTopics: "Research Areas",
     lessons: "Scope",
-    collaborators: "Collaborators" // Capitalized for consistency
+    collaborators: "Presenters" 
   }
 };
