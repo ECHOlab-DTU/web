@@ -37,7 +37,7 @@ title: "Text Extraction With LLMs. Show&Tool #2",
  sectionTitles: {
 researchTopics: "Research Areas",
 lessons: "Scope",
-collaborators: "Facilitators"
+collaborators: "Collaborators"
   }
 };
 
