@@ -148,6 +148,44 @@
             margin: 0;
             line-height: 1.4;
         }
+
+        /* Collaborator Filter Buttons */
+        .collaborator-filters {
+            display: flex;
+            gap: 12px;
+            margin: 20px 0 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            font-family: 'Andale Mono', monospace;
+            font-size: 0.85rem;
+            padding: 10px 20px;
+            background: #f8f9fa;
+            color: #666;
+            border: 2px solid #e9ecef;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover {
+            background: #e9ecef;
+            color: #030F4F;
+            border-color: #030F4F;
+        }
+
+        .filter-btn.active {
+            background: #e74c3c;
+            color: white;
+            border-color: #e74c3c;
+        }
+
+        .filter-btn.active:hover {
+            background: #c0392b;
+            border-color: #c0392b;
+        }
     </style>
 </head>
 <body>
@@ -179,7 +217,7 @@
                 <div class="person-card">
                     <img src="../Assets/anderskoed.jpg" alt="Anders Koed Madsen" class="person-image">
                     <h3 class="person-name">Anders Koed Madsen</h3>
-                    <p class="person-title">Data, democracy, digital urbanism </p>
+                    <p class="person-title">Data, democracy, digital urbanism <3 </p>
                 </div>
 
                 <!-- Person 3 -->
@@ -371,154 +409,142 @@
         <!-- Collaborators Section -->
         <section class="people-section">
             <h2 class="section-title">Collaborators</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="collaborator-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="research">Research Collaborators</button>
+                <button class="filter-btn" data-filter="industry">Public & Industry Collaborators</button>
+            </div>
+            
             <div class="collaborators-list">
-
-                <div class="collaborator-item">
-                    <h3 class="collaborator-name">Ask Greve Johansen</h3>
-                    <p class="collaborator-affiliation">IT University of Copenhagen</p>
-                </div>
-
-                <div class="collaborator-item">
-                    <h3 class="collaborator-name">Sofie Burgos-Thorsen</h3>
-                    <p class="collaborator-affiliation">INVI- Institute for Wicked Problems</p>
-                </div>
                 
-                <div class="collaborator-item">
-                    <h3 class="collaborator-name">Peter Bjerregaard</h3>
-                    <p class="collaborator-affiliation">Danish Museum of Science & Technology</p>
-                </div>
-
-                <div class="collaborator-item">
-                    <h3 class="collaborator-name">Mads Kring</h3>
-                    <p class="collaborator-affiliation">Danish Museum of Science & Technology</p>
-                </div>
-                
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Tommaso Venturini</h3>
                     <p class="collaborator-affiliation">Medialab of the University of Geneva</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Andreas Birkbak</h3>
                     <p class="collaborator-affiliation">Digital Media Lab, Roskilde University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Anders Blok</h3>
                     <p class="collaborator-affiliation">Copenhagen University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Alberte Bau Larsen</h3>
                     <p class="collaborator-affiliation">Aalborg University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Theresa Scavenius</h3>
                     <p class="collaborator-affiliation">Aalborg University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Kari De Pryck</h3>
                     <p class="collaborator-affiliation">University of Geneva</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Simon Ulrich</h3>
                     <p class="collaborator-affiliation">Copenhagen University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Adam Veng</h3>
                     <p class="collaborator-affiliation">Copenhagen University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Irina Papazu</h3>
                     <p class="collaborator-affiliation">IT University of Copenhagen</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Tom Cronin</h3>
                     <p class="collaborator-affiliation">DTU Wind</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Frederik Schade</h3>
                     <p class="collaborator-affiliation">Copenhagen University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Nanna Bonde Thylstrup</h3>
                     <p class="collaborator-affiliation">Copenhagen University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Matilde Ficozzi</h3>
                     <p class="collaborator-affiliation">University of Groningen</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Dario Rodigherio</h3>
                     <p class="collaborator-affiliation">University of Groningen</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Alexei Tsinovoi</h3>
                     <p class="collaborator-affiliation">Aarhus University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Katie McKinnon</h3>
                     <p class="collaborator-affiliation">University of Copenhagen</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Niels Bruegger</h3>
                     <p class="collaborator-affiliation">Aarhus University</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="industry">
                     <h3 class="collaborator-name">Stein Erik Skotsterra</h3>
                     <p class="collaborator-affiliation">UseIT</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="industry">
                     <h3 class="collaborator-name">Anne Thyme</h3>
                     <p class="collaborator-affiliation">UseIT</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="industry">
                     <h3 class="collaborator-name">Niels Alberg</h3>
                     <p class="collaborator-affiliation">Will&Agency</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="industry">
                     <h3 class="collaborator-name">Lars Tversted</h3>
                     <p class="collaborator-affiliation">Will&Agency</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="industry">
                     <h3 class="collaborator-name">Thøger Riis Michelsen</h3>
                     <p class="collaborator-affiliation">AGORA</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Tobias Bornakke</h3>
                     <p class="collaborator-affiliation">Grundtvigs Højskole</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="industry">
                     <h3 class="collaborator-name">Tanja Nyrup</h3>
                     <p class="collaborator-affiliation">Journalist</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="industry">
                     <h3 class="collaborator-name">Peter Bech-Nielsen</h3>
                     <p class="collaborator-affiliation">Radar</p>
                 </div>
 
-                <div class="collaborator-item">
+                <div class="collaborator-item" data-category="research">
                     <h3 class="collaborator-name">Mathieu Jacomy</h3>
                     <p class="collaborator-affiliation">TANTlab, AAU</p>
                 </div>
