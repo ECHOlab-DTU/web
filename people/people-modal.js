@@ -375,13 +375,46 @@ function sortCollaborators() {
     });
 }
 
+// Filter collaborators by category
+function initCollaboratorFilters() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const collaborators = document.querySelectorAll('.collaborator-item');
+    
+    if (!filterButtons.length || !collaborators.length) return;
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            const filter = button.getAttribute('data-filter');
+            
+            // Filter collaborators
+            collaborators.forEach(collaborator => {
+                const category = collaborator.getAttribute('data-category');
+                
+                if (filter === 'all') {
+                    collaborator.style.display = 'block';
+                } else if (category === filter) {
+                    collaborator.style.display = 'block';
+                } else {
+                    collaborator.style.display = 'none';
+                }
+            });
+        });
+    });
+}
+
 // Run when DOM is ready
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         initPeopleModal();
         sortCollaborators();
+        initCollaboratorFilters();
     });
 } else {
     initPeopleModal();
     sortCollaborators();
+    initCollaboratorFilters();
 }
