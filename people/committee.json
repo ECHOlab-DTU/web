@@ -1,0 +1,165 @@
+[
+  {
+    "id": "anders-kristian-munk",
+    "name": "Anders Kristian Munk",
+    "title": "Director",
+    "image": "../Assets/andersmunk.jpg",
+    "bio": "Anders Kristian Munk is Professor of Computational Anthropology in the Section Science and Technology Studies at DTU Management. His research focuses on controversies about emerging technologies, particularly about artificial intelligence and the green transition. Over the past decade, he has worked to integrate computational methods into more qualitative traditions. In that capacity, he has co-founded the Public Data Lab, The Techno-Anthropology Lab, and MASSHINE (Aalborg University's hub for computational social science and humanities), the latter two of which he has also directed. He holds a D.Phil. in Geography from the University of Oxford and has been a senior visiting researcher at the SciencesPo médialab in Paris.",
+    "projects": [
+      {
+        "name": "The Energy Island, Issue Atlas",
+        "url": "#"
+      },
+      {
+        "name": "Grounding AI",
+        "url": "#"
+      },
+      {
+        "name": "Experimenting with large ethnographic data",
+        "url": "#"
+      }
+    ],
+    "socials": {
+      "email": "akmu@dtu.dk",
+      "linkedin": "https://www.linkedin.com/in/akmunk/",
+      "bluesky": "https://bsky.app/profile/akmunk.bsky.social",
+      "website": "https://orbit.dtu.dk/en/persons/anders-kristian-munk/"
+    }
+  },
+  {
+    "id": "anders-koed-madsen",
+    "name": "Anders Koed Madsen",
+    "title": "Data, democracy, digital urbanism <3",
+    "image": "../Assets/anderskoed.jpg",
+    "bio": "Anders Koed Madsen focuses on data, democracy, and digital urbanism, exploring the intersection of technology and social systems.",
+    "projects": [
+      {
+        "name": "Urban Belonging",
+        "url": "https://urbanbelonging.com/en"
+      }
+    ],
+    "socials": {
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/example"
+    }
+  },
+  {
+    "id": "tanja-schneider",
+    "name": "Tanja Schneider",
+    "title": "Committee",
+    "image": "../Assets/tanja.jpg",
+    "bio": "Tanja Schneider is a committee member at ECHO LAB, contributing to strategic decisions and research initiatives.",
+    "projects": [
+      {
+        "name": "TEST: Research Initiative",
+        "url": "#"
+      }
+    ],
+    "socials": {
+      "email": ""
+    }
+  },
+  {
+    "id": "johan-irving-soltoft",
+    "name": "Johan Irving Søltoft",
+    "title": "Committee",
+    "image": "../Assets/johan1.jpg",
+    "bio": "Johan Irving Søltoft is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": ""
+    }
+  },
+  {
+    "id": "lasse-uhrskov-kristensen",
+    "name": "Lasse Uhrskov Kristensen",
+    "title": "Committee",
+    "image": "../Assets/lasse.jpg",
+    "bio": "Lasse Uhrskov Kristensen serves on the ECHO LAB committee.",
+    "projects": [],
+    "socials": {
+      "email": ""
+    }
+  },
+  {
+    "id": "csilla-duray",
+    "name": "Csilla Duray",
+    "title": "Committee",
+    "image": "../Assets/csilla.jpg",
+    "bio": "Csilla Duray is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": ""
+    }
+  },
+  {
+    "id": "frederik-bay-jorgensen",
+    "name": "Frederik Bay-Jørgensen",
+    "title": "Committee",
+    "image": "../Assets/frederik.jpg",
+    "bio": "Frederik Bay-Jørgensen serves on the ECHO LAB committee.",
+    "projects": [],
+    "socials": {
+      "email": ""
+    }
+  },
+  {
+    "id": "emma-veland",
+    "name": "Emma Veland",
+    "title": "Committee",
+    "image": "../Assets/emma.jpg",
+    "bio": "Emma Veland is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": ""
+    }
+  },
+  {
+    "id": "daniel-nordstrand-frantzen",
+    "name": "Daniel Nordstrand Frantzen",
+    "title": "Committee",
+    "image": "../Assets/daniel.jpg",
+    "bio": "Daniel Nordstrand Frantzen is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": "",
+      "website": "https://orbit.dtu.dk/en/persons/daniel-nordstrand-frantzen"
+    }
+  },
+  {
+    "id": "benjamin-lipp",
+    "name": "Benjamin Lipp",
+    "title": "Committee",
+    "image": "../Assets/benjamin.jpg",
+    "bio": "Benjamin Lipp is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": "",
+      "website": "https://orbit.dtu.dk/en/persons/benjamin-lipp"
+    }
+  },
+  {
+    "id": "amanda-obitz-mogensen",
+    "name": "Amanda Obitz Mogensen",
+    "title": "Committee",
+    "image": "../Assets/amanda-sort.png",
+    "bio": "Amanda Obitz Mogensen is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": "",
+      "website": "https://orbit.dtu.dk/en/persons/amanda-obitz-mogensen"
+    }
+  },
+  {
+    "id": "william-vergo",
+    "name": "William Vergo",
+    "title": "Committee",
+    "image": "../Assets/william-sort.png",
+    "bio": "William Vergo is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": "",
+      "website": "https://orbit.dtu.dk/en/persons/william-vergo"
+    }
+  }
+]

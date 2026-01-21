@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Julia Kirch Kirkegaard",
+    "image": "../Assets/julia.jpg",
+    "link": "https://orbit.dtu.dk/en/persons/julia-kirch-kirkegaard"
+  },
+  {
+    "name": "Emil Nissen",
+    "image": "../Assets/emil.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Brit Ross Winthereik",
+    "image": "../Assets/brit.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Ina Bækgaard",
+    "image": "../Assets/ina-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/ina-b%C3%A6kgaard"
+  },
+  {
+    "name": "Lærke Højgaard Christiansen",
+    "image": "../Assets/laerke-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/l%C3%A6rke-h%C3%B8jgaard-christiansen"
+  },
+  {
+    "name": "Emilie Mørch Groth",
+    "image": "../Assets/emilie-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/emilie-m%C3%B8rch-groth"
+  },
+  {
+    "name": "Frida Hammel",
+    "image": "../Assets/frida-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/frida-hammel"
+  },
+  {
+    "name": "John Paulin Hansen",
+    "image": "../Assets/john-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/john-paulin-hansen"
+  },
+  {
+    "name": "Julius Kob",
+    "image": "../Assets/julius-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/julius-kob"
+  },
+  {
+    "name": "Jakob Laage-Thomsen",
+    "image": "../Assets/jakob-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/jakob-laage-thomsen"
+  },
+  {
+    "name": "Amelie Lange",
+    "image": "../Assets/amelie-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/amelie-lange"
+  },
+  {
+    "name": "Anders Puck Nielsen",
+    "image": "../Assets/anders-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/anders-puck-nielsen"
+  },
+  {
+    "name": "Helene Friis Ratner",
+    "image": "../Assets/helene-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/helene-friis-ratner"
+  },
+  {
+    "name": "Rebekka Nordal Thomsen",
+    "image": "../Assets/rebekka-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/rebekka-nordal-thomsen"
+  },
+  {
+    "name": "Liisa Välikangas",
+    "image": "../Assets/liisa-sort.png",
+    "link": "https://orbit.dtu.dk/en/persons/liisa-v%C3%A4likangas"
+  }
+]
