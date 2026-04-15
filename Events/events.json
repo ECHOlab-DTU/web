@@ -1,10 +1,28 @@
 {
   "events": [
+     {
+      "id": 1,
+      "date": "01.02",
+      "title": "Spring Program 2026",
+      "image": "Assets/springprogram.pdf"
+    },
     {
       "id": 2,
-      "date": "08.04",
-      "title": "Co-Researching with Generative AI - Workshop with Professor Joe Dumit",
-      "image": "Assets/WorkshopJoeDumit.png"
+      "date": "29.04",
+      "title": "Show & Tool - LLM Bench: Digital Methods Research on AIs and Their Outputs - David Berry (University of Sussex)",
+      "image": "Assets/Berry.png"
+    },
+   {
+      "id": 3,
+      "date": "28.05",
+      "title": "Show & Tool - Danish Dynaword: Open Source Development for LLMs and Their Data - Kenneth Christian Enevoldsen (Aarhus University)",
+      "image": "Assets/Enevoldsen.png"
+    },  
+     {
+      "id": 4,
+      "date": "16.06",
+      "title": "Show & Tool - Carbontracker: Tracking the Carbon Footprint of Deep Learning Models - Raghavendra Selvan (University of Copenhagen)",
+      "image": "#"
     }
   ]
 }
