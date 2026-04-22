@@ -46,17 +46,14 @@
   {
     "id": "tanja-schneider",
     "name": "Tanja Schneider",
-    "title": "Committee",
+    "title": "Science and Technology Studies, market studies, digital food studies",
     "image": "../Assets/tanja.jpg",
-    "bio": "Tanja Schneider is a committee member at ECHO LAB, contributing to strategic decisions and research initiatives.",
-    "projects": [
-      {
-        "name": "TEST: Research Initiative",
-        "url": "#"
-      }
-    ],
+    "bio": "Tanja’s research examines how digital technologies shape, and are shaped by, everyday life, with a focus on food and ethical consumption. As a James Martin Fellow at the University of Oxford, she researched how civil society organizations and consumers use digital platforms to challenge food industry practices, contributing to key works such as Digital Food Activism (2018) and helping establish Digital Food Studies. She later led the FoodCoach project and co-founded the Digital Foodscapes Network, advancing interdisciplinary research on digital food technologies. Her work highlights both their transformative potential and their tendency to reinforce existing practices.",
+    "projects": [],
     "socials": {
-      "email": ""
+      "email": "",
+      "linkedin": "https://www.linkedin.com/in/tanja-schneider-1817b220",
+      "website": "https://orbit.dtu.dk/en/persons/tanja-schneider/"
     }
   },
   {
@@ -134,13 +131,14 @@
   {
     "id": "benjamin-lipp",
     "name": "Benjamin Lipp",
-    "title": "Committee",
+    "title": "Digital health, AI & Robotics, cocreation",
     "image": "../Assets/benjamin.jpg",
-    "bio": "Benjamin Lipp is a committee member at ECHO LAB.",
+    "bio": "Benjamin Lipp is studying the social impact of digital technology and infrastructure on healthcare practices. He is interested in utilising participatory sensing approaches for studying digital care infrastructures. He is also steering efforts to utilise games and game design for research and cocreation purposes.",
     "projects": [],
     "socials": {
       "email": "",
-      "website": "https://orbit.dtu.dk/en/persons/benjamin-lipp"
+      "linkedin": "https://dk.linkedin.com/in/benjamin-lipp-744657239",
+      "website": "www.benjaminlipp.com"
     }
   },
   {
