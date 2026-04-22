@@ -73,12 +73,15 @@
   {
     "id": "lasse-uhrskov-kristensen",
     "name": "Lasse Uhrskov Kristensen",
-    "title": "Committee",
+    "title": "Digital Sovereignty, Open Source Infrastructures, Transnational Code Sharing",
     "image": "../Assets/lasse.jpg",
-    "bio": "Lasse Uhrskov Kristensen serves on the ECHO LAB committee.",
+    "bio": "Lasse Uhrskov Kristensen studies transnational code sharing between public sector organisations on GitHub, examining how code travels and transforms as it is adopted and forked across institutional contexts. Drawing on STS and digital methods, his work engages with debates on digital sovereignty, where open-source software is mobilised to reduce national dependencies — while simultaneously producing new ones. At ECHO, he also contributes to building and maintaining the observatory's research infrastructures and data pipelines.",
     "projects": [],
     "socials": {
-      "email": ""
+      "email": "luhkr@dtu.dk",
+      "linkedin": "https://www.linkedin.com/in/lasseukristensen/",
+      "github": "https://github.com/watchforest",
+      "website": "https://orbit.dtu.dk/en/persons/lasse-uhrskov-kristensen/"
     }
   },
   {
