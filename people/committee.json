@@ -163,5 +163,17 @@
       "email": "",
       "website": "https://orbit.dtu.dk/en/persons/william-vergo"
     }
+  },
+   {
+    "id": "david-anthony-charles-broomham",
+    "name": "David Anthony Charles Broomham",
+    "title": "Committee",
+    "image": "../Assets/david.png",
+    "bio": "David Anthony Charles Broomham is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": "",
+      "website": "https://orbit.dtu.dk/en/persons/david-anthony-charles-broomham"
+    }
   }
 ]
