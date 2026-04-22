@@ -175,5 +175,17 @@
       "email": "",
       "website": "https://orbit.dtu.dk/en/persons/david-anthony-charles-broomham"
     }
+  },
+     {
+    "id": "andreas-rattenborg-holm-hansen",
+    "name": "Andreas Rattenborg Holm-Hansen",
+    "title": "Committee",
+    "image": "../Assets/Andreas.png",
+    "bio": "Andreas Rattenborg Holm-Hansen is a committee member at ECHO LAB.",
+    "projects": [],
+    "socials": {
+      "email": "",
+      "website": "https://orbit.dtu.dk/en/persons/andreas-rattenborg-holm-hansen"
+    }
   }
 ]
