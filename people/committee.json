@@ -95,11 +95,12 @@
   {
     "id": "frederik-bay-jorgensen",
     "name": "Frederik Bay-Jørgensen",
-    "title": "Committee",
+    "title": "Computational Anthropology, Explainable AI, AI Alignment",
     "image": "../Assets/frederik.jpg",
-    "bio": "Frederik Bay-Jørgensen serves on the ECHO LAB committee.",
+    "bio": "In Echo, Frederik Bay-Jørgensen contributes to the development of methods for perspectival modelling using generative AI. He stays up to date with recent advances in small- to mid-sized open-source models and integrates them into observatorial pipelines for attending to technological questions in society. He also helps maintain the observatory’s computing setup, which enables the safe local use of AI in our work.",
     "projects": [],
     "socials": {
+      "linkedin": "https://www.linkedin.com/in/frederik-bay-j%C3%B8rgensen-9968b2209",
       "email": ""
     }
   },
