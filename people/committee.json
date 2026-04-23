@@ -59,12 +59,27 @@
   {
     "id": "johan-irving-soltoft",
     "name": "Johan Irving Søltoft",
-    "title": "Democracy, data interventions, synthetic ethnography",
+    "title": "Data science as ethnographic interventions, perspectival modelling, synthetic ethnography",
     "image": "../Assets/johan1.jpg",
     "bio": "Johan Irving Søltoft is a committee member at ECHO LAB.",
-    "projects": [],
+    "projects": [
+      {
+        "name": "Kortlægning af folketingsvalget 2026",
+        "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
+      },
+      {
+        "name": "Grounding AI",
+        "url": "https://grounding-ai.github.io/web-application/"
+      },
+      {
+        "name": "Text-Unit-Tool - TUT",
+        "url": "https://tut.man.dtu.dk/"
+      }
+    ],
     "socials": {
-      "email": ""
+      "email": "johaso@dtu.dk",
+      "linkedin": "https://www.linkedin.com/in/johanirving/",
+      "website": "https://johansoltoft.github.io/"
     }
   },
   {
