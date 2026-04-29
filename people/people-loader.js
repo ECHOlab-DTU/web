@@ -105,6 +105,10 @@ function createModal() {
                             <h3 class="modal-section-title">About</h3>
                             <p id="modalBio" class="modal-bio"></p>
                         </div>
+                        <div class="modal-section">
+                            <h3 class="modal-section-title">Working Groups</h3>
+                            <p id="modalWorkingGroups" class="modal-bio"></p>
+                        </div>
                         <div id="modalProjects" class="modal-section">
                             <h3 class="modal-section-title">Projects</h3>
                             <ul id="modalProjectsList" class="modal-projects-list"></ul>
@@ -130,6 +134,8 @@ function populateModal(person) {
     document.getElementById('modalName').textContent = person.name;
     document.getElementById('modalTitle').textContent = person.title;
     document.getElementById('modalBio').textContent = person.bio;
+    document.getElementById('modalWorkingGroups').textContent = person.workingGroups;
+
 
     // Populate projects
     const projectsList = document.getElementById('modalProjectsList');
