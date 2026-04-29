@@ -105,10 +105,6 @@ function createModal() {
                             <h3 class="modal-section-title">About</h3>
                             <p id="modalBio" class="modal-bio"></p>
                         </div>
-                        <div class="modal-section" id="modalWorkingGroupsSection">
-                            <h3 class="modal-section-title">Working Groups</h3>
-                            <p id="modalWorkingGroups" class="modal-bio"></p>
-                        </div>
                         <div id="modalProjects" class="modal-section">
                             <h3 class="modal-section-title">Projects</h3>
                             <ul id="modalProjectsList" class="modal-projects-list"></ul>
@@ -134,21 +130,6 @@ function populateModal(person) {
     document.getElementById('modalName').textContent = person.name;
     document.getElementById('modalTitle').textContent = person.title;
     document.getElementById('modalBio').textContent = person.bio;
-
-    // Populate working groups
-    /*
-    const workingGroupsList = document.getElementById('modalWorkingGroups');
-    const workingGroupsSection = document.getElementById('modalWorkingGroupsSection');
-    
-    if (workingGroupsList && workingGroupsSection) {
-      if (Array.isArray(person.workingGroups) && person.workingGroups.length > 0) {
-        workingGroupsSection.style.display = 'block';
-        workingGroupsList.innerHTML = person.workingGroups.join('<br>');
-      } else {
-        workingGroupsSection.style.display = 'none';
-        workingGroupsList.innerHTML = '';
-      }
-    } */
 
     
     // Populate projects
