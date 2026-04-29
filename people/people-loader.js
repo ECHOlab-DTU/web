@@ -126,6 +126,7 @@ function createModal() {
 }
 
 // Populate modal with person data
+/*
 function populateModal(person) {
     if (!person) return;
 
@@ -147,7 +148,8 @@ function populateModal(person) {
         workingGroupsSection.style.display = 'none';
         workingGroupsList.innerHTML = '';
       }
-    }
+    } 
+    */
 
     
     // Populate projects
