@@ -63,7 +63,12 @@
     "title": "Data interventions, perspectival modelling, synthetic ethnography",
     "image": "../Assets/johan1.jpg",
     "bio": "Johan Irving Søltoft is a committee member at ECHO LAB.",
-    "workingGroups": "PERSPECTIVAL MODELLING AND LOCAL LLMs\nTHE OBSERVATION OF TECHNOLOGICAL DEBATES\nBIG QUALITATIVE DATA TOOLS\nPUBLIC ENGAGEMENT WITH TECHNOLOGY",
+    "workingGroups": [
+  "PERSPECTIVAL MODELLING AND LOCAL LLMs",
+  "THE OBSERVATION OF TECHNOLOGICAL DEBATES",
+  "BIG QUALITATIVE DATA TOOLS",
+  "PUBLIC ENGAGEMENT WITH TECHNOLOGY"
+],
     "projects": [
       {
         "name": "Kortlægning af folketingsvalget 2026",
