@@ -138,12 +138,15 @@ function populateModal(person) {
     // Populate working groups
     const workingGroupsList = document.getElementById('modalWorkingGroups');
     const workingGroupsSection = document.getElementById('modalWorkingGroupsSection');
-
-    if (person.workingGroups && person.workingGroups.length > 0) {
+    
+    if (workingGroupsList && workingGroupsSection) {
+      if (Array.isArray(person.workingGroups) && person.workingGroups.length > 0) {
         workingGroupsSection.style.display = 'block';
         workingGroupsList.innerHTML = person.workingGroups.join('<br>');
-    } else {
+      } else {
         workingGroupsSection.style.display = 'none';
+        workingGroupsList.innerHTML = '';
+      }
     }
 
     
