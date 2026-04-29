@@ -25,8 +25,8 @@ const noteData = {
   ],
 
 // Add your links
-projectLink: "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html, // Source link 1
-projectLinkText: "Project website", // Button text 1
+projectLink: "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html", // Source link 1
+projectLinkText:  "Project Website", // Button text 1
 
 // OPTIONAL: Change section titles (right column)
 sectionTitles: {
