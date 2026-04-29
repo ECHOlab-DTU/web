@@ -126,7 +126,6 @@ function createModal() {
 }
 
 // Populate modal with person data
-/*
 function populateModal(person) {
     if (!person) return;
 
@@ -137,6 +136,7 @@ function populateModal(person) {
     document.getElementById('modalBio').textContent = person.bio;
 
     // Populate working groups
+    /*
     const workingGroupsList = document.getElementById('modalWorkingGroups');
     const workingGroupsSection = document.getElementById('modalWorkingGroupsSection');
     
@@ -148,8 +148,7 @@ function populateModal(person) {
         workingGroupsSection.style.display = 'none';
         workingGroupsList.innerHTML = '';
       }
-    } 
-    */
+    } */
 
     
     // Populate projects
