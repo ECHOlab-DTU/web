@@ -134,9 +134,19 @@ function populateModal(person) {
     document.getElementById('modalName').textContent = person.name;
     document.getElementById('modalTitle').textContent = person.title;
     document.getElementById('modalBio').textContent = person.bio;
-    document.getElementById('modalWorkingGroups').innerHTML =(person.workingGroups || []).join('<br>');
 
+    // Populate working groups
+    const workingGroupsList = document.getElementById('modalWorkingGroups');
+    const workingGroupsSection = document.getElementById('modalWorkingGroupsSection');
 
+    if (person.workingGroups && person.workingGroups.length > 0) {
+        workingGroupsSection.style.display = 'block';
+        workingGroupsList.innerHTML = person.workingGroups.join('<br>');
+    } else {
+        workingGroupsSection.style.display = 'none';
+    }
+
+    
     // Populate projects
     const projectsList = document.getElementById('modalProjectsList');
     const projectsSection = document.getElementById('modalProjects');
