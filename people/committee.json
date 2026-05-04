@@ -97,6 +97,9 @@
     "title": "Digital sovereignty, open source infrastructures, transnational code sharing",
     "image": "../Assets/lasse.jpg",
     "bio": "Lasse Uhrskov Kristensen studies transnational code sharing between public sector organisations on GitHub, examining how code travels and transforms as it is adopted and forked across institutional contexts. Drawing on STS and digital methods, his work engages with debates on digital sovereignty, where open-source software is mobilised to reduce national dependencies — while simultaneously producing new ones. At ECHO, he also contributes to building and maintaining the observatory's research infrastructures and data pipelines.",
+    "workingGroups": [
+    "The Observation of Technological Debates"
+    ],
     "projects": [],
     "socials": {
       "email": "luhkr@dtu.dk",
@@ -111,6 +114,10 @@
     "title": "Social Data Science, participatory urban planning, perspectival modelling",
     "image": "../Assets/csilla.jpg",
     "bio": "Csilla Duray’s work focuses on engaging everyday public transportation users through the Urban Belonging App to learn about problems they encounter and what they find important. At ECHO, she explores how these citizen-perspectives can be represented by fine-tuned large language models (LLMs) and retrieval augmented generation (RAG) algorithms. Her research explores how generative AI can facilitate co-creation and scenario design and integrate public opinion into planning processes.",
+    "workingGroups": [
+    "Perspectival Modelling and Local LLMs",
+    "Big Qualitative Data Tools"
+    ],
     "projects": [],
     "socials": {
       "email": "csidu@dtu.dk",
@@ -124,6 +131,10 @@
     "title": "Computational anthropology, explainable AI, AI alignment",
     "image": "../Assets/frederik.jpg",
     "bio": "In Echo, Frederik Bay-Jørgensen contributes to the development of methods for perspectival modelling using generative AI. He stays up to date with recent advances in small- to mid-sized open-source models and integrates them into observatorial pipelines for attending to technological questions in society. He also helps maintain the observatory’s computing setup, which enables the safe local use of AI in our work.",
+    "workingGroups": [
+    "Perspectival Modelling and Local LLMs",
+    "Games as Tools for Research and Engagement"
+    ],
     "projects": [],
     "socials": {
       "email": "fbay@dtu.dk",
@@ -148,6 +159,10 @@
     "title": "Valuation struggles, wind energy, planning controversies",
     "image": "../Assets/daniel.jpg",
     "bio": "Daniel Nordstrand Frantzen is a qualitative researcher exploring issues and controversies related to the energy transition. He collaborates with ECHO on observing societal debates on technologies - mainly related to matters of energy and sustainability more broadly. Furthermore, he uses workshop methods and game design in his research.",
+    "workingGroups": [
+    "The Observation of Technological Debates",
+    "Games as Tools for Research and Engagement"
+    ],
     "projects": [],
     "socials": {
       "email": "dnfr@dtu.dk",
@@ -161,6 +176,9 @@
     "title": "Digital health, AI & robotics, cocreation",
     "image": "../Assets/benjamin.jpg",
     "bio": "Benjamin Lipp is studying the social impact of digital technology and infrastructure on healthcare practices. He is interested in utilising participatory sensing approaches for studying digital care infrastructures. He is also steering efforts to utilise games and game design for research and cocreation purposes.",
+    "workingGroups": [
+    "Games as Tools for Research and Engagement"
+    ],
     "projects": [],
     "socials": {
       "email": "bmili@dtu.dk",
@@ -198,7 +216,7 @@
     "title": "Committee",
     "image": "../Assets/david.png",
     "bio": "David Anthony Charles Broomham is a committee member at ECHO LAB.",
-    "projects": [],
+     "projects": [],
     "socials": {
       "email": "dacbr@dtu.dk",
       "website": "https://orbit.dtu.dk/en/persons/david-anthony-charles-broomham"
@@ -210,6 +228,10 @@
     "title": "AI, NLP, computational social science",
     "image": "../Assets/andreas.png",
     "bio": "Andreas Rattenborg Holm-Hansen works with the development of AI-based tools and analytical workflows to investigate how technology and science are discussed in Danish media. His work spans data processing, language technology, and computational text analysis, as well as the visualization and communication of insights so that complex patterns and developments become understandable and applicable. In ECHO, he contributes both technically and analytically at the intersection of AI, media, and society.",
+    "workingGroups": [
+    "The Observation of Technological Debates",
+    "Perspectival Modelling and Local LLMs"
+    ],
     "projects": [],
     "socials": {
       "email": "araho@dtu.dk",
