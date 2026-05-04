@@ -148,6 +148,14 @@
     margin: 0;
 }
 
+.modal-workinggroups {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #333;
+    margin: 0;
+}
+
 .modal-projects-list {
     list-style: none;
     padding: 0;
