@@ -134,7 +134,7 @@ function populateModal(person) {
     document.getElementById('modalName').textContent = person.name;
     document.getElementById('modalTitle').textContent = person.title;
     document.getElementById('modalBio').textContent = person.bio;
-    document.getElementById('modal-working-groups').textContent = person.workinggroups
+    document.getElementById('modalWorkingGroups').textContent = person.workinggroups
 
     
     // Populate projects
