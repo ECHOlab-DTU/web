@@ -107,7 +107,7 @@ function createModal() {
                         </div>
                         <div class="modal-section" id="modal-working-groups">
                             <h3 class="modal-section-title">Working Groups</h3>
-                            <p id="modalWorkingGroups" class="modal-working-groups"></p>
+                            <p id="modalWorkingGroups" class="modal-workinggroups"></p>
                         </div>
                         <div id="modalProjects" class="modal-section">
                             <h3 class="modal-section-title">Projects</h3>
