@@ -8,8 +8,7 @@ const noteData = {
   researchTopics: [
     "Generative AI",
     "Co-Research Methods",
-    "Large Language Models",
-    "Academic Writing"
+    "Large Language Models"
   ],
   objectives: "We held a hands-on workshop organised by ECHOlab at DTU Management that shared research on how scholars are 'co-researching' with LLMs. We explored how chat interfaces require active resistance to the notion that the LLM has 'an answer.' Prompting instead involved stance-taking, point-of-view activating, and iterative co-creativity.",
   methodology: "Techniques for slow prompting, field-shifting, hypothesis generation, large corpus analysis, teaching with rather than against, and collective querying were offered.",
@@ -20,7 +19,6 @@ const noteData = {
     "Strategies for using GenAI in research and education that attend to creative affordance in human-machine relations"
   ],
   collaborators: [
-    "ECHOLab at DTU Management",
     "Professor Joe Dumit, UC Davis"
   ],
 // Add your links
