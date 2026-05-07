@@ -22,7 +22,7 @@ const noteData = {
   collaborators: [
     "ECHOLab at DTU Management",
     "Professor Joe Dumit, UC Davis"
-  ]
+  ],
 // Add your links
 //projectLink: "", // Source link 1
 //projectLinkText: "", // Button text 1
