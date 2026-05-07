@@ -5,7 +5,7 @@ const noteData = {
   image: "Assets/joedumit.png", // Put your image in the Assets folder
   preview: `
     <p>AI confabulations are integral to how large language models work – they are a feature, not a bug. LLMs are trained on texts, not truths. Each text carries traces of its context, including its genre, voice, audience, and local politics. What is accurate in one discipline may be nonsensical in another.</p>
-    <p>As scholars who train graduate students in multi-field academic writing, we have developed techniques for attunement to such styles – and we demonstrated how to use LLMs to assist (not replace) us in co-researching, co-writing, and co-revising.</p>
+    <p>As scholars who train graduate students in multi-field academic writing, Joe presented techniques for attunement to such styles – and demonstrated how to use LLMs to assist (not replace) us in co-researching, co-writing, and co-revising.</p>
   `,
   //Sections -> Right column 
   researchTopics: [
