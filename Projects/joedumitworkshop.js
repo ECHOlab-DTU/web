@@ -33,6 +33,6 @@ const noteData = {
   sectionTitles: {
     researchTopics: "Research areas",
     lessons: "Lessons",
-    collaborators: "Collaborators"
+    collaborators: "Collaborator"
   }
 };
