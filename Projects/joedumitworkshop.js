@@ -22,7 +22,9 @@ const noteData = {
     "Strategies for using GenAI in research and education that attend to creative affordance in human-machine relations"
   ],
   collaborators: [
-    "Professor Joe Dumit, UC Davis"
+    "Professor Joe Dumit, UC Davis",
+    "Brit Ross Winthereik",
+    "Johan Irving Søltoft"
   ],
   // Add your links
   //projectLink: "", // Source link 1
@@ -33,6 +35,6 @@ const noteData = {
   sectionTitles: {
     researchTopics: "Research areas",
     lessons: "Lessons",
-    collaborators: "Collaborator"
+    collaborators: "Organizers"
   }
 };
