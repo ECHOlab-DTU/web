@@ -188,30 +188,6 @@
       "website": "https://benjaminlipp.com/"
     }
   },
-  {
-    "id": "amanda-obitz-mogensen",
-    "name": "Amanda Obitz Mogensen",
-    "title": "Committee",
-    "image": "../Assets/amanda-sort.png",
-    "bio": "Amanda Obitz Mogensen is a committee member at ECHO LAB.",
-    "projects": [],
-    "socials": {
-      "email": "amom@dtu.dk",
-      "website": "https://orbit.dtu.dk/en/persons/amanda-obitz-mogensen"
-    }
-  },
-  {
-    "id": "william-vergo",
-    "name": "William Vergo",
-    "title": "Committee",
-    "image": "../Assets/william-sort.png",
-    "bio": "William Vergo is a committee member at ECHO LAB.",
-    "projects": [],
-    "socials": {
-      "email": "wilkkv@dtu.dk",
-      "website": "https://orbit.dtu.dk/en/persons/william-vergo"
-    }
-  },
    {
     "id": "david-anthony-charles-broomham",
     "name": "David Anthony Charles Broomham",
