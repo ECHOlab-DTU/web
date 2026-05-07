@@ -1,7 +1,7 @@
 //Project tile
 const noteData = {
   title: "Co-Researching With Generative AI",
-  date: "07.06.2025", // Use this date format
+  date: "08.05.2025", // Use this date format
   image: "Assets/joedumit.png", // Put your image in the Assets folder
   preview: "AI confabulations are integral to how large language models work – they are a feature, not a bug. LLMs are trained on texts, not truths. Each text carries traces of its context, including its genre, voice, audience, and local politics. What is accurate in one discipline may be nonsensical in another.",
   //Sections -> Right column 
