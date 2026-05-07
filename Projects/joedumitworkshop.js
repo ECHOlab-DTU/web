@@ -24,8 +24,8 @@ const noteData = {
     "Professor Joe Dumit, UC Davis"
   ]
 // Add your links
-projectLink: "", // Source link 1
-projectLinkText: "", // Button text 1
+//projectLink: "", // Source link 1
+//projectLinkText: "", // Button text 1
 //publicationLink: "https://www.linkedin.com/feed/", // Source link 2
 //publicationLinkText: "Download Guidelines", // Button text 2
 
