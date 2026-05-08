@@ -10,16 +10,16 @@
     ],
     "projects": [
       {
-        "name": "The Energy Island, Issue Atlas",
-        "url": "#"
+        "name": "Kortlægning af folketingsvalget 2026",
+        "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
       },
       {
         "name": "Grounding AI",
         "url": "https://grounding-ai.github.io/web-application/"
       },
       {
-        "name": "Experimenting with large ethnographic data",
-        "url": "#"
+        "name": "Text-Unit-Tool - TUT",
+        "url": "https://tut.man.dtu.dk/"
       }
     ],
     "socials": {
