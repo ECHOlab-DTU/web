@@ -39,7 +39,12 @@
       {
         "name": "Urban Belonging",
         "url": "https://urbanbelonging.com/en"
+      },
+      {
+        "name": "Text-Unit-Tool - TUT",
+        "url": "https://tut.man.dtu.dk/"
       }
+      
     ],
     "socials": {
       "email": "akoma@dtu.dk",
@@ -52,7 +57,7 @@
     "name": "Tanja Schneider",
     "title": "Science and Technology Studies, market studies, digital food studies",
     "image": "../Assets/tanja.jpg",
-    "bio": "Tanja’s research examines how digital technologies shape, and are shaped by, everyday life, with a focus on food and ethical consumption. As a James Martin Fellow at the University of Oxford, she researched how civil society organizations and consumers use digital platforms to challenge food industry practices, contributing to key works such as Digital Food Activism (2018) and helping establish Digital Food Studies. She later led the FoodCoach project and co-founded the Digital Foodscapes Network, advancing interdisciplinary research on digital food technologies. Her work highlights both their transformative potential and their tendency to reinforce existing practices.",
+    "bio": "Tanja's research examines how digital technologies shape, and are shaped by, everyday life, with a focus on food and ethical consumption. As a James Martin Fellow at the University of Oxford, she researched how civil society organizations and consumers use digital platforms to challenge food industry practices, contributing to key works such as Digital Food Activism (2018) and helping establish Digital Food Studies. She later led the FoodCoach project and co-founded the Digital Foodscapes Network, advancing interdisciplinary research on digital food technologies. Her work highlights both their transformative potential and their tendency to reinforce existing practices.",
     "projects": [],
     "socials": {
       "email": "tansch@dtu.dk",
@@ -105,7 +110,7 @@
       {
         "name": "Kortlægning af folketingsvalget 2026",
         "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
-      },
+      }
     ],
     "socials": {
       "email": "luhkr@dtu.dk",
@@ -119,7 +124,7 @@
     "name": "Csilla Duray",
     "title": "Social Data Science, participatory urban planning, perspectival modelling",
     "image": "../Assets/csilla.jpg",
-    "bio": "Csilla Duray’s work focuses on engaging everyday public transportation users through the Urban Belonging App to learn about problems they encounter and what they find important. At ECHO, she explores how these citizen-perspectives can be represented by fine-tuned large language models (LLMs) and retrieval augmented generation (RAG) algorithms. Her research explores how generative AI can facilitate co-creation and scenario design and integrate public opinion into planning processes.",
+    "bio": "Csilla Duray's work focuses on engaging everyday public transportation users through the Urban Belonging App to learn about problems they encounter and what they find important. At ECHO, she explores how these citizen-perspectives can be represented by fine-tuned large language models (LLMs) and retrieval augmented generation (RAG) algorithms. Her research explores how generative AI can facilitate co-creation and scenario design and integrate public opinion into planning processes.",
     "workingGroups": [
     "Perspectival Modelling and Local LLMs",
     "Big Qualitative Data Tools",
@@ -137,7 +142,7 @@
     "name": "Frederik Bay-Jørgensen",
     "title": "Computational anthropology, explainable AI, AI alignment",
     "image": "../Assets/frederik.jpg",
-    "bio": "In Echo, Frederik Bay-Jørgensen contributes to the development of methods for perspectival modelling using generative AI. He stays up to date with recent advances in small- to mid-sized open-source models and integrates them into observatorial pipelines for attending to technological questions in society. He also helps maintain the observatory’s computing setup, which enables the safe local use of AI in our work.",
+    "bio": "In Echo, Frederik Bay-Jørgensen contributes to the development of methods for perspectival modelling using generative AI. He stays up to date with recent advances in small- to mid-sized open-source models and integrates them into observatorial pipelines for attending to technological questions in society. He also helps maintain the observatory's computing setup, which enables the safe local use of AI in our work.",
     "workingGroups": [
     "Perspectival Modelling and Local LLMs",
     "Games as Tools for Research and Engagement"
@@ -146,7 +151,7 @@
       {
         "name": "Kortlægning af folketingsvalget 2026",
         "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
-      },
+      }
     ],
     "socials": {
       "email": "fbay@dtu.dk",
@@ -179,7 +184,7 @@
       {
         "name": "Kortlægning af folketingsvalget 2026",
         "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
-      },
+      }
     ],
     "socials": {
       "email": "dnfr@dtu.dk",
@@ -229,7 +234,7 @@
       {
         "name": "Kortlægning af folketingsvalget 2026",
         "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
-      },
+      }
     ],
     "socials": {
       "email": "araho@dtu.dk",
