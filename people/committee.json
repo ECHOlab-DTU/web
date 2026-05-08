@@ -38,7 +38,7 @@
     "projects": [
       {
         "name": "Urban Belonging",
-        "url": "https://urbanbelonging.com/en"
+        "url": "https://urban-belonging.github.io/UrbanBelongingToolkit/"
       },
       {
         "name": "Text-Unit-Tool - TUT",
@@ -89,6 +89,10 @@
       {
         "name": "Text-Unit-Tool - TUT",
         "url": "https://tut.man.dtu.dk/"
+      },
+      {
+        "name": "Urban Belonging",
+        "url": "https://urban-belonging.github.io/UrbanBelongingToolkit/"
       }
     ],
     "socials": {
@@ -130,7 +134,12 @@
     "Big Qualitative Data Tools",
     "Games as Tools for Research and Engagement"
     ],
-    "projects": [],
+    "projects": [      
+      {
+        "name": "Urban Belonging",
+        "url": "https://urban-belonging.github.io/UrbanBelongingToolkit/"
+      }
+    ],
     "socials": {
       "email": "csidu@dtu.dk",
       "linkedin": "https://www.linkedin.com/in/csilladuray",
@@ -208,19 +217,24 @@
       "website": "https://benjaminlipp.com/"
     }
   },
-   {
+  {
     "id": "david-anthony-charles-broomham",
     "name": "David Anthony Charles Broomham",
     "title": "Committee",
     "image": "../Assets/david.png",
     "bio": "David Anthony Charles Broomham is a committee member at ECHO LAB.",
-     "projects": [],
+    "projects": [
+      {
+        "name": "Urban Belonging",
+        "url": "https://urban-belonging.github.io/UrbanBelongingToolkit/"
+      }
+    ],
     "socials": {
       "email": "dacbr@dtu.dk",
       "website": "https://orbit.dtu.dk/en/persons/david-anthony-charles-broomham"
     }
   },
-     {
+  {
     "id": "andreas-rattenborg-holm-hansen",
     "name": "Andreas Rattenborg Holm-Hansen",
     "title": "AI, NLP, computational social science",
