@@ -101,7 +101,12 @@
     "workingGroups": [
     "The Observation of Technological Debates"
     ],
-    "projects": [],
+    "projects": [ 
+      {
+        "name": "Kortlægning af folketingsvalget 2026",
+        "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
+      },
+    ],
     "socials": {
       "email": "luhkr@dtu.dk",
       "linkedin": "https://www.linkedin.com/in/lasseukristensen/",
@@ -137,7 +142,12 @@
     "Perspectival Modelling and Local LLMs",
     "Games as Tools for Research and Engagement"
     ],
-    "projects": [],
+    "projects": [ 
+      {
+        "name": "Kortlægning af folketingsvalget 2026",
+        "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
+      },
+    ],
     "socials": {
       "email": "fbay@dtu.dk",
       "linkedin": "https://www.linkedin.com/in/frederik-bay-j%C3%B8rgensen-9968b2209",
@@ -165,7 +175,12 @@
     "The Observation of Technological Debates",
     "Games as Tools for Research and Engagement"
     ],
-    "projects": [],
+    "projects": [ 
+      {
+        "name": "Kortlægning af folketingsvalget 2026",
+        "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
+      },
+    ],
     "socials": {
       "email": "dnfr@dtu.dk",
       "linkedin": "https://www.linkedin.com/in/daniel-nordstrand-frantzen-137b5282",
@@ -210,7 +225,12 @@
     "The Observation of Technological Debates",
     "Perspectival Modelling and Local LLMs"
     ],
-    "projects": [],
+    "projects": [ 
+      {
+        "name": "Kortlægning af folketingsvalget 2026",
+        "url": "https://echolab-dtu.github.io/web/Maps/Folketingsvalget2026.html"
+      },
+    ],
     "socials": {
       "email": "araho@dtu.dk",
       "linkedin": "www.linkedin.com/in/andreasrattenborgholm-hansen",
