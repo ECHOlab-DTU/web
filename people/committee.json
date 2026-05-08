@@ -169,17 +169,6 @@
     }
   },
   {
-    "id": "emma-veland",
-    "name": "Emma Veland",
-    "title": "Committee",
-    "image": "../Assets/emma.jpg",
-    "bio": "Emma Veland is a committee member at ECHO LAB.",
-    "projects": [],
-    "socials": {
-      "email": ""
-    }
-  },
-  {
     "id": "daniel-nordstrand-frantzen",
     "name": "Daniel Nordstrand Frantzen",
     "title": "Valuation struggles, wind energy, planning controversies",
