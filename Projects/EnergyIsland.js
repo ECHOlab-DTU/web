@@ -21,7 +21,7 @@ const noteData = {
     "A set of python scripts for exploring the dataset and generate visualizations "
   ],
   collaborators: [
-    "ECHOLab: Anders Munk, Mathieu Jacomy, Sarah Feldes and Ainoa Pubill",
+    "ECHO: Anders Munk, Mathieu Jacomy, Sarah Feldes and Ainoa Pubill",
     "GoodbyDevicing: Julia Kirch, Tom Cronin, Daniel Nordstrand, Emil Nissen, Sebastian Husted"
   ],
 
