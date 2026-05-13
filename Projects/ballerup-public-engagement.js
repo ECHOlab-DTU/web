@@ -24,7 +24,7 @@ const noteData = {
     "TANT Lab (Aalborg University)",
     "University of Groningen (NL)",
     "ADD - Algorithms, Data & Democracy",
-    "ECHO Lab - The Observatory for Human Centered Engineering (DTU)",
+    "ECHO - The Observatory for Human Centered Engineering (DTU)",
     "Ballerup Library"
   ],
 
