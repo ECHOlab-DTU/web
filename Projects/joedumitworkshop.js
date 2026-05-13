@@ -13,7 +13,7 @@ const noteData = {
     "Co-Research Methods",
     "Large Language Models"
   ],
-  objectives: "We held a hands-on workshop organised by ECHOlab at DTU Management that shared research on how scholars are 'co-researching' with LLMs. We explored how chat interfaces require active resistance to the notion that the LLM has 'an answer.' Prompting instead involved stance-taking, point-of-view activating, and iterative co-creativity.",
+  objectives: "We held a hands-on workshop organised by ECHO at DTU Management that shared research on how scholars are 'co-researching' with LLMs. We explored how chat interfaces require active resistance to the notion that the LLM has 'an answer.' Prompting instead involved stance-taking, point-of-view activating, and iterative co-creativity.",
   methodology: "Techniques for slow prompting, field-shifting, hypothesis generation, large corpus analysis, teaching with rather than against, and collective querying were offered.",
   lessons: [
     "How to use LLMs to assist (not replace) in co-researching",
