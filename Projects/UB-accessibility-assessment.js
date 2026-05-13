@@ -7,7 +7,7 @@ const noteData = {
     <p>The workshop was part of a project focused on the Accessibility Assessment and further developmentof the Urban Belonging Photo App.</p>
     <p>The open-source toolkit was developed by a group of researchers and architects as part of the Urban Belonging project. It was initially used in research conducted between 2020 and 2023. Upon successful completion of that phase, it was decided to continue developing the app further.</p>
     <p>Since then, the app has been maintained by developer Iain Kettles and used in various participatory projects.
-    <p>At ECHO Lab, the app underwent a Web Accessibility Assessmentconducted by two digital accessibility consultants. During a one-day workshop, they shared their methods, insights, and general reflections on inclusive digital participatory approaches.</p>
+    <p>At ECHO, the app underwent a Web Accessibility Assessmentconducted by two digital accessibility consultants. During a one-day workshop, they shared their methods, insights, and general reflections on inclusive digital participatory approaches.</p>
   `,
 
 // right column
