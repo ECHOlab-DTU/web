@@ -5,7 +5,7 @@ const noteData = {
   image: "Assets/web-archives.jpg", 
   preview:`
   <p>The internet has become a key research focus and a valuable tool for studying social phenomena across disciplines. 
-  In collaboration with the DigiFront initiative, ECHO Lab organized a session where researchers presented their projects, 
+  In collaboration with the DigiFront initiative, ECHO organized a session where researchers presented their projects, 
   showcasing how they utilize the web and web archives as methods in their research.</p> 
   
   <p>Katie McKinnon (KU) introduced the concept of the marginal web through her research on digital traces 
