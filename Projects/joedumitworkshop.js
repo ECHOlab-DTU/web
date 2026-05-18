@@ -28,7 +28,7 @@ const noteData = {
   ],
   // Add your links
   projectLink: "https://soundcloud.com/garagen/ai-and-scientist-recording-of/s-wIOPFxmjOYX?si=5074d3bd224b421d9f5d15cc1ec93e0c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing", // Source link 1
-  projectLinkText: "Podcast about the workshop", // Button text 1
+  projectLinkText: "Podcast of the workshop", // Button text 1
   //publicationLink: "https://www.linkedin.com/feed/", // Source link 2
   //publicationLinkText: "Download Guidelines", // Button text 2
   // OPTIONAL: Change section titles (right column)
