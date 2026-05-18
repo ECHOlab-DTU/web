@@ -212,6 +212,9 @@
     "title": "Digital placemaking, mixed methods, computational SSH",
     "image": "../Assets/david.png",
     "bio": "David Anthony Charles Broomham explores how digital tools can scale up qualitative data collection and analysis. As part of the CULTIGEN project, he is redeveloping the Urban Belonging app for large-scale data collection, alongside other digital tools that form part of the Urban Listening Toolkit. The toolkit will also examine the use of LLMs for interpretive work, contributing to computational SSH.",
+    "workingGroups": [
+    "Big Qualitative Data Tools"
+    ],
     "projects": [
       {
         "name": "Urban Belonging",
