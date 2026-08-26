@@ -1,4 +1,4 @@
-//Project tile
+//CXAI - Culturally Explainable AI
 const noteData = {
   title: "Culturally Explainable AI at the Danish Democracy Festival",
   date: "14.06.2026", // Use this date format
@@ -16,8 +16,12 @@ const noteData = {
   ],
   objectives: "Understanding whether people prefer AI systems that share their cultural and political outlooks, and whether perceived value alignment influences trust in political arguments and everyday advice.",
   methodology: "The project combines survey methods with an interactive public experiment. AI models are prompted to emulate cultural profiles derived from World Values Survey populations, allowing researchers to compare measured value proximity with actual user preferences.",
-  deliverables: [
+  lessons: [
     "Public arcade-style experiment and data collection",
     "Analysis of AI preferences and cultural value matching"
-  ]
+  ],
+    sectionTitles: {
+    researchTopics: "Research areas",
+    lessons: "deliverables"
+  }
 };
