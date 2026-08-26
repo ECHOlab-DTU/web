@@ -20,6 +20,10 @@ const noteData = {
     "Public arcade-style experiment and data collection",
     "Analysis of AI preferences and cultural value matching"
   ],
+   collaborators: [
+    "Anders Kristian Munk (DTU)",
+    "Frederik Bay-Jørgensen (DTU)"
+  ],
     sectionTitles: {
     researchTopics: "Research areas",
     lessons: "deliverables"
