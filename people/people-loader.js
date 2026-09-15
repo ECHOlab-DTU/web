@@ -107,7 +107,7 @@ function createModal() {
                         </div>
                         <div class="modal-section" id="modalWorkingGroupsSection">
                           <h3 class="modal-section-title">Working Groups</h3>
-                          <p id="modalWorkingGroups" class="modal-workinggroups"></p>
+                          <ul id="modalWorkingGroups" class="modal-workinggroups-list"></ul>
                         </div>
                         <div id="modalProjects" class="modal-section">
                             <h3 class="modal-section-title">Projects</h3>
@@ -143,7 +143,7 @@ function populateModal(person) {
     if (workingGroupsList && workingGroupsSection) {
       if (Array.isArray(person.workingGroups) && person.workingGroups.length > 0) {
         workingGroupsSection.style.display = 'block';
-        workingGroupsList.innerHTML = person.workingGroups.join('<br>');
+        workingGroupsList.innerHTML = person.workingGroups.map(g => `<li>${g}</li>`).join('');
       } else {
         workingGroupsSection.style.display = 'none';
         workingGroupsList.innerHTML = '';

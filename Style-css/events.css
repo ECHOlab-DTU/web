@@ -1,0 +1,181 @@
+.events-main {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 8rem 1.5rem;
+}
+
+.events-section {
+    margin-bottom: 5rem;
+}
+
+.events-section-title {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #030F4F;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #E83F48;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.event-card {
+    background: white;
+}
+
+/* Image cards */
+.event-card-media {
+    position: relative;
+    cursor: pointer;
+}
+
+.event-card-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.event-card:hover .event-card-media img {
+    opacity: 0.9;
+}
+
+/* PDF placeholder card */
+.event-card-media.is-pdf {
+    aspect-ratio: 1 / 1.414;
+    cursor: pointer;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-card-pdf-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.event-card-pdf-icon {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: white;
+    background: #E83F48;
+    padding: 0.3rem 0.6rem;
+    letter-spacing: 0.1em;
+}
+
+.event-card-pdf-label {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 0.75rem;
+    color: #030F4F;
+    line-height: 1.4;
+}
+
+.event-card-media.is-pdf:hover .event-card-pdf-placeholder {
+    opacity: 0.7;
+}
+
+.event-card-date {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background: white;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.6rem;
+    color: #030F4F;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid rgba(3, 15, 79, 0.2);
+    letter-spacing: 0.04em;
+}
+
+.event-card-caption {
+    display: none;
+}
+
+.events-empty {
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.75rem;
+    color: rgba(3, 15, 79, 0.4);
+}
+
+/* Lightbox */
+.events-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.events-lightbox.active {
+    display: flex;
+}
+
+.events-lightbox img {
+    max-width: 90%;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+/* PDF fullscreen: hide img, show iframe filling the overlay */
+.events-lightbox.is-pdf img {
+    display: none;
+}
+
+.events-lightbox #lightboxPdf {
+    display: none;
+    width: 90%;
+    height: 90vh;
+    border: none;
+    background: white;
+}
+
+.events-lightbox.is-pdf #lightboxPdf {
+    display: block;
+}
+
+.lightbox-close {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+    line-height: 1;
+}
+
+/* nav active underline */
+.nav-active {
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+}
+
+@media (max-width: 1200px) {
+    .events-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+    .events-grid { grid-template-columns: 1fr; }
+}

@@ -12,12 +12,13 @@
             display: flex;
             align-items: center;
         }
-        
-        .logo-container img {
-            margin-right: auto;
+
+        .nav-active {
+            text-decoration: underline !important;
+            text-underline-offset: 3px;
         }
         
-        .logo-container a {
+        .logo-container a:not(:first-child) {
             margin-left: 2.5rem;
         }
 
@@ -101,6 +102,11 @@
             font-weight: bold;
             color: #030F4F;
             margin: 0;
+            transition: color 0.2s ease;
+        }
+
+        #committee-section .person-card:hover .person-name {
+            color: #E83F48;
         }
 
         .person-title {
@@ -191,9 +197,11 @@
 <body>
     <!-- Header - matches index.html exactly -->
     <div class="logo-container">
-        <img src="../Assets/Observatory-echologo.svg" alt="Logo">
-        <a href="../index.html">Home</a>
-        <a href="people.html">People</a>
+        <a href="../about/about.html" style="margin-right: auto; line-height: 0;"><img src="../Assets/Observatory-echologo.svg" alt="Logo"></a>
+        <a href="../about/about.html">Home</a>
+        <a href="../lab-notes.html">Lab Notes</a>
+        <a href="../events/events.html">Events</a>
+        <a href="people.html" class="nav-active">People</a>
         <a href="https://www.linkedin.com/company/105685967/feed/following/" target="_blank">LinkedIn</a>
         <a href="https://bsky.app/profile/echodtu.bsky.social" target="_blank">Bluesky</a>
     </div>

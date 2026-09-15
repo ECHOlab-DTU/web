@@ -115,10 +115,13 @@ async function loadLabNotes() {
     }
 }
 
-// Initialize the page
-console.log('Adding DOMContentLoaded listener...');
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM Content Loaded, initializing...');
+// Initialize — run immediately if DOM is ready, otherwise wait
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        loadLabNotes();
+        loadEventsData();
+    });
+} else {
     loadLabNotes();
     loadEventsData();
-}); 
+} 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events — ECHO</title>
+    <link href="https://fonts.cdnfonts.com/css/neo-sans-std" rel="stylesheet">
+    <link rel="stylesheet" href="../Style-css/styles.css">
+    <link rel="stylesheet" href="../Style-css/events.css">
+</head>
+<body>
+    <div class="logo-container">
+        <a href="../about/about.html" style="margin-right: auto; line-height: 0;"><img src="../Assets/Observatory-echologo.svg" alt="Logo"></a>
+        <a href="../about/about.html">Home</a>
+        <a href="../lab-notes.html">Lab Notes</a>
+        <a href="events.html" class="nav-active">Events</a>
+        <a href="../people/people.html">People</a>
+        <a href="https://www.linkedin.com/company/105685967/feed/following/" target="_blank">LinkedIn</a>
+        <a href="https://bsky.app/profile/echodtu.bsky.social" target="_blank">Bluesky</a>
+    </div>
+
+    <div class="events-main">
+
+        <section class="events-section">
+            <h2 class="events-section-title">Upcoming Events</h2>
+            <div class="events-grid" id="upcomingGrid">
+                <!-- loaded by JS -->
+            </div>
+        </section>
+
+        <section class="events-section">
+            <h2 class="events-section-title">Past Events</h2>
+            <div class="events-grid" id="pastGrid">
+                <!-- loaded by JS -->
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Lightbox -->
+    <div class="events-lightbox" id="eventsLightbox">
+        <button class="lightbox-close" id="lightboxClose">×</button>
+        <img id="lightboxImg" src="" alt="">
+        <iframe id="lightboxPdf" src="" title="Event PDF"></iframe>
+    </div>
+
+    <script src="events-loader.js"></script>
+</body>
+</html>
