@@ -314,7 +314,7 @@
     .carousel-card {
         grid-template-columns: 58% 1fr;
         align-items: stretch;
-        min-height: 130px;
+        min-height: 170px;
     }
 
     .carousel-card-image {
@@ -342,6 +342,9 @@
         -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        max-width: 100%;
     }
 
     .carousel-card-preview {
