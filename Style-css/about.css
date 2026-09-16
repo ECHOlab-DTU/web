@@ -311,26 +311,37 @@
     }
 
     .carousel-card {
-        grid-template-columns: 1fr;
+        grid-template-columns: 42% 1fr;
+        align-items: stretch;
+        min-height: 160px;
     }
 
     .carousel-card-image {
-        height: 180px;
+        height: auto;
+    }
+
+    .carousel-card-date {
+        top: 0.5rem;
+        left: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.55rem;
     }
 
     .carousel-card-body {
-        padding: 1.25rem;
+        padding: 1rem;
     }
 
     .carousel-card-title {
+        font-size: 1rem;
         margin-bottom: 0.75rem;
     }
 
     .carousel-card-preview {
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        display: none;
+    }
+
+    .carousel-card-link {
+        margin-top: 0;
     }
 
     .carousel-dots {
