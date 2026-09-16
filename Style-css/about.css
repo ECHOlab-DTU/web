@@ -300,44 +300,60 @@
     }
 
     .carousel-stage {
-        align-items: flex-start;
-        gap: 0.75rem;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .carousel-arrow {
-        width: 36px;
-        height: 36px;
-        font-size: 1.5rem;
+        width: 28px;
+        height: 28px;
+        font-size: 1.1rem;
+        flex-shrink: 0;
     }
 
     .carousel-card {
-        grid-template-columns: 42% 1fr;
+        grid-template-columns: 58% 1fr;
         align-items: stretch;
-        min-height: 160px;
+        min-height: 130px;
     }
 
     .carousel-card-image {
         height: auto;
+        min-width: 0;
     }
 
     .carousel-card-date {
-        top: 0.5rem;
-        left: 0.5rem;
-        padding: 0.25rem 0.5rem;
-        font-size: 0.55rem;
+        top: 0.4rem;
+        left: 0.4rem;
+        padding: 0.2rem 0.45rem;
+        font-size: 0.5rem;
     }
 
     .carousel-card-body {
-        padding: 1rem;
+        padding: 0.75rem 0.85rem;
+        min-width: 0;
     }
 
     .carousel-card-title {
-        font-size: 1rem;
-        margin-bottom: 0.75rem;
+        font-size: 0.8rem;
+        line-height: 1.25;
+        margin-bottom: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     .carousel-card-preview {
         display: none;
+    }
+
+    .carousel-card-link {
+        margin-top: 0;
+        font-size: 0.55rem;
+        padding: 0.3rem 0.55rem;
+        white-space: normal;
+        max-width: 100%;
     }
 
     .carousel-card-link {
