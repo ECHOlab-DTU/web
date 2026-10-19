@@ -83,5 +83,45 @@
     "name": "Liisa Välikangas",
     "image": "../Assets/liisa-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/liisa-v%C3%A4likangas"
+  },
+  {
+    "name": "Ekky Tammarar Alfian",
+    "image": "../Assets/Ekky.jpg",
+    "link": "https://orbit.dtu.dk/en/persons/ekky-tammarar-alfian"
+  },
+  {
+    "name": "Chiara Carboni",
+    "image": "../Assets/Chiara.png",
+    "link": "https://orbit.dtu.dk/en/persons/chiara-carboni"
+  },
+  {
+    "name": "Emilie Dyrlev",
+    "image": "../Assets/emilie_dyrlev.jpg",
+    "link": "https://www.dtu.dk/english/person/emilie-dyrlev?id=126413&entity=profile"
+  },
+  {
+    "name": "Morten Hansen",
+    "image": "../Assets/morten.jpg",
+    "link": "https://orbit.dtu.dk/en/persons/morten-hansen"
+  },
+  {
+    "name": "Martin Wolfgang Lauer-Schmaltz ",
+    "image": "../Assets/martin.jpg",
+    "link": "https://orbit.dtu.dk/en/persons/martin-wolfgang-lauer-schmaltz"
+  },
+  {
+    "name": "Sofie á Rogvi",
+    "image": "../Assets/sofie.png",
+    "link": "https://orbit.dtu.dk/en/persons/sofie-%C3%A1-rogvi"
+  },
+  {
+    "name": "Sunniva Sandbukt",
+    "image": "../Assets/sunniva.png",
+    "link": "https://orbit.dtu.dk/en/persons/sunniva-sandbukt"
+  },
+  {
+    "name": "Tais Abrahamsson",
+    "image": "../Assets/tais.jpg",
+    "link": "https://orbit.dtu.dk/en/persons/tais-abrahamsson"
   }
 ]
