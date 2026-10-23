@@ -1,9 +1,13 @@
-
+// Template for a home page carousel entry.
+// Copy this file, give it a name like my-project.js, fill it in, and add the
+// name without ".js" to carousel-list.json. This file is not listed there, so
+// it does not show up on the site.
 const carouselItem = {
-  title: "Mapping the 2026 Danish General Election on Social Media",
+  title: "YOUR PROJECT TITLE",
   date: "2026",
-  image: "assets/site/election_map.mp4",
-  description: "This project maps publicly available social media posts from parliamentary candidates during the lead-up to Denmark's general election on 24 March 2026. By analyzing candidates' public posts, the project captures how technology-related issues are discussed during the election campaign. It contributes to ECHO's broader mission to establish an observatory for technology questions in society.",
-  link: "https://echolab-dtu.github.io/web/maps/folketingsvalget2026.html",   // URL for the button
-  linkText: "View Project"                    // Button label
+  image: "assets/site/your-project.mp4",   // an image (.webp/.jpg/.png) or a video (.mp4), put in assets/site/
+  description: "A short description of the project...",
+  link: "https://example.com",             // URL for the button
+  linkText: "View Project",                // Button label
+  mediaPosition: "center"                  // Optional: which part of the media to keep when cropped, e.g. "top"
 };
