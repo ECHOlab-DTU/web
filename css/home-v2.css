@@ -1,0 +1,509 @@
+/* About page */
+
+.nav-active {
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+}
+
+
+.about-main {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Page layout: slim table of contents + one linear column */
+.home-layout {
+    --header-h: 92px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 0 0 1.5rem;
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    column-gap: 3rem;
+}
+
+.home-toc {
+    position: sticky;
+    top: calc(var(--header-h) + 3rem);
+    align-self: start;
+    padding-top: 3rem;
+}
+
+.home-toc-current {
+    display: none;
+}
+
+.home-toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid rgba(3, 15, 79, 0.15);
+}
+
+.home-toc-list a {
+    display: block;
+    margin-left: -1px;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-left: 2px solid transparent;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: #030F4F;
+    opacity: 0.55;
+    text-decoration: none;
+    transition: color 0.2s, opacity 0.2s, border-color 0.2s;
+}
+
+.home-toc-list a:hover {
+    opacity: 1;
+    color: #E83F48;
+}
+
+.home-toc-list a[aria-current] {
+    opacity: 1;
+    color: #E83F48;
+    border-left-color: #E83F48;
+}
+
+.home-content {
+    min-width: 0;
+    padding-right: 1.5rem;
+}
+
+.home-section {
+    padding: 0 0 4rem 0;
+    scroll-margin-top: 1rem;
+}
+
+/* Desktop: header and table of contents stay put, the content scrolls in its own pane */
+@media (min-width: 901px) {
+    body {
+        overflow: hidden;
+        padding-top: 0;
+    }
+
+    .home-layout {
+        height: 100vh;
+        padding-top: var(--header-h);
+        box-sizing: border-box;
+    }
+
+    .home-content {
+        height: 100%;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        scroll-snap-type: y proximity;
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(3, 15, 79, 0.25) transparent;
+        padding-top: 3rem;
+        /* content fades out under the header and at the bottom edge */
+        -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 2.5rem, #000 calc(100% - 2rem), transparent 100%);
+        mask-image: linear-gradient(to bottom, transparent 0, #000 2.5rem, #000 calc(100% - 2rem), transparent 100%);
+    }
+
+    .home-section {
+        scroll-snap-align: start;
+    }
+
+    .home-content::after {
+        content: "";
+        display: block;
+        height: 40vh;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .home-content {
+            scroll-behavior: auto;
+        }
+    }
+}
+
+.home-intro {
+    padding-top: 0;
+}
+
+.about-intro {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: clamp(1.15rem, 1.8vw, 1.5rem);
+    color: #030F4F;
+    line-height: 1.5;
+}
+
+.about-readmore-link {
+    display: block;
+    width: fit-content;
+    margin-top: 1.25rem;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.65rem;
+    color: #E83F48;
+    text-decoration: none;
+    border: 1px solid #E83F48;
+    padding: 0.3rem 0.7rem;
+    border-radius: 2px;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+}
+
+.about-readmore-link:hover {
+    background: #E83F48;
+    color: white;
+}
+
+/* Section headings share the style used on the other pages */
+.about-section-label {
+    font-family: 'Andale Mono', monospace;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #E83F48;
+    line-height: 1.4;
+    padding-bottom: 0.6rem;
+    margin: 0 0 1.5rem 0;
+    border-bottom: 2px solid #E83F48;
+}
+
+.about-section-text p {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 1.05rem;
+    color: #030F4F;
+    line-height: 1.7;
+    margin-bottom: 1.1rem;
+}
+
+.about-section-text p:last-child {
+    margin-bottom: 0;
+}
+
+/* ── Carousel ── */
+
+.about-carousel-section {
+    padding: 0 0 4rem 0;
+}
+
+.carousel-header {
+    margin-bottom: 2rem;
+}
+
+.carousel-stage {
+    position: relative;
+}
+
+.carousel-track-wrapper {
+    flex: 1;
+    overflow: hidden;
+}
+
+.carousel-track {
+    width: 100%;
+}
+
+.carousel-card {
+    display: none;
+    background: white;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.carousel-card.active {
+    display: grid;
+}
+
+.carousel-card-image {
+    position: relative;
+    overflow: hidden;
+    height: 440px;
+}
+
+.carousel-card-image img,
+.carousel-card-image video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-card-image-placeholder {
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 15, 79, 0.06);
+}
+
+.carousel-card-date {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: white;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.6rem;
+    color: #030F4F;
+    padding: 0.4rem 0.7rem;
+    border: 1px solid rgba(3, 15, 79, 0.2);
+    letter-spacing: 0.04em;
+}
+
+.carousel-card-body {
+    padding: 2rem 5rem 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: none;
+}
+
+.carousel-card-title {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-weight: 700;
+    color: #030F4F;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
+}
+
+.carousel-card-link {
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: 1.25rem;
+    font-family: 'Andale Mono', monospace;
+    font-size: 0.65rem;
+    color: #E83F48;
+    text-decoration: none;
+    border: 1px solid #E83F48;
+    padding: 0.3rem 0.7rem;
+    border-radius: 2px;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+}
+
+.carousel-card-link:hover {
+    background: #E83F48;
+    color: white;
+}
+
+.carousel-card-preview {
+    font-family: 'Neo Sans Std', sans-serif;
+    font-size: 0.9rem;
+    color: #030F4F;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+/* Arrows */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: none;
+    border: none;
+    color: #030F4F;
+    opacity: 0.5;
+    width: 56px;
+    height: 72px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s, opacity 0.2s;
+    /* light halo keeps the arrow readable over images */
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.9));
+}
+
+.carousel-arrow svg {
+    width: 36px;
+    height: 36px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 3.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.carousel-arrow:hover {
+    opacity: 1;
+    color: #E83F48;
+}
+
+.carousel-prev {
+    left: 1rem;
+}
+
+.carousel-next {
+    right: 1rem;
+}
+
+/* Dots */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.carousel-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(3, 15, 79, 0.2);
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.2s;
+}
+
+.carousel-dot.active {
+    background: #E83F48;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+    .home-layout {
+        display: block;
+        padding: 0 1rem;
+    }
+
+    /* The table of contents becomes a sticky bar under the header */
+    .home-toc {
+        position: sticky;
+        top: 54px;
+        z-index: 50;
+        padding-top: 0;
+        margin: 0 -1rem;
+        background: #f0f0f0;
+        border-bottom: 1px solid rgba(3, 15, 79, 0.15);
+    }
+
+    .home-toc-current {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0.7rem 1rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-family: 'Andale Mono', monospace;
+        font-size: 0.75rem;
+        color: #E83F48;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+    }
+
+    .home-toc-current::after {
+        content: "▾";
+    }
+
+    .home-toc.open .home-toc-current::after {
+        content: "▴";
+    }
+
+    .home-toc-list {
+        display: none;
+        border-left: none;
+        padding: 0 1rem 0.5rem 1rem;
+    }
+
+    .home-toc.open .home-toc-list {
+        display: block;
+    }
+
+    .home-toc-list a,
+    .home-toc-list a[aria-current] {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .home-intro {
+        padding-top: 3rem;
+    }
+
+    .home-content {
+        padding-right: 0;
+    }
+
+    .home-layout {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .home-section {
+        scroll-margin-top: 6.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-arrow {
+        width: 36px;
+        height: 48px;
+    }
+
+    .carousel-arrow svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .carousel-prev {
+        left: 0.4rem;
+    }
+
+    .carousel-next {
+        right: 0.4rem;
+    }
+
+    .carousel-card {
+        grid-template-columns: 58% 1fr;
+        align-items: stretch;
+        min-height: 170px;
+    }
+
+    .carousel-card-image {
+        height: auto;
+        min-width: 0;
+    }
+
+    .carousel-card-date {
+        top: 0.4rem;
+        left: 0.4rem;
+        padding: 0.2rem 0.45rem;
+        font-size: 0.5rem;
+    }
+
+    .carousel-card-body {
+        padding: 0.75rem 2.8rem 0.75rem 0.85rem;
+        min-width: 0;
+    }
+
+    .carousel-card-title {
+        font-size: 0.8rem;
+        line-height: 1.25;
+        margin-bottom: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        max-width: 100%;
+    }
+
+    .carousel-card-preview {
+        display: none;
+    }
+
+    .carousel-card-link {
+        margin-top: 0;
+        font-size: 0.55rem;
+        padding: 0.3rem 0.55rem;
+        white-space: normal;
+        max-width: 100%;
+    }
+
+    .carousel-card-link {
+        margin-top: 0;
+    }
+
+}
