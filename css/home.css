@@ -124,9 +124,7 @@
 }
 
 .carousel-stage {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+    position: relative;
 }
 
 .carousel-track-wrapper {
@@ -182,7 +180,7 @@
 }
 
 .carousel-card-body {
-    padding: 2rem 2rem 2rem 2.5rem;
+    padding: 2rem 5rem 2rem 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -230,26 +228,47 @@
 
 /* Arrows */
 .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
     background: none;
-    border: 1px solid rgba(3, 15, 79, 0.25);
+    border: none;
     color: #030F4F;
-    font-size: 2rem;
-    width: 48px;
-    height: 48px;
-    flex-shrink: 0;
+    opacity: 0.5;
+    width: 56px;
+    height: 72px;
+    padding: 0;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.2s, color 0.2s;
-    line-height: 1;
-    padding-bottom: 2px;
+    transition: color 0.2s, opacity 0.2s;
+    /* light halo keeps the arrow readable over images */
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.9));
+}
+
+.carousel-arrow svg {
+    width: 36px;
+    height: 36px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 3.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .carousel-arrow:hover {
-    background: #030F4F;
-    color: white;
-    border-color: #030F4F;
+    opacity: 1;
+    color: #E83F48;
+}
+
+.carousel-prev {
+    left: 1rem;
+}
+
+.carousel-next {
+    right: 1rem;
 }
 
 /* Dots */
@@ -257,7 +276,6 @@
     display: flex;
     gap: 0.5rem;
     margin-top: 1.5rem;
-    padding-left: calc(48px + 1.5rem);
 }
 
 .carousel-dot {
@@ -295,16 +313,22 @@
         border-top: 1px solid rgba(3, 15, 79, 0.1);
     }
 
-    .carousel-stage {
-        align-items: center;
-        gap: 0.5rem;
+    .carousel-arrow {
+        width: 36px;
+        height: 48px;
     }
 
-    .carousel-arrow {
-        width: 28px;
-        height: 28px;
-        font-size: 1.1rem;
-        flex-shrink: 0;
+    .carousel-arrow svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .carousel-prev {
+        left: 0.4rem;
+    }
+
+    .carousel-next {
+        right: 0.4rem;
     }
 
     .carousel-card {
@@ -326,7 +350,7 @@
     }
 
     .carousel-card-body {
-        padding: 0.75rem 0.85rem;
+        padding: 0.75rem 2.8rem 0.75rem 0.85rem;
         min-width: 0;
     }
 
