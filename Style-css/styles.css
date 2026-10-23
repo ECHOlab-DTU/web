@@ -42,6 +42,9 @@ body {
     color: #030F4F;
     text-decoration: none;
     transition: color 0.2s;
+}
+
+.logo-container a:not(:first-child) {
     margin-left: 2.5rem;
 }
 
