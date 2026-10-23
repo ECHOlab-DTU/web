@@ -1,127 +1,127 @@
 [
    {
     "name": "Amanda Obitz Mogensen",
-    "image": "../assets/amanda-sort.png",
+    "image": "../assets/people/amanda-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/amanda-obitz-mogensen"
   },
   {
     "name": "Amelie Lange",
-    "image": "../assets/amelie-sort.png",
+    "image": "../assets/people/amelie-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/amelie-lange"
   },
   {
     "name": "Anders Puck Nielsen",
-    "image": "../assets/anders-sort.png",
+    "image": "../assets/people/anders-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/anders-puck-nielsen"
   },
   {
     "name": "Brit Ross Winthereik",
-    "image": "../assets/brit.jpg",
+    "image": "../assets/people/brit.jpg",
     "link": "https://orbit.dtu.dk/en/persons/brit-ross-winthereik/"
   },
   {
     "name": "Chiara Carboni",
-    "image": "../assets/chiara.png",
+    "image": "../assets/people/chiara.png",
     "link": "https://orbit.dtu.dk/en/persons/chiara-carboni"
   },
   {
     "name": "Ekky Tammarar Alfian",
-    "image": "../assets/ekky.jpg",
+    "image": "../assets/people/ekky.jpg",
     "link": "https://orbit.dtu.dk/en/persons/ekky-tammarar-alfian"
   },
   {
     "name": "Emil Nissen",
-    "image": "../assets/emil.jpg",
+    "image": "../assets/people/emil.jpg",
     "link": "https://orbit.dtu.dk/en/persons/emil-nissen/"
   },
   {
     "name": "Emilie Dyrlev",
-    "image": "../assets/emilie_dyrlev.jpg",
+    "image": "../assets/people/emilie_dyrlev.jpg",
     "link": "https://www.dtu.dk/english/person/emilie-dyrlev?id=126413&entity=profile"
   },
   {
     "name": "Emilie Mørch Groth",
-    "image": "../assets/emilie-sort.png",
+    "image": "../assets/people/emilie-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/emilie-m%C3%B8rch-groth"
   },
   {
     "name": "Emma Veland",
-    "image": "../assets/emma.jpg",
+    "image": "../assets/people/emma.jpg",
     "link": "https://www.dtu.dk/english/person/emma-veland?id=214631&entity=profile"
   },
   {
     "name": "Frida Hammel",
-    "image": "../assets/frida-sort.png",
+    "image": "../assets/people/frida-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/frida-hammel"
   },
   {
     "name": "Helene Friis Ratner",
-    "image": "../assets/helene-sort.png",
+    "image": "../assets/people/helene-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/helene-friis-ratner"
   },
   {
     "name": "Ina Bækgaard",
-    "image": "../assets/ina-sort.png",
+    "image": "../assets/people/ina-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/ina-b%C3%A6kgaard"
   },
   {
     "name": "Jakob Laage-Thomsen",
-    "image": "../assets/jakob-sort.png",
+    "image": "../assets/people/jakob-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/jakob-laage-thomsen"
   },
   {
     "name": "John Paulin Hansen",
-    "image": "../assets/john-sort.png",
+    "image": "../assets/people/john-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/john-paulin-hansen"
   },
   {
     "name": "Julius Kob",
-    "image": "../assets/julius-sort.png",
+    "image": "../assets/people/julius-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/julius-kob"
   },
   {
     "name": "Julia Kirch Kirkegaard",
-    "image": "../assets/julia.jpg",
+    "image": "../assets/people/julia.jpg",
     "link": "https://orbit.dtu.dk/en/persons/julia-kirch-kirkegaard"
   },
   {
     "name": "Liisa Välikangas",
-    "image": "../assets/liisa-sort.png",
+    "image": "../assets/people/liisa-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/liisa-v%C3%A4likangas"
   },
   {
     "name": "Lærke Højgaard Christiansen",
-    "image": "../assets/laerke-sort.png",
+    "image": "../assets/people/laerke-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/l%C3%A6rke-h%C3%B8jgaard-christiansen"
   },
   {
     "name": "Martin Wolfgang Lauer-Schmaltz ",
-    "image": "../assets/martin.jpg",
+    "image": "../assets/people/martin.jpg",
     "link": "https://orbit.dtu.dk/en/persons/martin-wolfgang-lauer-schmaltz"
   },
   {
     "name": "Morten Hansen",
-    "image": "../assets/morten.jpg",
+    "image": "../assets/people/morten.jpg",
     "link": "https://orbit.dtu.dk/en/persons/morten-hansen"
   },
   {
     "name": "Rebekka Nordal Thomsen",
-    "image": "../assets/rebekka-sort.png",
+    "image": "../assets/people/rebekka-sort.png",
     "link": "https://orbit.dtu.dk/en/persons/rebekka-nordal-thomsen"
   },
   {
     "name": "Sofie á Rogvi",
-    "image": "../assets/sofie.webp",
+    "image": "../assets/people/sofie.webp",
     "link": "https://orbit.dtu.dk/en/persons/sofie-%C3%A1-rogvi"
   },
   {
     "name": "Sunniva Sandbukt",
-    "image": "../assets/sunniva.webp",
+    "image": "../assets/people/sunniva.webp",
     "link": "https://orbit.dtu.dk/en/persons/sunniva-sandbukt"
   },
   {
     "name": "Tais Abrahamsson",
-    "image": "../assets/tais.jpg",
+    "image": "../assets/people/tais.jpg",
     "link": "https://orbit.dtu.dk/en/persons/tais-abrahamsson"
   }
 ]

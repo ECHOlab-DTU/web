@@ -3,7 +3,7 @@
     "id": "anders-kristian-munk",
     "name": "Anders Kristian Munk",
     "title": "Director",
-    "image": "../assets/andersmunk.jpg",
+    "image": "../assets/people/andersmunk.jpg",
     "bio": "Anders Kristian Munk is Professor of Computational Anthropology in the Section Science and Technology Studies at DTU Management. His research focuses on controversies about emerging technologies, particularly about artificial intelligence and the green transition. Over the past decade, he has worked to integrate computational methods into more qualitative traditions. In that capacity, he has co-founded the Public Data Lab, The Techno-Anthropology Lab, and MASSHINE (Aalborg University's hub for computational social science and humanities), the latter two of which he has also directed. He holds a D.Phil. in Geography from the University of Oxford and has been a senior visiting researcher at the SciencesPo médialab in Paris.",
     "workingGroups": [
     "The Observation of Technological Debates"
@@ -33,7 +33,7 @@
     "id": "anders-koed-madsen",
     "name": "Anders Koed Madsen",
     "title": "Data, democracy, digital urbanism",
-    "image": "../assets/anderskoed.jpg",
+    "image": "../assets/people/anderskoed.jpg",
     "bio": "Anders Koed Madsen focuses on data, democracy, and digital urbanism, exploring the intersection of technology and social systems.",
     "projects": [
       {
@@ -56,7 +56,7 @@
     "id": "tanja-schneider",
     "name": "Tanja Schneider",
     "title": "Science and Technology Studies, market studies, digital food studies",
-    "image": "../assets/tanja.jpg",
+    "image": "../assets/people/tanja.jpg",
     "bio": "Tanja's research examines how digital technologies shape, and are shaped by, everyday life, with a focus on food and ethical consumption. As a James Martin Fellow at the University of Oxford, she researched how civil society organizations and consumers use digital platforms to challenge food industry practices, contributing to key works such as Digital Food Activism (2018) and helping establish Digital Food Studies. She later led the FoodCoach project and co-founded the Digital Foodscapes Network, advancing interdisciplinary research on digital food technologies. Her work highlights both their transformative potential and their tendency to reinforce existing practices.",
     "projects": [],
     "socials": {
@@ -69,7 +69,7 @@
     "id": "johan-irving-soltoft",
     "name": "Johan Irving Søltoft",
     "title": "Data interventions, Perspectival modelling, critical technical practices",
-    "image": "../assets/johan1.jpg",
+    "image": "../assets/people/johan1.jpg",
     "bio": "Johan Irving Søltoft is a researcher exploring how planning and policy decisions affect different people in different ways. He develops Perspectival Models based on qualitative, heterogeneous data to reveal how diverse groups, urban residents, farmers, workers, activists, perceive the same policy challenges differently. Rather than predicting behavior, his work exposes these different perspectives to policymakers. He currently investigates these questions through the projects STÅSTEDER and MOVEO.",
     "workingGroups": [
     "The Observation of Technological Debates",
@@ -105,7 +105,7 @@
     "id": "lasse-uhrskov-kristensen",
     "name": "Lasse Uhrskov Kristensen",
     "title": "Digital sovereignty, open source infrastructures, transnational code sharing",
-    "image": "../assets/lasse.jpg",
+    "image": "../assets/people/lasse.jpg",
     "bio": "Lasse Uhrskov Kristensen studies transnational code sharing between public sector organisations on GitHub, examining how code travels and transforms as it is adopted and forked across institutional contexts. Drawing on STS and digital methods, his work engages with debates on digital sovereignty, where open-source software is mobilised to reduce national dependencies — while simultaneously producing new ones. At ECHO, he also contributes to building and maintaining the observatory's research infrastructures and data pipelines.",
     "workingGroups": [
     "The Observation of Technological Debates"
@@ -127,7 +127,7 @@
     "id": "csilla-duray",
     "name": "Csilla Duray",
     "title": "Social Data Science, participatory urban planning, perspectival modelling",
-    "image": "../assets/csilla.jpg",
+    "image": "../assets/people/csilla.jpg",
     "bio": "Csilla Duray's work focuses on engaging everyday public transportation users through the Urban Belonging App to learn about problems they encounter and what they find important. At ECHO, she explores how these citizen-perspectives can be represented by fine-tuned large language models (LLMs) and retrieval augmented generation (RAG) algorithms. Her research explores how generative AI can facilitate co-creation and scenario design and integrate public opinion into planning processes.",
     "workingGroups": [
     "Perspectival Modelling and Local LLMs",
@@ -150,7 +150,7 @@
     "id": "frederik-bay-jorgensen",
     "name": "Frederik Bay-Jørgensen",
     "title": "Computational anthropology, explainable AI, AI alignment",
-    "image": "../assets/frederik.jpg",
+    "image": "../assets/people/frederik.jpg",
     "bio": "In Echo, Frederik Bay-Jørgensen contributes to the development of methods for perspectival modelling using generative AI. He stays up to date with recent advances in small- to mid-sized open-source models and integrates them into observatorial pipelines for attending to technological questions in society. He also helps maintain the observatory's computing setup, which enables the safe local use of AI in our work.",
     "workingGroups": [
     "Perspectival Modelling and Local LLMs",
@@ -172,7 +172,7 @@
     "id": "daniel-nordstrand-frantzen",
     "name": "Daniel Nordstrand Frantzen",
     "title": "Valuation struggles, wind energy, planning controversies",
-    "image": "../assets/daniel.jpg",
+    "image": "../assets/people/daniel.jpg",
     "bio": "Daniel Nordstrand Frantzen is a qualitative researcher exploring issues and controversies related to the energy transition. He collaborates with ECHO on observing societal debates on technologies - mainly related to matters of energy and sustainability more broadly. Furthermore, he uses workshop methods and game design in his research.",
     "workingGroups": [
     "The Observation of Technological Debates",
@@ -194,7 +194,7 @@
     "id": "benjamin-lipp",
     "name": "Benjamin Lipp",
     "title": "Digital health, AI & robotics, cocreation",
-    "image": "../assets/benjamin.jpg",
+    "image": "../assets/people/benjamin.jpg",
     "bio": "Benjamin Lipp is studying the social impact of digital technology and infrastructure on healthcare practices. He is interested in utilising participatory sensing approaches for studying digital care infrastructures. He is also steering efforts to utilise games and game design for research and cocreation purposes.",
     "workingGroups": [
     "Games as Tools for Research and Engagement"
@@ -210,7 +210,7 @@
     "id": "david-anthony-charles-broomham",
     "name": "David Anthony Charles Broomham",
     "title": "Digital placemaking, mixed methods, computational SSH",
-    "image": "../assets/david.png",
+    "image": "../assets/people/david.png",
     "bio": "David Anthony Charles Broomham explores how digital tools can scale up qualitative data collection and analysis. As part of the CULTIGEN project, he is redeveloping the Urban Belonging app for large-scale data collection, alongside other digital tools that form part of the Urban Listening Toolkit. The toolkit will also examine the use of LLMs for interpretive work, contributing to computational SSH.",
     "workingGroups": [
     "Big Qualitative Data Tools"
@@ -231,7 +231,7 @@
     "id": "andreas-rattenborg-holm-hansen",
     "name": "Andreas Rattenborg Holm-Hansen",
     "title": "AI, NLP, computational social science",
-    "image": "../assets/andreas.jpg",
+    "image": "../assets/people/andreas.jpg",
     "bio": "Andreas Rattenborg Holm-Hansen works with the development of AI-based tools and analytical workflows to investigate how technology and science are discussed in Danish media. His work spans data processing, language technology, and computational text analysis, as well as the visualization and communication of insights so that complex patterns and developments become understandable and applicable. In ECHO, he contributes both technically and analytically at the intersection of AI, media, and society.",
     "workingGroups": [
     "The Observation of Technological Debates",
@@ -253,7 +253,7 @@
     "id": "mathieu-jacomy",
     "name": "Mathieu Jacomy",
     "title": "AI-augemented social science, observational controversy mapping, irreductionist vizualisation", 
-    "image": "../assets/mathieu.jpg",
+    "image": "../assets/people/mathieu.jpg",
     "bio": "Mathieu Jacomy builds digital tools to support the continuous observation and analysis of technological questions in the public space of Danish democracy.He studies controversies as a way to understand and expose how our society deals with the different matters of concerns involved in science and technology. He also develops visualization methods aiming at navigating complex knowledge landscape.",
     "workingGroups": [
     "The Observation of Technological Debates"
