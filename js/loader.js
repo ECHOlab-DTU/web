@@ -1,5 +1,8 @@
 import { createLabNoteCard } from './components/card-creator.js';
 
+// Site root, so paths work from any page depth
+const ROOT = new URL('../', import.meta.url);
+
 // Function to load lab notes from individual files
 async function loadLabNotes() {
     try {
@@ -13,8 +16,8 @@ async function loadLabNotes() {
         gridContainer.innerHTML = ''; // Clear existing content
 
         // Get all project files from the projects directory
-        console.log('Fetching Projects/project-list.json...');
-        const response = await fetch('Projects/project-list.json');
+        console.log('Fetching projects/project-list.json...');
+        const response = await fetch(new URL('projects/project-list.json', ROOT));
         console.log('Response status:', response.status);
         
         if (!response.ok) {
@@ -34,7 +37,7 @@ async function loadLabNotes() {
         for (const projectId of projectIndex.projects) {
             try {
                 console.log(`Loading project: ${projectId}`);
-                const projectUrl = `Projects/${projectId}.js`;
+                const projectUrl = new URL(`projects/${projectId}.js`, ROOT);
                 console.log(`Fetching from URL: ${projectUrl}`);
                 const projectResponse = await fetch(projectUrl);
                 console.log(`Project response status for ${projectId}:`, projectResponse.status);

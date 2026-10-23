@@ -1,3 +1,6 @@
+// Site root, so paths work from any page depth
+const ROOT = new URL('../', import.meta.url);
+
 (async function () {
     const track = document.getElementById('carouselTrack');
     const dotsContainer = document.getElementById('carouselDots');
@@ -8,12 +11,12 @@
     let current = 0;
 
     async function loadItems() {
-        const listRes = await fetch('../carousel/carousel-list.json');
+        const listRes = await fetch(new URL('carousel/carousel-list.json', ROOT));
         const { items: ids } = await listRes.json();
 
         for (const id of ids) {
             try {
-                const res = await fetch(`../carousel/${id}.js`);
+                const res = await fetch(new URL(`carousel/${id}.js`, ROOT));
                 if (!res.ok) continue;
                 const src = await res.text();
                 const getData = new Function(`${src}; return typeof carouselItem !== 'undefined' ? carouselItem : null;`);
@@ -31,9 +34,9 @@
         const posStyle = position ? ` style="object-position: ${position};"` : '';
         if (!src) return '<div class="carousel-card-image-placeholder"></div>';
         if (isVideo(src)) {
-            return `<video src="../${src}" autoplay muted loop playsinline preload="auto"${posStyle}></video>`;
+            return `<video src="${new URL(src, ROOT)}" autoplay muted loop playsinline preload="auto"${posStyle}></video>`;
         }
-        return `<img src="../${src}" alt="${title}"${posStyle}>`;
+        return `<img src="${new URL(src, ROOT)}" alt="${title}"${posStyle}>`;
     }
 
     function buildCards() {

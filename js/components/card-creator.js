@@ -1,5 +1,8 @@
 import { openModal } from './modal.js';
 
+// Site root, so image paths work from any page depth
+const ROOT = new URL('../../', import.meta.url);
+
 // Function to create a lab note card
 export function createLabNoteCard(noteData) {
     // Create a wrapper for the entire card section
@@ -19,7 +22,7 @@ export function createLabNoteCard(noteData) {
     header.className = 'card-header';
     
     const img = document.createElement('img');
-    img.src = noteData.image;
+    img.src = new URL(noteData.image, ROOT);
     img.alt = noteData.title;
     header.appendChild(img);
     
@@ -123,7 +126,7 @@ export function createLabNoteCard(noteData) {
 
      // Add o.svg to bottom right corner
     const oImage = document.createElement('img');
-    oImage.src = 'Assets/o.svg';
+    oImage.src = new URL('assets/o.svg', ROOT);
     oImage.style.position = 'absolute';
     oImage.style.bottom = '1rem';
     oImage.style.right = '0.5rem';
