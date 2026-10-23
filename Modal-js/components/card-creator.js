@@ -43,9 +43,7 @@ export function createLabNoteCard(noteData) {
     // Left column
     const leftColumn = document.createElement('div');
     leftColumn.className = 'card-left';
-    leftColumn.style.flex = window.innerWidth <= 768 ? '1' : '1.1';
-    leftColumn.style.overflow = 'hidden';
-    
+
     // Add title with word count check
     const title = document.createElement('h2');
     title.className = 'project-title';
@@ -68,15 +66,9 @@ export function createLabNoteCard(noteData) {
     // Right column
     const rightColumn = document.createElement('div');
     rightColumn.className = 'card-right';
-    rightColumn.style.flex = '1';
-    rightColumn.style.overflow = 'hidden';
     rightColumn.style.maxHeight = '610px';
-    
-    // Hide right column on mobile
-    if (window.innerWidth <= 768) {
-        rightColumn.style.display = 'none';
-    }
-    
+    // Mobile layout (hiding the right column) is handled by the media queries in styles.css
+
     // Add sections to right column
     const topicsSection = createSection(noteData.sectionTitles.researchTopics, noteData.researchTopics, 'text', false);
     rightColumn.appendChild(topicsSection);
@@ -97,21 +89,11 @@ export function createLabNoteCard(noteData) {
     content.appendChild(rightColumn);
     card.appendChild(content);
 
-    // Check if content overflows and adjust if needed - only for desktop
-    setTimeout(() => {
-        if (window.innerWidth > 768) {
-            const leftOverflows = leftColumn.scrollHeight > leftColumn.clientHeight;
-            const rightOverflows = rightColumn.scrollHeight > rightColumn.clientHeight;
-            
-            if (leftOverflows) {
-                preview.classList.add('overflow');
-            }
-            
-            if (rightOverflows) {
-                rightColumn.classList.add('overflow');
-            }
-        }
-    }, 0);
+    // Mark overflowing columns; re-checked whenever the card changes size
+    new ResizeObserver(() => {
+        preview.classList.toggle('overflow', leftColumn.scrollHeight > leftColumn.clientHeight);
+        rightColumn.classList.toggle('overflow', rightColumn.scrollHeight > rightColumn.clientHeight);
+    }).observe(card);
 
     // Add links section
     const links = document.createElement('div');
@@ -151,31 +133,6 @@ export function createLabNoteCard(noteData) {
      oImage.style.opacity = '0.3'
     oImage.style.transition = 'opacity 0.3s ease'; // Add smooth transition
     card.appendChild(oImage);
-    
-    // Add resize listener to handle responsive layout
-    window.addEventListener('resize', () => {
-        const isMobile = window.innerWidth <= 768;
-        leftColumn.style.flex = isMobile ? '1' : '1.1';
-        rightColumn.style.display = isMobile ? 'none' : 'block';
-        
-        // Re-check overflow for desktop view
-        if (!isMobile) {
-            const leftOverflows = leftColumn.scrollHeight > leftColumn.clientHeight;
-            const rightOverflows = rightColumn.scrollHeight > rightColumn.clientHeight;
-            
-            if (leftOverflows) {
-                preview.classList.add('overflow');
-            } else {
-                preview.classList.remove('overflow');
-            }
-            
-            if (rightOverflows) {
-                rightColumn.classList.add('overflow');
-            } else {
-                rightColumn.classList.remove('overflow');
-            }
-        }
-    });
     
     // Add click event to open modal
     card.addEventListener('click', (e) => {
