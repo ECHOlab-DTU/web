@@ -84,7 +84,7 @@
 
 .modal-left {
     flex: 0 0 300px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: #030F4F url("../assets/site/background.png?v=2") center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
