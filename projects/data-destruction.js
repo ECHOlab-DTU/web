@@ -27,7 +27,7 @@ const noteData = {
 // Add your links
 projectLink: "https://www.datatilsynet.dk", // Source link 1
 projectLinkText: "Datatilsynet for further resources", // Button text 1
-publicationLink: "assets/events/datadestructionposter.webp", // Source link 2
+publicationLink: "assets/events/data_destruction_poster.webp", // Source link 2
 publicationLinkText: "Event Info", // Button text 2
 
 // OPTIONAL: Change section titles (right column)

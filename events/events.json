@@ -3,57 +3,57 @@
     {
       "date": "01.02.2026",
       "title": "Spring Program 2026",
-      "image": "assets/events/springprogram.png"
+      "image": "assets/events/spring_program_2026.png"
     },
     {
       "date": "28.05.2026",
       "title": "Show & Tool — Danish Dynaword: Open Source Development for LLMs and Their Data",
-      "image": "assets/events/kennethtool.png"
+      "image": "assets/events/show_tool_dynaword.png"
     },
     {
       "date": "16.06.2026",
       "title": "Show & Tool — Carbontracker: Tracking the Carbon Footprint of Deep Learning Models",
-      "image": "assets/events/selvan.png"
+      "image": "assets/events/show_tool_carbontracker.png"
     },
     {
       "date": "29.04.2026",
       "title": "Show & Tool — Berry",
-      "image": "assets/events/berry.png"
+      "image": "assets/events/show_tool_berry.png"
     },
     {
       "date": "08.04.2026",
       "title": "Workshop — Joe Dumit",
-      "image": "assets/events/workshopjoedumit.png"
+      "image": "assets/events/workshop_joe_dumit.png"
     },
     {
       "date": "08.04.2026",
       "title": "Double Book Launch",
-      "image": "assets/events/double-book-launch.jpg"
+      "image": "assets/events/double_book_launch.jpg"
     },
     {
       "date": "04.12.2025",
       "title": "Show & Tool — AI Interview",
-      "image": "assets/events/showandtoolaiinterview.png"
+      "image": "assets/events/show_tool_ai_interview.png"
     },
     {
       "date": "04.12.2025",
       "title": "Show & Tool — Retriever",
-      "image": "assets/events/showandtoolretriever.png"
+      "image": "assets/events/show_tool_retriever.png"
     },
     {
       "date": "05.11.2025",
       "title": "Show & Tool — AI Interviewer",
-      "image": "assets/events/show&tool-aiinterviewer.webp"
+      "image": "assets/events/show_tool_ai_interviewer.webp"
     },
     {
       "date": "02.06.2025",
       "title": "Data Destruction",
-      "image": "assets/events/datadestructionposter.webp"
+      "image": "assets/events/data_destruction_poster.webp"
     },
     {
       "date": "25.04.2025",
       "title": "Forskningsdøgn",
-      "image": "assets/events/forskningsdognevent.webp"
+      "image": "assets/events/forskningsdogn.webp"
     }
   ]
 }
