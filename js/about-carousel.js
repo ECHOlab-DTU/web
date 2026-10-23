@@ -7,8 +7,12 @@ const ROOT = new URL('../', import.meta.url);
     const prevBtn = document.querySelector('.carousel-prev');
     const nextBtn = document.querySelector('.carousel-next');
 
+    const AUTO_ADVANCE_MS = 10000;
+    const section = track.closest('.about-carousel-section');
+
     let items = [];
     let current = 0;
+    let timer = null;
 
     async function loadItems() {
         const listRes = await fetch(new URL('carousel/carousel-list.json', ROOT));
@@ -78,6 +82,29 @@ const ROOT = new URL('../', import.meta.url);
 
         cards[current].classList.add('active');
         dots[current].classList.add('active');
+
+        // Start the new slide's video from the beginning
+        const video = cards[current].querySelector('video');
+        if (video) {
+            video.currentTime = 0;
+            video.play().catch(() => {});
+        }
+
+        restartAutoAdvance();
+    }
+
+    function stopAutoAdvance() {
+        clearInterval(timer);
+        timer = null;
+    }
+
+    function restartAutoAdvance() {
+        stopAutoAdvance();
+        if (items.length < 2) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        // Stay put while the visitor is pointing at or focused inside the carousel
+        if (section.matches(':hover, :has(:focus-visible)')) return;
+        timer = setInterval(() => goTo(current + 1), AUTO_ADVANCE_MS);
     }
 
     function setupScrollPlay() {
@@ -103,5 +130,8 @@ const ROOT = new URL('../', import.meta.url);
     if (items.length > 0) {
         buildCards();
         setupScrollPlay();
+        ['mouseenter', 'mouseleave', 'focusin', 'focusout'].forEach(type =>
+            section.addEventListener(type, restartAutoAdvance));
+        restartAutoAdvance();
     }
 })();
