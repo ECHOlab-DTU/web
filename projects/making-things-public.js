@@ -2,7 +2,7 @@
 const noteData = {
   title: "Making Things Public - 20 Years After",
   date: "08.08.2025", // Use this date format
-  image: "Assets/Makingthingspublic2.jpg", // Put your image in the Assets folder
+  image: "assets/makingthingspublic2.webp", // Put your image in the Assets folder
   preview: `
   <p>2025 marks the 20th anniversary of Bruno Latour and Peter Weibel’s groundbreaking Making Things Public exhibition at the Center for Art and Media in Karlsruhe, which marked a turn in the analysis and cartography of knowledge controversies in society.</p>
   <p>Echoing their call for the use of controversy mapping (CM) as a democratic equipment that could assist and incite the public to act, we ask in this seminar: Do we still believe in controversy mapping as democratic equipment? If yes, how? If not, why?</p>

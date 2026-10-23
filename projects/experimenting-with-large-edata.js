@@ -2,7 +2,7 @@
 const noteData = {
   title: "Experimenting with large ethnographic data",
   date: "02.10.2024", // Use this date format
-  image: "Assets/Nolabels.png", // Put your image in the Assets folder
+  image: "assets/nolabels.webp", // Put your image in the Assets folder
   preview: `
   <p>Computational methods have opened up new possibilities for collecting and analyzing large quantities of ethnographic data, including interviews, comments, articles, and abstracts.</p>
   <p>Applying tools like sentence transformers and embeddings, we can cluster and group texts with similar meanings and visualize them, revealing emerging patterns in the data. With these methods, we use a cross-disciplinary approach between computational and social sciences, making it possible to use existing qualitative text data in new ways.</p>
