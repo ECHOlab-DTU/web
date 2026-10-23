@@ -126,7 +126,7 @@ export function createLabNoteCard(noteData) {
 
      // Add o.svg to bottom right corner
     const oImage = document.createElement('img');
-    oImage.src = new URL('assets/o.svg', ROOT);
+    oImage.src = new URL('assets/site/o.svg', ROOT);
     oImage.style.position = 'absolute';
     oImage.style.bottom = '1rem';
     oImage.style.right = '0.5rem';
