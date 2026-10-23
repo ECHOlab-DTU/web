@@ -156,22 +156,21 @@ Do not be confused if it takes a bit of time until your lab note appears on the 
 
 # Adding a New Event
 
-You can see the list of upcoming events in the header of the website. They are displayed as date & title and you can add a picture that will pop up upon clicking on the
-date, if you wish to add an invitation or description file.
+Events are shown on the **Events** page as poster cards. Clicking a card opens the image (or PDF) full screen.
+Events are sorted automatically: anything dated today or later appears under "Upcoming Events", and it moves to "Past Events" the day after it happens.
 
-To add an upcoming event to the website:
+To add an event to the website:
 
-1. Open `Events/events.json`
-2. Add your event information following this simple format and upload a picture in the image folder and paste the name where it says "image":
+1. Upload the poster (image or PDF) to the `Assets` folder
+2. Open `Events/events.json`
+3. Add your event to the `events` list using this format (order does not matter, and remember the comma between entries):
  
    ```javascript
    {
-     "id": 3,
-     "date": "DD.MM",
+     "date": "DD.MM.YYYY",
      "title": "Your Event Title",
-     "image": "Assets/your-event-image.png"
+     "image": "Assets/your-event-poster.png"
    }
-
    ```
 
 ---
@@ -181,8 +180,10 @@ To add an upcoming event to the website:
 ```
 Echo Lab Website/
 ├── Assets/                  # Static assets (images, logos)
-├── Events/                  # Events data (managed by admin)
-│   └── events.json          # List of upcoming events
+├── Events/                  # Events page
+│   ├── events.html          # Events page (managed by admin)
+│   ├── events-loader.js     # Builds the upcoming/past event cards (managed by admin)
+│   └── events.json          # List of all events - add new events here
 ├── Projects/                # LAB NOTES - NEW CONTENT GOES HERE 🗂📝
 │   ├── project-list.json    # List of all projects - needs to be updated
 │   └── *.js                 # Individual project files - Using template you can create a new project 

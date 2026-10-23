@@ -50,6 +50,11 @@ body {
     font-weight: bold;
 }
 
+.nav-active {
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

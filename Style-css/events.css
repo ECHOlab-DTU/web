@@ -166,12 +166,6 @@
     line-height: 1;
 }
 
-/* nav active underline */
-.nav-active {
-    text-decoration: underline !important;
-    text-underline-offset: 3px;
-}
-
 @media (max-width: 1200px) {
     .events-grid { grid-template-columns: repeat(2, 1fr); }
 }
