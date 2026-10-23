@@ -180,6 +180,8 @@ To add an event to the website:
 ```
 Echo Lab Website/
 ├── index.html                  # Home page: intro, project carousel and about text (managed by admin)
+├── home-v2/
+│   └── index.html              # Draft redesign of the home page (floating table of contents)
 ├── lab-notes/
 │   └── index.html              # Lab notes page (cards are loaded from projects/)
 ├── events/
@@ -205,6 +207,7 @@ Echo Lab Website/
 │   └── *.js                    # Individual project files - Using template you can create a new project
 ├── js/                         # JavaScript modules (managed by admin)
 │   ├── about-carousel.js       # Home page carousel (auto-advance, arrows, dots)
+│   ├── home-toc.js             # Floating table of contents on the home-v2 draft
 │   ├── loader.js               # Loads the lab notes into the lab notes page
 │   └── components/
 │       ├── card-creator.js     # Creates the UI of a lab note card
@@ -212,6 +215,7 @@ Echo Lab Website/
 ├── css/                        # Stylesheets (managed by admin)
 │   ├── styles.css              # Shared styles: header, lab note cards, modal
 │   ├── home.css                # Home page and carousel
+│   ├── home-v2.css             # Styles for the home-v2 draft
 │   └── events.css              # Events page
 ├── assets/                     # Images and videos, grouped by use
 │   ├── site/                   # Logo, background and carousel videos
