@@ -17,7 +17,7 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
    const noteData = {
      title: "YOUR PROJECT TITLE",
      date: "DD.MM.YYYY", // Use this date format
-     image: "assets/placeholder.png", // Put your image in the Assets folder
+     image: "assets/lab_notes/placeholder.png", // Put your image in assets/lab_notes/
      preview: "A brief description of your project...",
 
    //Sections -> Right column 
@@ -55,12 +55,12 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
    ```
 
 ## **2. Add Your Project Image**
-   - Put your project image in the `Assets` folder. You can go to the folder assets and click upload new.
-   - Remember that the file name assets/ must remain, so GitHub knows where to find the picture
+   - Put your project image in the `assets/lab_notes/` folder. You can go to that folder and click upload new.
+   - Remember that the path must start with assets/lab_notes/, so GitHub knows where to find the picture
    - Make sure to use the correct image path in your project file:
      
 ```javascript
-     image: "assets/Test.png", // Put your image in the Assets folder and copy the name here
+     image: "assets/lab_notes/test.png", // Put your image in assets/lab_notes/ and copy the name here
 ```
 
 ## **3. Add links to the lab note**:
@@ -141,8 +141,8 @@ REMEMBER that incorrect JS syntax inside your project file will not display your
  - Use a clear and simple filename (like my-new-project.js)?
  - Fill in all the fields in the noteData object (title, date, image, etc.)?
  - Do you have the correct syntax? Missing comas, etc? 
- - Upload your image to the assets/ folder?
- - Use the correct path to the image in your project file (assets/your-image.png)?
+ - Upload your image to the assets/lab_notes/ folder?
+ - Use the correct path to the image in your project file (assets/lab_notes/your-image.png)?
  - Add your project name (without .js) to the project-list.json file?
 
 If you have any problems try asking Johan, Sarah or Ainoa. 
@@ -161,7 +161,7 @@ Events are sorted automatically: anything dated today or later appears under "Up
 
 To add an event to the website:
 
-1. Upload the poster (image or PDF) to the `Assets` folder
+1. Upload the poster (image or PDF) to the `assets/events/` folder
 2. Open `events/events.json`
 3. Add your event to the `events` list using this format (order does not matter, and remember the comma between entries):
  
@@ -169,7 +169,7 @@ To add an event to the website:
    {
      "date": "DD.MM.YYYY",
      "title": "Your Event Title",
-     "image": "assets/your-event-poster.png"
+     "image": "assets/events/your-event-poster.png"
    }
    ```
 
@@ -198,5 +198,9 @@ Echo Lab Website/
 │   │   └── modal.js
 │   └── loader.js            # Loads the lab notes into the lab notes page
 ├── css/                     # CSS styles of the website (managed by admin)
-└── assets/                  # Static assets (images, logos)
+└── assets/                  # Images, grouped by use
+    ├── site/                # Logo, carousel videos and other site elements
+    ├── people/              # Portraits for the People page
+    ├── events/              # Event posters
+    └── lab_notes/           # Lab note images
 ```
