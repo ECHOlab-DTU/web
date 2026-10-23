@@ -1,24 +1,3 @@
-function openEventModal(imagePath) {
-    const modal = document.getElementById('eventModal');
-    const image = document.getElementById('eventImage');
-    image.src = imagePath;
-    modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-}
-
-function closeEventModal() {
-    const modal = document.getElementById('eventModal');
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
-}
-
-// Close event modal with Escape key
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-        closeEventModal();
-    }
-});
-
 export function openModal(card) {
     const modal = document.getElementById('cardModal');
     const modalContent = modal.querySelector('.modal-content');
