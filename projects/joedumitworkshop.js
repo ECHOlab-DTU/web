@@ -2,7 +2,7 @@
 const noteData = {
   title: "Co-Researching With Generative AI",
   date: "08.05.2025", // Use this date format
-  image: "assets/lab_notes/joedumit.webp", // Put your image in the Assets folder
+  image: "assets/lab_notes/joe_dumit_workshop.webp", // Put your image in the Assets folder
   preview: `
     <p>AI confabulations are integral to how large language models work – they are a feature, not a bug. LLMs are trained on texts, not truths. Each text carries traces of its context, including its genre, voice, audience, and local politics. What is accurate in one discipline may be nonsensical in another.</p>
     <p>As scholars who train graduate students in multi-field academic writing, Joe presented techniques for attunement to such styles – and demonstrated how to use LLMs to assist (not replace) us in co-researching, co-writing, and co-revising.</p>

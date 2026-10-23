@@ -2,7 +2,7 @@
 const noteData = {
   title: "Mapping the 2026 Danish General Election on Social Media",
   date: "26.03.2026", // Use this date format
-  image: "assets/lab_notes/fv26-map.webp", 
+  image: "assets/lab_notes/election_map.webp", 
   preview: `
   <p>This project maps publicly available social media posts from parliamentary candidates during the lead-up to Denmark's general election on 24 March 2026. By analyzing candidates’ public posts, the project captures how technology-related issues are discussed during the election campaign. It contributes to ECHO's broader mission to establish an observatory for technology questions in society.</p>
   <p>The posts are organized according to semantic similarity and visualized as a thematic landscape, where texts addressing related topics are placed close to one another. This makes it possible to identify clusters of recurring themes and debates across the election campaign.</p>

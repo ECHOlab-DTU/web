@@ -2,7 +2,7 @@
 const noteData = {
   title: "Web Accessibility Assessment oF The Urban Belonging App",
   date: "01.11.2024", // Use this date format
-  image: "assets/lab_notes/ubworkshop.webp", // Put your image in the Assets folder
+  image: "assets/lab_notes/urban_belonging_accessibility.webp", // Put your image in the Assets folder
   preview: `
     <p>The workshop was part of a project focused on the Accessibility Assessment and further developmentof the Urban Belonging Photo App.</p>
     <p>The open-source toolkit was developed by a group of researchers and architects as part of the Urban Belonging project. It was initially used in research conducted between 2020 and 2023. Upon successful completion of that phase, it was decided to continue developing the app further.</p>

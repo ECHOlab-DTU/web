@@ -5,7 +5,7 @@ const noteData = {
   
   title: "Text Extraction With LLMs. Show&Tool #2",
   date: "4.12.2025", // Use this date format
-  image: "assets/lab_notes/showandtool2.webp", // Put your image in the Assets folder
+  image: "assets/lab_notes/show_tool_text_extraction.webp", // Put your image in the Assets folder
   preview: "Working with unstructured text such as interview transcripts or news articles presents challenges and tradeoffs when we want to extract statements made by, and statements about, specific actors. This presentation will first outline the principles of working with text as a datatype by assessing its practical limitations. Then we'll take a detailed look at transcribed text as a data source and share a best-practice roadmap to statement extraction on GitHub. Through that, we'll see how different methodological choices affect accuracy and reliability.",
   
 //Sections -> Right column 
