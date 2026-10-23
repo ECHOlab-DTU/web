@@ -20,6 +20,7 @@ async function loadCommittee() {
                 <h3 class="person-name">${person.name}</h3>
                 <p class="person-title">${person.title}</p>
             `;
+            card.addEventListener('click', () => openModal(person));
             committeeGrid.appendChild(card);
         });
         
@@ -225,8 +226,7 @@ function populateModal(person) {
 }
 
 // Open modal
-function openModal(personId, committeeData) {
-    const person = committeeData.find(p => p.id === personId);
+function openModal(person) {
     const modal = document.getElementById('personModal');
     populateModal(person);
     modal.classList.add('active');
@@ -240,36 +240,10 @@ function closeModal() {
     document.body.style.overflow = '';
 }
 
-// Convert name to ID format
-function nameToId(name) {
-    return name.toLowerCase()
-        .replace(/å/g, 'a')
-        .replace(/ä/g, 'a')
-        .replace(/ö/g, 'o')
-        .replace(/ø/g, 'o')
-        .replace(/æ/g, 'ae')
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-+|-+$/g, '');
-}
-
-// Initialize modal functionality
-function initPeopleModal(committeeData) {
+// Initialize modal functionality (committee cards get their click handlers in loadCommittee)
+function initPeopleModal() {
     // Create modal
     createModal();
-
-    // Add click handlers to Committee members
-    const committeeSection = document.querySelector('#committee-section');
-    if (committeeSection) {
-        const committeeCards = committeeSection.querySelectorAll('.person-card');
-        
-        committeeCards.forEach(card => {
-            const name = card.querySelector('.person-name').textContent;
-            const personId = nameToId(name);
-            
-            card.style.cursor = 'pointer';
-            card.addEventListener('click', () => openModal(personId, committeeData));
-        });
-    }
 
     // Close modal handlers
     document.querySelector('.modal-close').addEventListener('click', closeModal);
@@ -341,13 +315,15 @@ function initCollaboratorFilters() {
 
 // Main initialization
 async function initializePage() {
+    // Create the modal first so committee cards are clickable as soon as they render
+    initPeopleModal();
+
     // Load all data
-    const committeeData = await loadCommittee();
+    await loadCommittee();
     await loadAffiliates();
     await loadCollaborators();
-    
+
     // Initialize interactions
-    initPeopleModal(committeeData);
     initCollaboratorFilters();
 }
 
