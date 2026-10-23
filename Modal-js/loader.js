@@ -1,21 +1,4 @@
 import { createLabNoteCard } from './components/card-creator.js';
-import { loadEvents, createEventItem } from './components/events-handler.js';
-
-// Function to load events
-async function loadEventsData() {
-    try {
-        console.log('Fetching events data...');
-        const response = await fetch('Events/events.json');
-        if (!response.ok) {
-            throw new Error(`Failed to load events: ${response.status} ${response.statusText}`);
-        }
-        const eventsData = await response.json();
-        console.log('Events data loaded:', eventsData);
-        loadEvents(eventsData.events);
-    } catch (error) {
-        console.error('Error loading events:', error);
-    }
-}
 
 // Function to load lab notes from individual files
 async function loadLabNotes() {
@@ -117,11 +100,7 @@ async function loadLabNotes() {
 
 // Initialize — run immediately if DOM is ready, otherwise wait
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-        loadLabNotes();
-        loadEventsData();
-    });
+    document.addEventListener('DOMContentLoaded', loadLabNotes);
 } else {
     loadLabNotes();
-    loadEventsData();
 } 
