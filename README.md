@@ -179,28 +179,45 @@ To add an event to the website:
 
 ```
 Echo Lab Website/
-├── index.html               # Home / About page (managed by admin)
-├── lab-notes/index.html     # Lab notes page
-├── events/                  # Events page
-│   ├── index.html           # Events page (managed by admin)
-│   ├── events-loader.js     # Builds the upcoming/past event cards (managed by admin)
-│   └── events.json          # List of all events - add new events here
-├── people/                  # People page (index.html, loader, committee/affiliates/collaborators JSON)
-├── maps/                    # Standalone map pages
-├── carousel/                # Projects shown in the home page carousel
-├── projects/                # LAB NOTES - NEW CONTENT GOES HERE 🗂📝
-│   ├── project-list.json    # List of all projects - needs to be updated
-│   └── *.js                 # Individual project files - Using template you can create a new project
-├── js/                      # JavaScript modules (managed by admin)
-│   ├── about-carousel.js    # Home page carousel
-│   ├── components/          # UI components
-│   │   ├── card-creator.js  # creates the UI of the lab note
-│   │   └── modal.js
-│   └── loader.js            # Loads the lab notes into the lab notes page
-├── css/                     # CSS styles of the website (managed by admin)
-└── assets/                  # Images, grouped by use
-    ├── site/                # Logo, carousel videos and other site elements
-    ├── people/              # Portraits for the People page
-    ├── events/              # Event posters
-    └── lab_notes/           # Lab note images
+├── index.html                  # Home page: intro, project carousel and about text (managed by admin)
+├── lab-notes/
+│   └── index.html              # Lab notes page (cards are loaded from projects/)
+├── events/
+│   ├── index.html              # Events page (managed by admin)
+│   ├── events-loader.js        # Builds the upcoming/past event cards (managed by admin)
+│   └── events.json             # List of all events - add new events here
+├── people/
+│   ├── index.html              # People page
+│   ├── people-loader.js        # Builds the people cards and the person modal
+│   ├── people-modal.css        # Styles for the person modal
+│   ├── committee.json          # Committee members, with bios, working groups and links
+│   ├── affiliates.json         # Affiliates (photo, name and link)
+│   └── collaborators.json      # Research and industry collaborators
+├── maps/
+│   └── folketingsvalget2026.html  # Standalone map of the 2026 election
+├── carousel/                   # Projects shown in the home page carousel
+│   ├── carousel-list.json      # Which entries are shown, in order
+│   ├── example-project.js      # Template for a new entry (not shown on the site)
+│   ├── mapping-election.js     # Carousel entry
+│   └── grounding-ai.js         # Carousel entry
+├── projects/                   # LAB NOTES - NEW CONTENT GOES HERE 🗂📝
+│   ├── project-list.json       # List of all projects - needs to be updated
+│   └── *.js                    # Individual project files - Using template you can create a new project
+├── js/                         # JavaScript modules (managed by admin)
+│   ├── about-carousel.js       # Home page carousel (auto-advance, arrows, dots)
+│   ├── loader.js               # Loads the lab notes into the lab notes page
+│   └── components/
+│       ├── card-creator.js     # Creates the UI of a lab note card
+│       └── modal.js            # Opens and closes the lab note modal
+├── css/                        # Stylesheets (managed by admin)
+│   ├── styles.css              # Shared styles: header, lab note cards, modal
+│   ├── home.css                # Home page and carousel
+│   └── events.css              # Events page
+├── assets/                     # Images and videos, grouped by use
+│   ├── site/                   # Logo, background and carousel videos
+│   ├── people/                 # Portraits for the People page (first_last.jpg)
+│   ├── events/                 # Event posters
+│   └── lab_notes/              # Lab note images
+├── LICENSE
+└── README.md
 ```
