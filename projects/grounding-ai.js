@@ -2,7 +2,7 @@
 const noteData = {
   title: "GROUNDING AI - THE AI ATLAS OF AI",
   date: "11.04.2025", // Use this date format
-  image: "assets/grounding-ai.webp", // Put your image in the Assets folder 
+  image: "assets/lab_notes/grounding-ai.webp", // Put your image in the Assets folder 
   preview: `
   <p>News media articles often portray AI as either “good” or “bad.” We read stories where AI is often “hype” or something we should “fear.” But when we pay attention to what AI research is doing, debates about algorithmic developments are less polarizing and clear cut. Algorithms are addressing issues that remain unnoticed by the public. Rather than oversimplifying AI, this project seeks to invite the public to reflect on and engage with the broader impacts of algorithms.</p>
   <p>Drawing from the research project “Beyond AI Controversy – What Are Algorithms Doing in Science?,” we are co-creating an interactive exhibition with data physicalization, user journeys, and chatbots as companions. Our goal is to make complex scientific networks relatable, providing a space for exploration and reflection without increasing barriers between science and the public.</p>

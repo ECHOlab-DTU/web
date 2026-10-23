@@ -2,7 +2,7 @@
 const noteData = {
   title: "Archiving the web: Methods and Applications",
   date: "28.01.2025", // Use this date format
-  image: "assets/web-archives.webp", 
+  image: "assets/lab_notes/web-archives.webp", 
   preview:`
   <p>The internet has become a key research focus and a valuable tool for studying social phenomena across disciplines. 
   In collaboration with the DigiFront initiative, ECHO organized a session where researchers presented their projects, 
