@@ -39,8 +39,9 @@
 }
 
 .about-readmore-link {
-    display: inline-block;
-    margin-left: 0.4rem;
+    display: block;
+    width: fit-content;
+    margin-top: 1.25rem;
     font-family: 'Andale Mono', monospace;
     font-size: 0.65rem;
     color: #E83F48;
@@ -49,7 +50,6 @@
     padding: 0.3rem 0.7rem;
     border-radius: 2px;
     white-space: nowrap;
-    vertical-align: middle;
     transition: background 0.2s, color 0.2s;
 }
 
