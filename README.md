@@ -17,7 +17,7 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
    const noteData = {
      title: "YOUR PROJECT TITLE",
      date: "DD.MM.YYYY", // Use this date format
-     image: "Assets/Placeholder.png", // Put your image in the Assets folder
+     image: "assets/placeholder.png", // Put your image in the Assets folder
      preview: "A brief description of your project...",
 
    //Sections -> Right column 
@@ -56,11 +56,11 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
 
 ## **2. Add Your Project Image**
    - Put your project image in the `Assets` folder. You can go to the folder assets and click upload new.
-   - Remember that the file name Assets/ must remain, so GitHub knows where to find the picture
+   - Remember that the file name assets/ must remain, so GitHub knows where to find the picture
    - Make sure to use the correct image path in your project file:
      
 ```javascript
-     image: "Assets/Test.png", // Put your image in the Assets folder and copy the name here
+     image: "assets/Test.png", // Put your image in the Assets folder and copy the name here
 ```
 
 ## **3. Add links to the lab note**:
@@ -78,7 +78,7 @@ This is ECHO Lab's digital archive. Each project is featured as a LAB note and i
    -Your project file should now appear under the project folder.
 
 ## **5. Update the Project List**
-   - Open `Projects/project-list.json`
+   - Open `projects/project-list.json`
    - Add your project name (without the .js) to the list
    - Example: `"projects": ["existing-project-1", "existing-project-2", "my-new-project"]`
    - The order of the list will determine how the lab notes apear in the main website.
@@ -137,12 +137,12 @@ REMEMBER that incorrect JS syntax inside your project file will not display your
 
 ## ✅ Final Checklist for uploading projects:
 
- - Create a new project file in the Projects/ folder?
+ - Create a new project file in the projects/ folder?
  - Use a clear and simple filename (like my-new-project.js)?
  - Fill in all the fields in the noteData object (title, date, image, etc.)?
  - Do you have the correct syntax? Missing comas, etc? 
- - Upload your image to the Assets/ folder?
- - Use the correct path to the image in your project file (Assets/your-image.png)?
+ - Upload your image to the assets/ folder?
+ - Use the correct path to the image in your project file (assets/your-image.png)?
  - Add your project name (without .js) to the project-list.json file?
 
 If you have any problems try asking Johan, Sarah or Ainoa. 
@@ -162,14 +162,14 @@ Events are sorted automatically: anything dated today or later appears under "Up
 To add an event to the website:
 
 1. Upload the poster (image or PDF) to the `Assets` folder
-2. Open `Events/events.json`
+2. Open `events/events.json`
 3. Add your event to the `events` list using this format (order does not matter, and remember the comma between entries):
  
    ```javascript
    {
      "date": "DD.MM.YYYY",
      "title": "Your Event Title",
-     "image": "Assets/your-event-poster.png"
+     "image": "assets/your-event-poster.png"
    }
    ```
 
@@ -179,21 +179,24 @@ To add an event to the website:
 
 ```
 Echo Lab Website/
-├── Assets/                  # Static assets (images, logos)
-├── Events/                  # Events page
-│   ├── events.html          # Events page (managed by admin)
+├── index.html               # Home / About page (managed by admin)
+├── lab-notes/index.html     # Lab notes page
+├── events/                  # Events page
+│   ├── index.html           # Events page (managed by admin)
 │   ├── events-loader.js     # Builds the upcoming/past event cards (managed by admin)
 │   └── events.json          # List of all events - add new events here
-├── Projects/                # LAB NOTES - NEW CONTENT GOES HERE 🗂📝
+├── people/                  # People page (index.html, loader, committee/affiliates/collaborators JSON)
+├── maps/                    # Standalone map pages
+├── carousel/                # Projects shown in the home page carousel
+├── projects/                # LAB NOTES - NEW CONTENT GOES HERE 🗂📝
 │   ├── project-list.json    # List of all projects - needs to be updated
-│   └── *.js                 # Individual project files - Using template you can create a new project 
-├── Modal-js/                # JavaScript modules (managed by admin)
+│   └── *.js                 # Individual project files - Using template you can create a new project
+├── js/                      # JavaScript modules (managed by admin)
+│   ├── about-carousel.js    # Home page carousel
 │   ├── components/          # UI components
 │   │   ├── card-creator.js  # creates the UI of the lab note
-│   │   ├── events-handler.js 
 │   │   └── modal.js
-│   └── loader.js            # Loads the lab notes into the main HTML
-├── Style-css/               # CSS styles of the website (managed by admin)
-│   └── styles.css 
-└── index.html               # Main HTML file (managed by admin)
+│   └── loader.js            # Loads the lab notes into the lab notes page
+├── css/                     # CSS styles of the website (managed by admin)
+└── assets/                  # Static assets (images, logos)
 ```
